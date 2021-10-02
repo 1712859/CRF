@@ -1,0 +1,990 @@
+đau		A	B-TT
+vùng		N	I-TT
+trên		E	I-TT
+rốn		A	I-TT
+
+đây		P	OTH
+là		V	OTH
+triệu_chứng	N	OTH
+thường		R	OTH
+gặp		V	OTH
+nhất		N	OTH
+và		CC	OTH
+là		V	OTH
+nguyên_nhân	N	OTH
+khiến		V	OTH
+chúng_ta	P	OTH
+cảm_thấy	V	B-TT
+khó_chịu	A	I-TT
+nhất		R	OTH
+
+
+chúng_ta	P	OTH
+có_thể		R	OTH
+cảm_thấy	V	OTH
+cảm_giác	N	B-TT
+cồn_cào		A	I-TT
+vùng		N	I-TT
+bụng		N	I-TT
+trên		E	OTH
+rốn		A	OTH
+nhất		A	OTH
+là		V	OTH
+sau		E	B-TG
+khi		N	I-TG
+ăn		V	I-TG
+xong		R	I-TG
+khoảng		A	OTH
+2		M	OTH
+–		-	OTH
+3		M	OTH
+tiếng		N	OTH
+hoặc		CC	OTH
+khi		N	B-TG
+chúng_ta	P	OTH
+đói		V	I-TG
+bụng		N	I-TG
+
+
+cơn		R	OTH
+đau		V	OTH
+cũng		R	OTH
+thường		R	OTH
+xuất_hiện	V	OTH
+vào		E	B-TG
+lúc		N	I-TG
+nửa_đêm		N	I-TG
+về		V	OTH
+sáng		N	OTH
+làm		V	OTH
+cản_trở		N	OTH
+giấc_ngủ	N	OTH
+
+
+đầy		Np 	B-TT
+bụng		N	I-TT
+khó		A	B-TT
+tiêu		V	I-TT
+buồn_nôn	A	B-TT
+
+khi		R	OTH
+dạ_dày		N	OTH
+tổn_thương	N	OTH
+làm		V	OTH
+hoạt_động	R	OTH
+tiêu_hoá	A	OTH
+bị		V	OTH
+trì_trệ		V	OTH
+thức_ăn		V	OTH
+chậm		A	OTH
+đi		V	OTH
+ra		R	OTH
+khỏi		V	OTH
+đường		N	OTH
+tiêu_hoá	A	OTH
+gây		V	OTH
+ra		R	OTH
+những		L	OTH
+triệu_chứng	N	OTH
+đầy		A	B-TT
+bụng		N	I-TT
+khó		A	B-TT
+tiêu		V	I-TT
+hay		C	OTH
+buồn_nôn	V	B-TT
+
+
+nôn		A	B-TT
+có_thể		R	OTH
+khiến		V	OTH
+chúng_ta	P	OTH
+thấy		V	OTH
+dễ_chịu		A	OTH
+hơn		R	OTH
+
+đôi_khi		X	OTH
+trong		E	OTH
+những		L	OTH
+trường_hợp	N	OTH
+có		V	OTH
+chảy_máu	N	OTH
+dạ_dày		N	OTH
+chúng_ta	P	OTH
+có_thể		R	OTH
+nôn		V	B-TT
+kèm		V	I-TT
+máu		N	I-TT
+
+
+ợ		A	B-TT
+nóng		A	I-TT
+khó_chịu	V	B-TT
+vùng		N	I-TT
+ngực		N	I-TT
+
+
+tiêu_phân	N	B-TT
+đen		A	I-TT
+tiêu		V	B-TT
+máu		N	I-TT
+đỏ		A	I-TT
+
+khi		R	OTH
+lượng		N	OTH
+máu		N	OTH
+ít		A	OTH
+máu		N	OTH
+có_thể		A	OTH
+được		R	OTH
+tiêu_hoá	N	OTH
+và		CC	OTH
+chúng_ta	P	OTH
+đi_tiêu		V	B-TT
+ra		R	I-TT
+phân		V	I-TT
+màu		N	I-TT
+đen		A	I-TT
+dính		V	OTH
+mùi		N	OTH
+tanh		A	OTH
+
+
+trong		R	OTH
+những		L	OTH
+trường_hợp	N	OTH
+hiếm		A	OTH
+chảy		V	OTH
+máu		N	OTH
+lượng		N	OTH
+nhiều		A	OTH
+chúng_ta	P	OTH
+có_thể		R	OTH
+tiêu		V	B-TT
+ra		R	I-TT
+máu		N	I-TT
+đỏ		A	I-TT
+
+
+ở		V	OTH
+giai_đoạn	N	OTH
+đầu		N	OTH
+bệnh		N	OTH
+đau		V	OTH
+mắt_hột		V	OTH
+gây		V	OTH
+viêm		N	OTH
+kết_mạc		N	OTH
+mắt		N	B-TT
+sưng		V	I-TT
+đỏ		A	I-TT
+
+bao_gồm		,	OTH
+ngứa		V	B-TT
+nhẹ		A	I-TT
+do		E	OTH
+kích_ứng	V	OTH
+mắt		N	OTH
+và		CC	OTH
+mí		V	OTH
+mắt		N	OTH
+chảy		V	B-TT
+dịch		N	I-TT
+vàng		N	I-TT
+ghèn		N	OTH
+từ		E	OTH
+mắt		N	OTH
+
+
+khi		R	OTH
+nhiễm_trùng	V	OTH
+tiến_triển	V	OTH
+sẽ		R	OTH
+gây		V	OTH
+đau		V	B-TT
+mắt		N	I-TT
+và		CC	OTH
+mờ		V	B-TT
+mắt		N	I-TT
+
+nó		P	OTH
+có_thể		R	OTH
+dẫn		V	OTH
+đến		E	OTH
+sự		Nc	OTH
+xuất_hiện	V	OTH
+của		E	OTH
+loét		N	B-TT
+giác_mạc	N	I-TT
+
+
+suy_giảm	Np	B-TT
+thị_lực		N	I-TT
+một		M	OTH
+phần		N	OTH
+hay		C	OTH
+hoàn_toàn	A	OTH
+sẽ		R	OTH
+ảnh_hưởng	V	OTH
+đến		E	OTH
+sinh_hoạt	N	OTH
+của		E	OTH
+bạn		N	OTH
+và		CC	OTH
+những		L	OTH
+người_thân	N	OTH
+trong		E	OTH
+gia_đình	N	OTH
+
+
+ngứa_mắt	A	B-TT
+do		E	OTH
+bị		V	OTH
+kích_ứng	V	OTH
+
+
+chảy		Np	B-TT
+nước_mắt	N	I-TT
+
+cảm_thấy	V	B-TT
+đau		V	I-TT
+mắt		N	I-TT
+giảm		V	B-TT
+thị_lực		N	I-TT
+
+nhạy_cảm	A	B-TT
+với		E	I-TT
+ánh_sáng	N	I-TT
+như		C
+sợ		V	B-TT
+ánh_sáng	N	I-TT
+
+mắt_đỏ		Np	B-TT
+
+mắt		N	B-TT
+sưng		V	I-TT
+đỏ		A	I-TT
+có_thể		R	OTH
+kèm		V	OTH
+theo		R	OTH
+đau		N	B-TT
+mắt		N	I-TT
+và		CC	OTH
+chảy		V	B-TT
+nước_mắt	N	I-TT
+
+
+rất		R	OTH
+nhạy_cảm	A	B-TT
+với		E	I-TT
+ánh_sáng	N	I-TT
+như		C	OTH
+sợ		V	B-TT
+ánh_sáng	N	I-TT
+
+
+nhìn		A	B-TT
+mờ		V	I-TT
+do		E	OTH
+giảm		V	B-TT
+thị_lực		N	I-TT
+
+
+hiện_tượng	N	OTH
+ruồi		A	OTH
+bay		V	OTH
+bạn		N	OTH
+có_thể		R	OTH
+thấy		V	B-TT
+những		L	I-TT
+đốm		N	I-TT
+đen		A	I-TT
+hoặc		CC	OTH
+xám		A	OTH
+sợi		N	OTH
+mảnh		N	OTH
+hoặc		CC	OTH
+giống		V	OTH
+mạng_nhện	N	OTH
+
+
+triệu_chứng	Nc	OTH
+toàn_thân	N	OTH
+đi		V	OTH
+kèm		V	OTH
+như		C	OTH
+sốt		V	B-TT
+sụt		V	B-TT
+cân		V	I-TT
+đau		V	B-TT
+khớp		V	I-TT
+mệt_mỏi		A	B-TT
+…		N	OTH
+
+
+hay		C	OTH
+mệt_mỏi		A	B-TT
+khó		A	B-TT
+thở		V	I-TT
+đặc_biệt	A	OTH
+là		C	OTH
+khi		N	B-TG
+tăng_cường	V	I-TG
+vận_động	V	I-TG
+
+
+hồi_hộp		V	B-TT
+đánh		V	B-TT
+trống_ngực	N	I-TT
+tim		N	B-TT
+đập		V	I-TT
+nhanh		A	I-TT
+
+
+rối_loạn	A	B-TT
+nhịp		N	I-TT
+
+
+choáng_váng	A	B-TT
+khi		N	B-TG
+thay_đổi	V	I-TG
+tư_thế		N	I-TG
+
+
+đau		A	B-TT
+ngực		N	I-TT
+từ		E	OTH
+âm_ỉ		A	OTH
+nặng		A	OTH
+ngực		N	OTH
+cho		E	OTH
+tới		V	OTH
+đau_nhói	V	B-TT
+nhiều		A	OTH
+
+
+ho		Np	B-TT
+ra		V	I-TT
+máu		N	I-TT
+
+
+khó		A	B-TT
+thở		V	I-TT
+khi		N	B-TG
+gắng_sức	V	I-TG
+hoặc		CC	OTH
+khi		N	B-TG
+nghỉ_ngơi	V	I-TG
+
+ngất_xỉu	A	B-TT
+hoặc		CC	OTH
+choáng_váng	A	B-TT
+
+đánh		V	B-TT
+trống_ngực	N	I-TT
+cảm_nhận	V	OTH
+rõ		A	OTH
+nhịp		N	OTH
+đập		V	OTH
+của		E	OTH
+tim		N	OTH
+hoặc		CC	OTH
+cảm_thấy	V	B-TT
+tim		N	I-TT
+đập		V	I-TT
+mạnh		A	I-TT
+
+chóng_mặt	A	B-TT
+khi		N	B-TG
+ngồi		V	I-TG
+hoặc		CC	OTH
+đứng		V	B-TG
+lên		R	I-TG
+
+mệt_mỏi		N	B-TT
+do		E	B-TG
+gắng_sức	V	I-TG
+hoặc		CC	OTH
+cảm_thấy	V	B-TT
+kiệt_sức	V	I-TT
+khi		N	B-TG
+vận_động	V	I-TG
+
+phù_chân	Ny	B-TT
+
+cổ_cứng		N	B-TT
+
+làm		P	OTH
+gián_đoạn	V	B-TT
+giấc_ngủ	N	B-TT
+vào		E	B-TG
+giữa		E	I-TG
+đêm		N	I-TG
+
+gây		V	OTH
+đau_đầu		A	B-TT
+đặc_biệt	A	OTH
+là		C	OTH
+ở		E	OTH
+phía		N	OTH
+sau		N	OTH
+đầu		N	OTH
+
+không		R	B-TT
+có		V	I-TT
+khả_năng	N	I-TT
+quay		V	I-TT
+đầu		N	I-TT
+hoặc		CC	OTH
+xoay		V	OTH
+cổ		N	OTH
+hoàn_toàn	A	OTH
+đôi_khi		R	OTH
+cản_trở		V	OTH
+việc		N	OTH
+lái_xe		N	OTH
+
+
+rõ_ràng		X	OTH
+thoái_hóa	V	OTH
+cột_sống	N	OTH
+thắt_lưng	N	OTH
+gây		V	OTH
+ra		V	OTH
+nhiều		A	OTH
+triệu_chứng	N	OTH
+khác		A	OTH
+nhau		N	OTH
+phổ_biến	V	OTH
+nhất		R	OTH
+là		V	OTH
+đau		V	B-TT
+lưng		N	I-TT
+
+
+cứng_khớp	N	B-TT
+
+độ		N	OTH
+cứng		A	OTH
+khớp		V	OTH
+có_thể		R	OTH
+thấy		V	OTH
+rõ		A	OTH
+nhất		R	OTH
+khi		N	B-TG
+thức		V	I-TG
+dậy		V	OTH
+hoặc		CC	OTH
+sau		E	OTH
+khi		N	B-TG
+không		R	I-TG
+hoạt_động	V	I-TG
+
+
+mất		V	B-TT
+tính		V	I-TT
+linh_hoạt	A	I-TT
+
+sưng		N	B-TT
+khớp		V	I-TT
+
+yếu		A	OTH
+hoặc		CC	OTH
+tê		A	B-TT
+ở		E	I-TT
+chân		N	I-TT
+
+cảm_giác	N	OTH
+ngứa		V	B-TT
+ran		A	I-TT
+châm_chích	V	I-TT
+ở		E	I-TT
+chân		N	I-TT
+
+một_số		L	OTH
+trường_hợp	N	OTH
+nặng		A	OTH
+có_thể		R	OTH
+ảnh_hưởng	V	OTH
+đến		E	OTH
+việc		N	OTH
+tiêu		V	OTH
+tiểu		N	B-TT
+không		R	I-TT
+tự_chủ		A	I-TT
+
+
+đau		A	B-TT
+lưng		N	I-TT
+do		E	OTH
+thoái_hóa	V	OTH
+khớp		V	OTH
+cột_sống	N	OTH
+thắt_lưng	N	OTH
+thường		R	OTH
+nặng		A	OTH
+hơn		R	OTH
+khi		N	B-TG
+ngồi		V	I-TG
+thẳng		A	I-TG
+hoặc		CC	OTH
+đứng		V	OTH
+
+đau		A	B-TT
+họng		N	I-TT
+với		E	OTH
+biểu_hiện	N	OTH
+quấy		V	B-TT
+khóc		V	I-TT
+bỏ		V	B-TT
+bú		V	I-TT
+bỏ		V	B-TT
+ăn		V	I-TT
+
+nhìn		A	OTH
+thấy		V	OTH
+họng		N	B-TT
+sưng		V	I-TT
+đỏ		A	I-TT
+
+
+ho		Np	B-TT
+có_thể		R	OTH
+ho_khan		V	B-TT
+ho_đàm		V	B-TT
+		
+
+khàn		Np	B-TT
+tiếng		N	I-TT
+
+
+sổ_mũi		V	B-TT
+nghẹt		V	B-TT
+mũi		N	I-TT
+chảy		V	B-TT
+nước_mũi	A	I-TT
+
+
+sốt		A	B-TT
+
+
+thở		Np	B-TT
+nhanh		A	I-TT
+
+
+mệt_mỏi		A	B-TT
+ủ_rũ		A	B-TT
+lừ_đừ		A	B-TT
+
+
+một_số		L	OTH
+triệu_chứng	N	OTH
+khác		A	OTH
+như		C	OTH
+nổi		V	B-TT
+mẩn		V	I-TT
+phát_ban	V	B-TT
+tiêu_chảy	V	B-TT
+chảy		V	B-TT
+dịch		N	I-TT
+chảy		V	B-TT
+mủ		N	I-TT
+…		N	OTH
+tùy		A	OTH
+theo		E	OTH
+mức_độ		N	OTH
+nặng		A	OTH
+thời_gian	N	OTH
+diễn		V	OTH
+tiến		V	OTH
+…		N	OTH
+mà		C	OTH
+các		L	OTH
+nguyên_nhân	N	OTH
+khác		A	OTH
+nhau		N	OTH
+có_thể		R	OTH
+được		R	OTH
+xem_xét		V	OTH
+
+nghẹt_mũi	N	B-TT
+
+ho		Np	B-TT
+
+sốt		Np	B-TT
+
+đau_đầu		A	B-TT
+đau		V	B-TT
+vùng		N	I-TT
+mặt		N	I-TT
+
+sưng_nề		Np	B-TT
+vùng		N	I-TT
+mặt		N	I-TT
+hay		C	OTH
+quanh		N	OTH
+mắt		N	OTH
+
+hiện_diện	V	B-TT
+mủ		V	I-TT
+trong		E	I-TT
+mũi		N	I-TT
+xoang		V	OTH
+
+điều		N	OTH
+này		P	OTH
+làm		V	OTH
+cho		E	OTH
+bạn		N	OTH
+khó		A	B-TT
+hít		V	I-TT
+thở		V	I-TT
+qua		E	OTH
+mũi		N	OTH
+
+chảy		Np	B-TT
+nước_mũi	V	I-TT
+xanh		A	OTH
+hay		C	OTH
+vàng		N	OTH
+là		V	OTH
+dấu_hiệu	N	OTH
+của		E	OTH
+nhiễm_trùng	A	OTH
+
+
+viêm		Np	OTH
+xoang		V	OTH
+thường		R	OTH
+gây		V	OTH
+đau		N	B-TT
+ở		E	I-TT
+trán		N	I-TT
+hàm		N	OTH
+và		CC	OTH
+xung_quanh	N	OTH
+mắt		N	OTH
+
+trong		E	OTH
+một_số		L	OTH
+trường_hợp	N	OTH
+ít		A	OTH
+gặp		V	OTH
+hơn		R	OTH
+bạn		N	OTH
+có_thể		R	OTH
+cảm_thấy	V	OTH
+đau		V	B-TT
+răng		N	I-TT
+
+cảm_giác	N	OTH
+đau		V	OTH
+và		CC	OTH
+nghẹt		V	B-TT
+mũi		N	I-TT
+thường		R	OTH
+nặng		A	OTH
+hơn		R	OTH
+khi		N	OTH
+bạn		N	OTH
+cúi		V	OTH
+người		N	OTH
+về		V	OTH
+phía		N	OTH
+trước		N	OTH
+
+khứu_giác	N	OTH
+thường		R	OTH
+bị		V	OTH
+ảnh_hưởng	V	OTH
+bạn		N	OTH
+có_thể		A	OTH
+hoàn_toàn	A	OTH
+không		R	B-TT
+ngửi		V	I-TT
+được		R	I-TT
+mùi		N	I-TT
+
+ban_đầu		N	OTH
+xuất_hiện	V	B-TT
+các		L	I-TT
+dát		N	I-TT
+chấm		V	I-TT
+nhỏ		A	I-TT
+có		V	I-TT
+màu		N	I-TT
+đỏ		A	I-TT
+màu		N	OTH
+hồng		N	OTH
+nâu		A	OTH
+hoặc		CC	OTH
+màu		N	OTH
+trắng		A	OTH
+
+da		N	OTH
+bị		V	OTH
+lang_ben	V	OTH
+có_thể		R	OTH
+bị		V	OTH
+ngứa		V	B-TT
+nhất_là		X	OTH
+khi		N	OTH
+ra		V	B-TT
+nhiều		A	I-TT
+mồ_hôi		N	I-TT
+
+
+giai_đoạn	N	OTH
+khởi_phát	V	OTH
+từ		E	OTH
+1		M	OTH
+–		-	OTH
+2		M	OTH
+ngày		N	OTH
+với		E	OTH
+các		L	OTH
+triệu_chứng	N	OTH
+như		C	OTH
+trẻ		N	OTH
+bị		V	OTH
+sốt		V	B-TT
+nhẹ		A	I-TT
+mệt_mỏi		A	B-TT
+đau		V	B-TT
+họng		N	I-TT
+biếng		N	B-TT
+ăn		V	I-TT
+tiêu_chảy	V	B-TT
+vài		L	B-TG
+lần		N	I-TG
+trong		E	I-TG
+ngày		N	I-TG
+
+trẻ		N	OTH
+nhỏ		A	OTH
+có_thể		R	OTH
+khó		A	B-TT
+ngủ		V	I-TT
+quấy		V	B-TT
+khóc		V	I-TT
+run		V	OTH
+chi		V	OTH
+giật_mình	V	B-TT
+nhiều		A	OTH
+một_cách	N	OTH
+bất_thường	A	OTH
+
+
+loét		R	B-TT
+miệng		N	I-TT
+vết		N	OTH
+loét		V	OTH
+đỏ		A	OTH
+hay		C	OTH
+phỏng		V	OTH
+nước		N	OTH
+đường_kính	N	OTH
+2		M	OTH
+-		-	OTH
+3		M	OTH
+mm		A	OTH
+ở		E	OTH
+trong		E	OTH
+miệng		N	OTH
+lợi		N	OTH
+lưỡi		N	OTH
+
+các		L	OTH
+vết		N	OTH
+loét		A	OTH
+gây		V	OTH
+đau		V	OTH
+miệng		N	OTH
+khiến		V	OTH
+trẻ		N	OTH
+bỏ		V	B-TT
+ăn		V	I-TT
+bỏ		V	B-TT
+bú		V	I-TT
+tăng		V	OTH
+tiết		N	OTH
+nước_bọt	N	OTH
+
+
+phát_ban	L	B-TT
+dạng		N	OTH
+phỏng		V	OTH
+nước		N	OTH
+ở		E	OTH
+lòng		N	OTH
+bàn_tay		N	OTH
+lòng		N	OTH
+bàn_chân	N	OTH
+gối		N	OTH
+mông		N	OTH
+
+
+vàng		N	B-TT
+da		N	I-TT
+vàng		N	B-TT
+mắt		N	I-TT
+
+
+đau		A	B-TT
+bụng		N	I-TT
+
+
+mệt_mỏi		A	B-TT
+và		CC	OTH
+yếu_đuối	A	B-TT
+
+
+buồn_nôn	A	B-TT
+
+
+sụt		R	B-TT
+cân		V	I-TT
+
+ho		Np	B-TT
+kéo_dài		V	I-TT
+trên		E	OTH
+2		M	OTH
+tuần		N	OTH
+ho_khan		V	B-TT
+ho		V	B-TT
+có		V	I-TT
+đờm		N	I-TT
+ho		V	B-TT
+ra		V	I-TT
+máu		N	I-TT
+là		V	OTH
+triệu_chứng	N	OTH
+lao		V	OTH
+quan_trọng	A	OTH
+nhất		A	OTH
+
+
+lúc		N	OTH
+đầu		N	OTH
+có_thể		R	OTH
+ho_khan		V	B-TT
+ho		V	B-TT
+dai_dẳng	A	I-TT
+thường		R
+vào		V	B-TG
+buổi		N	I-TG
+sáng		N	I-TG
+
+
+dần_dần		P	OTH
+sau		E	OTH
+cơn		Nc	OTH
+ho		V	B-TT
+có_thể		R	OTH
+có		V	OTH
+đàm		V	OTH
+nhớt		V	OTH
+đàm		V	OTH
+mủ		A	OTH
+lượng		N	OTH
+đàm		V	OTH
+tăng		V	OTH
+và		CC	OTH
+thành		V	OTH
+mủ		A	OTH
+
+
+ho		Np	B-TT
+ra		V	I-TT
+máu		N	I-TT
+khi		N	OTH
+bệnh		N	OTH
+đã		R	OTH
+đến		V	OTH
+giai_đoạn	N	OTH
+nặng		A	OTH
+
+
+mệt_mỏi		A	B-TT
+mệt_mỏi		A	B-TT
+về		E	OTH
+tinh_thần	N	OTH
+và		CC	OTH
+thể_xác		N	OTH
+không		R	OTH
+giảm		V	OTH
+khi		N	B-TG
+nghỉ_ngơi	V	I-TG
+và		CC	OTH
+tăng		V	OTH
+dần		R	OTH
+vào		E	B-TG
+buổi		N	I-TG
+chiều		N	I-TG
+và		CC	OTH
+dai_dẳng	A	OTH
+
+
+gầy_sút		Np	B-TT
+sụt		V	B-TT
+cân		V	I-TT
+nhanh		A	OTH
+đôi_khi		R	OTH
+không		R	OTH
+kèm		V	OTH
+biếng		N	OTH
+ăn		V	OTH
+nhưng		C	OTH
+cơ_thể		N	OTH
+lại		R	OTH
+gầy		A	OTH
+nhanh_chóng	A	OTH
+đây		P	OTH
+là		V	OTH
+triệu_chứng	N	OTH
+quan_trọng	A	OTH
+
+
+sốt_nhẹ		A	B-TT
+về		V	B-TG
+chiều		N	I-TG
+sốt		V	B-TT
+không		R	I-TT
+đều		R	I-TT
+thường		R	OTH
+tăng		V	OTH
+dần		R	OTH
+khi		N	B-TG
+về		V	I-TG
+chiều		N	I-TG
+
+
+ra		Np	B-TT
+mồ_hôi		N	B-TT
+trộm		V	I-TT
+ban_đêm		N	OTH
+
+
+đau		A	B-TT
+ngực		N	I-TT
+đau		V	OTH
+âm_ỉ		A	OTH
+hoặc		CC	OTH
+đột_ngột	A	OTH
+nhói		V	OTH
+đau		N	OTH
+tăng		V	OTH
+lên		R	OTH
+khi		N	B-TG
+hít		V	I-TG
+sâu		A	I-TG
+khi		N	OTH
+ho		V	B-TT
+hoặc		CC	OTH
+khi		N	B-TG
+cử_động		V	I-TG
+mạnh		A	I-TG
+
+
+khó		A	B-TT
+thở		V	I-TT
+
