@@ -1,10 +1,10 @@
 from vncorenlp import VnCoreNLP
-annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
+annotator = VnCoreNLP(address="http://127.0.0.1", port=9002) 
 # đường đẫn đến file rawdata dữ liệu cần test (dữ liệu chưa tách từ)
 # bắt buộc tạo file trước
-file_data_raw ="C:\\Users\\WIN10\\Desktop\\rawdata.txt"
+file_data_raw ="C:\\Users\\WIN10\\Desktop\\crf\\rawdata.txt"
 # đường đã đến file trả kết quả (gẫn đến thư mục của thuận toán CRF++-0.58)
-file_out_khong_tag1 = "C:\\Users\\WIN10\\Desktop\\CRF++-0.58\\test.data"
+file_out_khong_tag1 = "C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58\\test.data"
 
 def tao_file_dư_lieu3(ten_file_du_lieu, ten_file_output):
     f = open(ten_file_du_lieu, 'r', encoding='UTF-8')
@@ -24,3 +24,5 @@ def tao_file_dư_lieu3(ten_file_du_lieu, ten_file_output):
                         file.writelines((tu["form"]).lower() + tab + tu["posTag"] + "\n")
 
 tao_file_dư_lieu3(file_data_raw, file_out_khong_tag1)
+
+# tao_file_dư_lieu3(file_data_raw, "C:\\Users\\WIN10\\Desktop\\crf\\data.data")

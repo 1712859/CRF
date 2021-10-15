@@ -2,7 +2,7 @@ import numpy as np
 
 
 # đường đẫn từ thư mục của thuật toán CRF++-0.58 lưu file output.data
-ten_file_du_lieu1 = "C:\\Users\\WIN10\\Desktop\\CRF++-0.58\\output.data"
+ten_file_du_lieu1 = "C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58\\output.data"
 
 def getTrieuChungBenh1(ten_file_du_lieu):
     f = open(ten_file_du_lieu, 'r', encoding='UTF-8')
@@ -33,4 +33,5 @@ def getTrieuChungBenh1(ten_file_du_lieu):
 data1 = getTrieuChungBenh1(ten_file_du_lieu1)
 print("tách từng từ: "+ str(len(data1)) + "\n")
 for a in data1:
-    print(a["trieu_chung"] )
+    print(a["trieu_chung"])
+    # print(a["trieu_chung"] +": " +  a["thoi_gian"])

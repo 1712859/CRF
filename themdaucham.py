@@ -1,5 +1,5 @@
 # đường đẫn đến file rawdata
-file_data_raw ="C:\\Users\\WIN10\\Desktop\\rawdata.txt"
+file_data_raw ="C:\\Users\\WIN10\\Desktop\\crf\\rawdata.txt"
 
 def themdauchamcau(ten_file):
     f = open(ten_file, 'r', encoding='UTF-8')

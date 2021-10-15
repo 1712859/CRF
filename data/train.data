@@ -1,3 +1,6 @@
+#			M	OTH
+#			CH	OTH
+0			M	OTH
 
 sốt			N	B-TC
 trên			E	OTH
@@ -122,6 +125,19 @@ nôn			V	B-TC
 kèm			V	I-TC
 máu			N	I-TC
 
+đây			P	OTH
+là			V	OTH
+triệu_chứng		N	OTH
+báo_động		V	OTH
+,			CH	OTH
+cần			V	OTH
+đi			V	OTH
+khám			V	OTH
+để			E	OTH
+được			V	OTH
+điều_trị		V	OTH
+ngay_lập_tức		R	OTH
+
 ợ			N	B-TC
 nóng			A	I-TC
 ,			CH	OTH
@@ -137,6 +153,28 @@ tiêu			V	B-TC
 máu			N	I-TC
 đỏ			A	I-TC
 :			CH	OTH
+
+ở			E	OTH
+những			L	OTH
+trường_hợp		N	OTH
+nặng			A	OTH
+,			CH	OTH
+khi			N	OTH
+ổ			N	OTH
+loét			A	OTH
+đã			R	OTH
+ăn			V	OTH
+sâu			A	OTH
+vào			E	OTH
+dạ_dày			N	OTH
+làm			V	OTH
+cho			E	OTH
+dạ_dày			N	OTH
+chảy_máu		V	OTH
+rỉ_rả			A	OTH
+vào			E	OTH
+đường			N	OTH
+tiêu_hoá		V	OTH
 
 khi			N	OTH
 lượng			N	OTH
@@ -176,6 +214,26 @@ ra			R	I-TC
 máu			N	I-TC
 đỏ			A	I-TC
 
+đây			P	OTH
+là			V	OTH
+những			L	OTH
+triệu_chứng		N	OTH
+báo_động		V	OTH
+
+chúng_ta		P	OTH
+cần			V	OTH
+khám			V	OTH
+bác_sĩ			N	OTH
+ngay_lập_tức		R	OTH
+khi			N	OTH
+phát_hiện		V	OTH
+những			L	OTH
+triệu_chứng		N	OTH
+này			P	OTH
+
+#			M	OTH
+#			CH	OTH
+1			M	OTH
 
 ở			E	OTH
 giai_đoạn		N	OTH
@@ -192,6 +250,21 @@ mắt			N	B-TC
 sưng			A	I-TC
 đỏ			A	I-TC
 )			CH	OTH
+
+các			L	OTH
+triệu_chứng		N	OTH
+sớm			A	OTH
+bắt_đầu			V	OTH
+xuất_hiện		V	OTH
+trong			E	OTH
+vòng			N	OTH
+5-12			M	OTH
+ngày			N	OTH
+sau			E	OTH
+khi			N	OTH
+tiếp_xúc		V	OTH
+với			E	OTH
+vi_khuẩn		N	OTH
 
 bao_gồm			N	OTH
 ngứa			V	B-TC
@@ -247,6 +320,153 @@ vào			E	OTH
 trong			E	OTH
 mắt			N	OTH
 
+khi			N	OTH
+đó			P	OTH
+,			CH	OTH
+lông_mi			N	OTH
+sẽ			R	OTH
+dễ			A	OTH
+chà			V	OTH
+sát			A	OTH
+vào			E	OTH
+giác_mạc		N	OTH
+
+sự			N	OTH
+kích_thích		V	OTH
+liên_tục		A	OTH
+này			P	OTH
+kèm			V	OTH
+với			E	OTH
+tình_trạng		N	OTH
+viêm			V	OTH
+làm			V	OTH
+cho			E	OTH
+giác_mạc		N	OTH
+bị			V	OTH
+đục			A	OTH
+
+nó			P	OTH
+có_thể			R	OTH
+dẫn			V	OTH
+đến			E	OTH
+sự			Nc	OTH
+xuất_hiện		V	OTH
+của			E	OTH
+loét			N	OTH
+giác_mạc		N	OTH
+
+cuối_cùng		A	OTH
+hậu_quả			N	OTH
+là			V	OTH
+có_thể			R	OTH
+giảm			V	OTH
+thị_lực			N	OTH
+một			M	OTH
+phần			N	OTH
+hoặc			Cc	OTH
+hoàn_toàn		A	OTH
+
+nếu			C	OTH
+bạn			N	OTH
+chỉ			R	OTH
+bị			V	OTH
+một			M	OTH
+đợt			N	OTH
+đau			V	OTH
+mắt_hột			N	OTH
+,			CH	OTH
+thường			R	OTH
+rất			R	OTH
+ít			A	OTH
+khi			N	OTH
+gây			V	OTH
+ra			V	OTH
+ảnh_hưởng		V	OTH
+đến			E	OTH
+mắt			N	OTH
+
+trong			E	OTH
+trường_hợp		N	OTH
+nếu			C	OTH
+nhiễm_trùng		V	OTH
+tái_phát		V	OTH
+,			CH	OTH
+bạn			N	OTH
+có_thể			R	OTH
+bị			V	OTH
+các			L	OTH
+biến_chứng		N	OTH
+sẹo			N	OTH
+và			Cc	OTH
+mù			A	OTH
+mắt			N	OTH
+
+suy_giảm		V	OTH
+thị_lực			N	OTH
+một			M	OTH
+phần			N	OTH
+hay			C	OTH
+hoàn_toàn		A	OTH
+sẽ			R	OTH
+ảnh_hưởng		V	OTH
+đến			E	OTH
+sinh_hoạt		N	OTH
+của			E	OTH
+bạn			N	OTH
+và			Cc	OTH
+những			L	OTH
+người_thân		N	OTH
+trong			E	OTH
+gia_đình		N	OTH
+
+biến_chứng		N	OTH
+sẹo			N	OTH
+xảy			V	OTH
+ra			V	OTH
+thường_xuyên		A	OTH
+hơn			A	OTH
+ở			E	OTH
+phụ_nữ			N	OTH
+so			V	OTH
+với			E	OTH
+nam_giới		N	OTH
+
+điều			N	OTH
+này			P	OTH
+có_thể			R	OTH
+phản_ánh		V	OTH
+nguyên_nhân		N	OTH
+do			E	OTH
+sự			N	OTH
+tiếp_xúc		V	OTH
+thường_xuyên		A	OTH
+với			E	OTH
+trẻ			N	OTH
+(			CH	OTH
+ổ			N	OTH
+nhiễm_trùng		N	OTH
+chính			T	OTH
+)			CH	OTH
+
+tóm_lại			X	OTH
+,			CH	OTH
+nếu			C	OTH
+bạn			N	OTH
+có			V	OTH
+những			L	OTH
+triệu_chứng		N	OTH
+sau			N	OTH
+,			CH	OTH
+bạn			N	OTH
+cần			V	OTH
+đi			V	OTH
+khám			V	OTH
+bác_sĩ			N	OTH
+nhãn_khoa		N	OTH
+ngay			T	OTH
+nhé			T	OTH
+:			CH	OTH
+
 ngứa_mắt		N	B-TC
 do			E	OTH
 bị			V	OTH
@@ -271,6 +491,22 @@ sợ			V	B-TC
 
 mắt			N	B-TC
 đỏ			A	I-TC
+
+#			M	OTH
+#			CH	OTH
+2			M	OTH
+
+viêm			N	OTH
+màng			V	OTH
+bồ_đào			N	OTH
+có_thể			R	OTH
+tiến_triển		V	OTH
+đột_ngột		A	OTH
+với			E	OTH
+các			L	OTH
+triệu_chứng		N	OTH
+sau			N	OTH
+:			CH	OTH
 
 mắt			N	B-TC
 sưng			A	I-TC
@@ -316,6 +552,79 @@ mảnh			N	OTH
 hoặc			Cc	OTH
 giống			N	OTH
 mạng_nhện		N	OTH
+
+chúng			P	OTH
+di_chuyển		V	OTH
+trong			E	OTH
+tầm			N	OTH
+nhìn			V	OTH
+của			E	OTH
+bạn			N	OTH
+
+đôi_khi			R	OTH
+,			CH	OTH
+những			L	OTH
+chấm			N	OTH
+này			P	OTH
+trôi			V	OTH
+hoặc			Cc	OTH
+lướt			V	OTH
+qua			E	OTH
+khi			N	OTH
+bạn			N	OTH
+di_chuyển		V	OTH
+mắt			N	OTH
+
+ngoài_ra		X	OTH
+một_số			L	OTH
+thông_tin		N	OTH
+sau			N	OTH
+,			CH	OTH
+bạn			N	OTH
+cũng_nên		X	OTH
+lưu_ý			V	OTH
+vì			E	OTH
+có_thể			R	OTH
+giúp			V	OTH
+bác_sĩ			N	OTH
+định_hướng		V	OTH
+nguyên_nhân		N	OTH
+:			CH	OTH
+
+tổn_thương		V	OTH
+mắt			N	OTH
+1			M	OTH
+bên			N	OTH
+hay			C	OTH
+2			M	OTH
+bên			N	OTH
+
+bệnh			N	OTH
+xảy			V	OTH
+ra			V	OTH
+lần			N	OTH
+đầu			N	OTH
+hay			C	OTH
+tái_phát		V	OTH
+
+diễn_tiến		V	OTH
+cấp_tính		N	OTH
+hay			Cc	OTH
+mạn_tính		N	OTH
+(			CH	OTH
+kéo_dài			V	OTH
+hơn			R	OTH
+3			M	OTH
+tháng			N	OTH
+)			CH	OTH
+
+đã			R	OTH
+điều_trị		V	OTH
+thuốc			N	OTH
+gì			P	OTH
+trước			E	OTH
+đó			P	OTH
+
 triệu_chứng		N	OTH
 toàn_thân		N	OTH
 đi			V	OTH
@@ -331,6 +640,57 @@ khớp			N	I-TC
 ,			CH	OTH
 mệt_mỏi			A	B-TC
 …			CH	OTH
+
+khám_bác_sĩ		N	OTH
+nhãn_khoa		N	OTH
+ngay_lập_tức		R	OTH
+nếu			C	OTH
+bạn			N	OTH
+nhận			V	OTH
+thấy			V	OTH
+bất_kỳ			A	OTH
+triệu_chứng		N	OTH
+nào			P	OTH
+ở			E	OTH
+trên			N	OTH
+
+#			M	OTH
+#			CH	OTH
+3			M	OTH
+
+hở			V	OTH
+van			N	OTH
+tim			N	OTH
+biểu_hiện		V	OTH
+nhiều			A	OTH
+triệu_chứng		N	OTH
+tuỳ_thuộc		V	OTH
+vào			E	OTH
+mức_độ			N	OTH
+hở			V	OTH
+và			Cc	OTH
+diễn_tiến		V	OTH
+,			CH	OTH
+ảnh_hưởng		V	OTH
+lên			R	OTH
+chức_năng		N	OTH
+của			E	OTH
+tim			N	OTH
+
+mức_độ			N	OTH
+nhẹ			A	OTH
+thường			R	OTH
+không			R	OTH
+triệu_chứng		N	OTH
+
+mức_độ			N	OTH
+hở			A	OTH
+nặng			A	OTH
+và			Cc	OTH
+kéo_dài			V	OTH
+có_thể			R	OTH
+biểu_hiện		V	OTH
+:			CH	OTH
 
 hay			C	OTH
 mệt_mỏi			A	B-TC
@@ -372,6 +732,20 @@ cho			E	OTH
 tới			V	OTH
 đau_nhói		A	OTH
 nhiều			A	OTH
+
+
+phù			N	OTH
+,			CH	OTH
+dễ			A	OTH
+thấy			V	OTH
+ở			E	OTH
+chân			N	OTH
+
+huyết			N	OTH
+khối			N	OTH
+ở			E	OTH
+các			L	OTH
+cơ_quan			N	OTH
 
 ho			V	B-TC
 ra			V	I-TC
@@ -491,17 +865,79 @@ vận_động		V	I-TC
 cứng			N	B-TC
 khớp			N	I-TC
 
+độ			N	OTH
+cứng			A	OTH
+khớp			N	OTH
+có_thể			R	OTH
+thấy			V	OTH
+rõ			A	OTH
+nhất			A	OTH
+khi			N	OTH
+thức			V	OTH
+dậy			V	OTH
+hoặc			Cc	OTH
+sau			E	OTH
+khi			N	OTH
+không			R	OTH
+hoạt_động		V	OTH
+
 mất			V	B-TC
 tính			N	I-TC
 linh_hoạt		A	I-TC
 
+bạn			N	OTH
+có_thể			R	OTH
+không_thể		R	OTH
+vận_động		V	OTH
+cột_sống		N	OTH
+một_cách		N	OTH
+trơn_tru		A	OTH
+,			CH	OTH
+linh_hoạt		A	OTH
+như			C	OTH
+trước_đây		N	OTH
+
 sưng			N	B-TC
+
+điều			N	OTH
+này			P	OTH
+có_thể			R	OTH
+được			V	OTH
+gây			V	OTH
+ra			V	OTH
+bởi			E	OTH
+viêm			N	OTH
+mô			P	OTH
+mềm			A	OTH
+xung_quanh		N	OTH
+khớp			N	OTH
+
+chèn_ép			V	OTH
+thần_kinh		N	OTH
+
+yếu			N	OTH
+hoặc			Cc	OTH
+tê			P	OTH
+ở			E	OTH
+chân			N	OTH
 
 cảm_giác		N	B-TC
 ngứa			V	I-TC
 ran			V	I-TC
 ở			E	I-TC
 chân			N	I-TC
+
+một_số			L	OTH
+trường_hợp		N	OTH
+nặng			A	OTH
+có_thể			R	OTH
+ảnh_hưởng		V	OTH
+đến			E	OTH
+việc			N	OTH
+tiêu			V	OTH
+tiểu			V	OTH
+không			R	OTH
+tự_chủ			A	OTH
 
 đau			V	B-TC
 lưng			N	I-TC
@@ -518,6 +954,28 @@ ngồi			V	I-TC
 thẳng			A	I-TC
 hoặc			Cc	OTH
 đứng			V	OTH
+
+nó			P	OTH
+thường			R	OTH
+cải_thiện		V	OTH
+khi			N	OTH
+bạn			N	OTH
+nằm_xuống		V	OTH
+
+một_số			L	OTH
+người			N	OTH
+bị			V	OTH
+thoái_hoá		V	OTH
+khớp			N	OTH
+cột_sống		N	OTH
+thắt_lưng		N	OTH
+mà			C	OTH
+không			R	OTH
+có			V	OTH
+bất_kỳ			A	OTH
+triệu_chứng		N	OTH
+nào			P	OTH
+
 
 đau			V	B-TC
 họng			N	I-TC
@@ -602,6 +1060,21 @@ có_thể			R	OTH
 được			V	OTH
 xem_xét			V	OTH
 
+#			M	OTH
+#			CH	OTH
+8			M	OTH
+
+viêm			N	OTH
+xoang			N	OTH
+thường			R	OTH
+có			V	OTH
+những			L	OTH
+triệu_chứng		N	OTH
+điển_hình		N	OTH
+sau			N	OTH
+đây			P	OTH
+:			CH	OTH
+
 nghẹt			V	B-TC
 mũi			N	I-TC
 
@@ -622,6 +1095,38 @@ mặt			N	I-TC
 hay			Cc	OTH
 quanh			N	OTH
 mắt			N	OTH
+
+hiện_diện		V	OTH
+mủ			N	OTH
+trong			E	OTH
+mũi			N	OTH
+xoang			N	OTH
+
+nếu			C	OTH
+bạn			N	OTH
+bị			V	OTH
+viêm			V	OTH
+mũi			N	OTH
+xoang			N	OTH
+,			CH	OTH
+hốc			N	OTH
+mũi			N	OTH
+của			E	OTH
+bạn			N	OTH
+sẽ			R	OTH
+bị			V	OTH
+nghẹt			V	OTH
+do			E	OTH
+niêm_mạc		N	OTH
+bị			V	OTH
+phù_nề			A	OTH
+và			Cc	OTH
+sự			N	OTH
+tạo			V	OTH
+thành			V	OTH
+của			E	OTH
+dịch			N	OTH
+mủ			N	OTH
 
 chảy			V	B-TC
 nước_mũi		N	I-TC
@@ -1016,207 +1521,3 @@ mạnh			A	OTH
 khó			A	B-TC
 thở			V	I-TC
 
-đau			N	B-TC
-mỏi			A	I-TC
-cổ			A	I-TC
-vai			N	I-TC
-gáy			V	I-TC
-lan			V	OTH
-xuống			E	OTH
-nửa			L	OTH
-người			N	OTH
-kèm			V	OTH
-theo			V	OTH
-triệu_chứng		N	OTH
-tê			A	OTH
-bì			V	OTH
-một			M	OTH
-bên			N	OTH
-
-tê			N	OTH
-/			CH	OTH
-dị			N	OTH
-cảm			V	OTH
-mặt			N	OTH
-trong			E	OTH
-cánh_tay		N	OTH
-lan			V	OTH
-xuống			R	OTH
-ngón			N	OTH
-4/5			M	OTH
-chẳng_hạn		X	OTH
-,			CH	OTH
-khi			N	B-TG
-nằm			V	I-TG
-lâu			A	OTH
-/			CH	OTH
-để			E	OTH
-tay_chân		N	OTH
-ở			E	OTH
-vị_trí			N	OTH
-cố_định			V	OTH
-trong			E	OTH
-1			M	OTH
-khoảng			N	OTH
-thời_gian		N	OTH
-nào			P	OTH
-đó			P	OTH
-,			CH	OTH
-râm_ran			A	OTH
-như			C	OTH
-kiến			N	OTH
-bò			N	OTH
-
-tay_chân		N	B-TC
-mất			V	I-TC
-cảm_giác		N	I-TC
-:			CH	OTH
-tình_trạng		N	OTH
-tê			P	OTH
-kéo_dài			V	OTH
-sẽ			R	OTH
-khiến			V	OTH
-tay			N	OTH
-,			CH	OTH
-chân			N	B-TC
-bị			V	I-TC
-mất			V	I-TC
-cảm_giác		N	I-TC
-,			CH	OTH
-thường			R	OTH
-gặp			V	OTH
-nhất			A	OTH
-về			E	B-TG
-đêm			N	I-TG
-
-tê			V	B-TC
-chân			N	I-TC
-đi			V	OTH
-kèm			V	OTH
-với			E	OTH
-bất_kỳ			A	OTH
-triệu_chứng		N	OTH
-mãn_tính		N	OTH
-khác			A	OTH
-
-hay			C	B-TC
-quên			V	I-TC
-,			CH	OTH
-dễ			A	B-TC
-nhầm_lẫn		V	I-TC
-
-chóng_mặt		V	B-TC
-
-mất			V	B-TC
-kiểm_soát		V	I-TC
-bàng_quang		N	I-TC
-và			Cc	OTH
-ruột			N	OTH
-
-tê_liệt			V	B-TC
-xảy			V	OTH
-ra			R	OTH
-sau			E	OTH
-một			M	OTH
-chấn_thương		N	OTH
-đầu			N	OTH
-
-đau_đầu			V	B-TC
-dữ_dội			A	I-TC
-
-khó			A	B-TC
-thở			V	I-TC
-
-co			V	B-TC
-giật			N	I-TC
-
-da			Np	B-TC
-bị			V	I-TC
-sưng			V	I-TC
-rộp			A	I-TC
-hay			Cc	I-TC
-tấy			A	I-TC
-đỏ			A	I-TC
-,			CH	OTH
-phù			V	OTH
-lên			V	OTH
-và			Cc	OTH
-xung			V	OTH
-huyết			N	OTH
-
-người_bệnh		N	OTH
-thường			R	OTH
-thấy			V	OTH
-khó_chịu		A	OTH
-,			CH	OTH
-bị			V	OTH
-làm_phiền		V	OTH
-
-áp			V	OTH
-xe			N	OTH
-khoang			N	OTH
-má			N	OTH
-hai			M	OTH
-bên			N	OTH
-thường			R	OTH
-gây			V	OTH
-ra			V	OTH
-sưng			V	B-TC
-mặt			N	I-TC
-vùng			N	I-TC
-má			N	I-TC
-
-đau			V	B-TC
-buốt			A	I-TC
-khi			N	B-TG
-chạm			V	I-TG
-vào			R	I-TG
-
-nếu			C	OTH
-có			V	OTH
-chấn_thương		N	OTH
-bên			N	OTH
-ngoài			N	OTH
-,			CH	OTH
-thì			C	OTH
-bề_mặt			N	OTH
-da			N	OTH
-có_thể			R	OTH
-có			V	OTH
-trầy_xước		A	OTH
-,			CH	OTH
-rách			A	OTH
-,			CH	OTH
-sung_huyết		A	B-TC
-ở			E	I-TC
-vết_thương		N	I-TC
-vào			R	OTH
-
-
-buồn_nôn		N	B-TC
-và			Cc	OTH
-nôn			N	B-TC
-
-vào			E	OTH
-thời_điểm		N	OTH
-này			P	OTH
-,			CH	OTH
-người_bệnh		N	OTH
-thường			R	OTH
-cảm_thấy		V	B-TC
-mệt_mỏi			A	I-TC
-,			CH	OTH
-kiệt_sức		A	B-TC
-không_thể		R	OTH
-hoạt_động		V	OTH
-và			Cc	OTH
-làm_việc		V	OTH
-như			C	OTH
-bình_thường		A	OTH
-
-cơ_thể			N	OTH
-họ			P	OTH
-tự			P	OTH
-chống			V	OTH
-lại			R	OTH
-bệnh			N	OTH
