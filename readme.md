@@ -20,13 +20,18 @@ Download tập tin CoreNLP.zip, giải nén
 <!-- trong thư mục đã có đủ hết các file cần tải ở trên -->
 
 <!-- install thư viện -->
+Thư viện cần tải
 
 pip install vncorenlp
 pip install fastapi
 pip install pydantic
 pip install uvicorn
+pip install requests
+pip install bs4
+pip install json
 
 <!-- run code -->
+Các bước chạy server để chạy code
 
 Bước 1: chuyển đường dẫn dưới termial sang thử mục vncorenlp trong thử mục
 Bước 2: chạy dòng lệnh: java -Xmx2g -jar VnCoreNLPServer.jar VnCoreNLP-1.1.jar -p 9001 -a "wseg,pos,parse"
