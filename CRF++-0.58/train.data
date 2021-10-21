@@ -33,8 +33,8 @@ rốn			N	OTH
 nhất_là			X	OTH
 sau			N	OTH
 khi			N	B-TG
-ăn			V	I-TC
-xong			V	I-TC
+ăn			V	I-TG
+xong			V	I-TG
 khoảng			N	OTH
 2			M	OTH
 –			CH	OTH
@@ -44,8 +44,8 @@ tiếng			Nu	OTH
 hoặc			Cc	OTH
 khi			N	B-TG
 chúng_ta		P	OTH
-đói			V	I-TC
-bụng			N	I-TC
+đói			V	I-TG
+bụng			N	I-TG
 
 cơn			N	OTH
 đau			V	OTH
@@ -53,8 +53,8 @@ cũng			R	OTH
 thường			R	OTH
 xuất_hiện		V	OTH
 vào			E	B-TG
-lúc			N	I-TC
-nửa_đêm			N	I-TC
+lúc			N	I-TG
+nửa_đêm			N	I-TG
 ,			CH	OTH
 về			E	OTH
 sáng			N	OTH
@@ -341,8 +341,8 @@ thở			V	I-TC
 đặc_biệt		A	OTH
 là			C	OTH
 khi			N	B-TG
-tăng_cường		V	I-TC
-vận_động		V	I-TC
+tăng_cường		V	I-TG
+vận_động		V	I-TG
 
 hồi_hộp			V	B-TC
 ,			CH	OTH
@@ -358,8 +358,8 @@ nhịp			N	I-TC
 
 choáng_váng		V	B-TC
 khi			N	B-TG
-thay_đổi		V	I-TC
-tư_thế			N	I-TC
+thay_đổi		V	I-TG
+tư_thế			N	I-TG
 
 đau			V	B-TC
 ngực			N	I-TC
@@ -381,10 +381,10 @@ máu			N	I-TC
 khó			A	B-TC
 thở			V	I-TC
 khi			N	B-TG
-gắng_sức		V	I-TC
+gắng_sức		V	I-TG
 hoặc			Cc	OTH
 khi			N	B-TG
-nghỉ_ngơi		V	I-TC
+nghỉ_ngơi		V	I-TG
 
 ngất_xỉu		V	B-TC
 hoặc			Cc	OTH
@@ -409,10 +409,10 @@ mạnh			A	OTH
 
 chóng_mặt		V	B-TC
 khi			N	B-TG
-ngồi			V	I-TC
+ngồi			V	I-TG
 hoặc			Cc	OTH
 đứng			V	B-TG
-lên			R	I-TC
+lên			R	I-TG
 
 mệt_mỏi			A	B-TC
 do			E	OTH
@@ -421,7 +421,7 @@ hoặc			Cc	OTH
 cảm_thấy		V	OTH
 kiệt_sức		A	B-TC
 khi			N	B-TG
-vận_động		V	I-TC
+vận_động		V	I-TG
 
 phù			N	B-TC
 chân			N	I-TC
@@ -442,7 +442,7 @@ gián_đoạn		V	B-TC
 giấc_ngủ		N	I-TC
 vào			E	OTH
 giữa			N	B-TG
-đêm			N	I-TC
+đêm			N	I-TG
 
 gây			N	B-TC
 đau_đầu			A	I-TC
@@ -486,7 +486,7 @@ trong			E	OTH
 hoặc			Cc	OTH
 sau			E	OTH
 khi			N	B-TG
-vận_động		V	I-TC
+vận_động		V	I-TG
 
 cứng			N	B-TC
 khớp			N	I-TC
@@ -514,8 +514,8 @@ thường			R	OTH
 nặng			A	OTH
 hơn			R	OTH
 khi			N	B-TG
-ngồi			V	I-TC
-thẳng			A	I-TC
+ngồi			V	I-TG
+thẳng			A	I-TG
 hoặc			Cc	OTH
 đứng			V	OTH
 
@@ -889,8 +889,8 @@ dai_dẳng		A	I-TC
 ,			CH	OTH
 thường			R	OTH
 vào			E	B-TG
-buổi			N	I-TC
-sáng			N	I-TC
+buổi			N	I-TG
+sáng			N	I-TG
 
 dần_dần			R	OTH
 ,			CH	OTH
@@ -971,7 +971,7 @@ quan_trọng		A	OTH
 sốt			N	B-TC
 nhẹ			A	I-TC
 về			E	B-TG
-chiều			N	I-TC
+chiều			N	I-TG
 :			CH	OTH
 sốt			V	OTH
 không			R	OTH
@@ -1220,3 +1220,176 @@ tự			P	OTH
 chống			V	OTH
 lại			R	OTH
 bệnh			N	OTH
+
+theo			V	OTH
+thời_gian		N	OTH
+,			CH	OTH
+bệnh			N	OTH
+addison			Np	OTH
+hay			Cc	OTH
+còn			R	OTH
+được			V	OTH
+gọi			V	OTH
+là			C	OTH
+suy			V	OTH
+thượng_thận		N	OTH
+nguyên_phát		A	OTH
+,			CH	OTH
+sẽ			R	OTH
+dẫn			V	OTH
+đến			E	OTH
+các			L	OTH
+triệu_chứng			N	OTH
+sau			N	OTH
+:			CH	OTH
+
+mệt_mỏi			A	B-TC
+mãn_tính		N	I-TC
+và			Cc	OTH
+cảm_giác		N	B-TC
+yếu			A	I-TC
+cơ			T	I-TC
+
+buồn_nôn		N	B-TC
+,			CH	OTH
+nôn			N	B-TC
+và			Cc	OTH
+tiêu_chảy		N	B-TC
+
+
+giảm			V	B-TC
+thính_lực		N	I-TC
+hoặc			Cc	OTH
+đau			V	B-TC
+nghiêm_trọng		A	OTH
+một			M	I-TC
+bên			N	I-TC
+tai			N	I-TC
+,			CH	OTH
+chóng_mặt		V	B-TC
+,			CH	OTH
+hoặc			Cc	OTH
+mất			V	B-TC
+vị_giác			N	I-TC
+
+triệu_chứng		N	OTH
+ban_đầu			N	OTH
+của			E	OTH
+bệnh			N	OTH
+zona			Nb	OTH
+thông_thường		A	OTH
+là			V	OTH
+ngứa			V	B-TC
+,			CH	OTH
+đau			V	B-TC
+và			Cc	OTH
+nóng			A	B-TC
+rát			A	I-TC
+
+động_kinh	    N	B-TC
+cũng	        R	OTH
+là	            V	OTH
+triệu_chứng 	N	OTH
+có_thể      	R	OTH
+gặp         	V	OTH
+phải         	A	OTH
+
+sốt	N	B-TC
+cao	A	I-TC
+gặp	V	OTH
+ở	E	OTH
+một_số	L	OTH
+bệnh_nhân	N	OTH
+và	Cc	OTH
+thường	R	OTH
+sốt	V	B-TC
+sau	E	OTH
+đau_đầu	A	B-TC
+vài	L	OTH
+ngày	N	OTH
+đến	E	OTH
+vài	L	OTH
+tuần	N	OTH
+
+sốt	N	B-TC
+(	CH	OTH
+có_thể	R	OTH
+kèm	V	OTH
+ớn	V	B-TC
+lạnh	A	I-TC
+)	CH	OTH
+:	CH	OTH
+xuất_hiện	V	OTH
+ở	E	OTH
+90%	M	OTH
+trường_hợp	N	OTH
+
+đau	N	B-TC
+hạ	V	I-TC
+sườn	N	I-TC
+phải	V	I-TC
+(	CH	OTH
+50-75%	M	OTH
+người_bệnh	N	OTH
+)	CH	OTH
+,	CH	OTH
+đôi_khi	R	OTH
+đau	V	B-TC
+vai	N	I-TC
+phải	V	I-TC
+(	CH	OTH
+do	E	OTH
+kích_thích	V	OTH
+cơ_hoành	N	OTH
+)	CH	OTH
+
+chán	V	B-TC
+ăn	V	I-TC
+hoặc	Cc	OTH
+sụt	V	B-TC
+cân	N	I-TC
+không	R	OTH
+giải_thích	V	OTH
+được	R	OTH
+
+khi	N	OTH
+thăm_khám	V	OTH
+,	CH	OTH
+có_thể	R	OTH
+thấy	V	OTH
+gan	N	OTH
+to	A	OTH
+và	Cc	OTH
+ấn	V	OTH
+đau	V	OTH
+
+một_triệu	Np	OTH
+chứng	V	OTH
+khá	R	OTH
+nổi_bật	A	OTH
+là	V	OTH
+ho	V	B-TC
+ra	V	I-TC
+đàm	N	I-TC
+
+kém	Np	B-TC
+ăn	V	I-TC
+và	Cc	OTH
+không	R	OTH
+phát_triển	V	OTH
+bình_thường	A	OTH
+(	CH	OTH
+ở	E	OTH
+trẻ	N	OTH
+sơ_sinh	A	OTH
+)	CH	OTH
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+nhiều	A	I-TC
+khi	N	OTH
+sinh_hoạt	V	OTH
+thường_ngày	A	OTH
+hoặc	Cc	OTH
+không	R	OTH
+gắng_sức	V	OTH

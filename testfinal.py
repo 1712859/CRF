@@ -22,7 +22,7 @@ def themdauchamcau(ten_file):
         b = ""
         if (int_ >2):
             if (a[int_-2] not in [".",";","!","?"]):
-                b = a[:(int_-1)] + " . "
+                b = a[:(int_ -1)] + "."
             else:
                 b = a
         data.append(b)
@@ -76,11 +76,12 @@ themdauchamcau(file_data_raw)
 
 tao_file_dư_lieu3(file_data_raw, file_out_khong_tag1)
 
-# os.system('cmd /k "cd C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58 && crf_test -m model test.data > output.data"')
+# os.system('cmd /k "cd C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58 && crf_test -m model test.data > output.data && cd C:\\Users\\WIN10\\Desktop\\crf && python c:/Users/WIN10/Desktop/crf/gettrieuchung.py"')
+os.system("cd C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58 && crf_test -m model test.data > output.data && cd C:\\Users\\WIN10\\Desktop\\crf ")
 
-# # getTrieuChungBenh1(ten_file_du_lieu)
-# data1 = getTrieuChungBenh1(ten_file_du_lieu1)
-# print("tách từng từ: "+ str(len(data1)) + "\n")
-# for a in data1:
-#     print(a["trieu_chung"])
-#     # print(a["trieu_chung"] +": " +  a["thoi_gian"])
+data1 = getTrieuChungBenh1(ten_file_du_lieu1)
+print("tách từng từ: "+ str(len(data1)) + "\n")
+for a in data1:
+    print(a)
+
+    
