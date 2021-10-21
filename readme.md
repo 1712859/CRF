@@ -16,22 +16,24 @@ Download tập tin CoreNLP.zip, giải nén
 - mở cmd thứ 2 chạy lệnh:
 	+ pip install vncorenlp
 
-các bước để trích xuất dữ liệu:
-B1: tải tất cả nội dung cần train vào file rawdata.txt
+<!-- chạy code  -->
+<!-- trong thư mục đã có đủ hết các file cần tải ở trên -->
 
-B2: chạy code file train.py để tạo file train
+<!-- install thư viện -->
 
-B3: mở file train.data mới tạo và gắn thẻ cho từng từ
+pip install vncorenlp
+pip install fastapi
+pip install pydantic
+pip install uvicorn
 
-B4: chuyển file template, train.data bào thư mục CRF++-0.58 giải nén ở trên
+<!-- run code -->
 
-B5: mở cmd và trỏ thư mục CRF++-0.58. chạy câu lệnh: crf_learn.exe template train.data model
+Bước 1: chuyển đường dẫn dưới termial sang thử mục vncorenlp trong thử mục
+Bước 2: chạy dòng lệnh: java -Xmx2g -jar VnCoreNLPServer.jar VnCoreNLP-1.1.jar -p 9001 -a "wseg,pos,parse"
+Bước 3: Mở mộc terminal khác cd đến thư mục api trong thử mục
+Bước 4: Chạy dong lệnh: uvicorn main:app --reload
 
-B6: tạo file datatest.txt, copy nội dung văn bản cần trích xuất triệu chứng vào file datatest.txt
+<!-- train dữ liệu bằng -->
 
-B7: chạy file test.py.
-
-B8: mở cmd và trỏ thư mục CRF++-0.58. chạy câu lệnh: crf_test -m model test.data > output.data
-
-B9: chạy file gettrieuchung.py
+<!-- test dữ liệu -->
 
