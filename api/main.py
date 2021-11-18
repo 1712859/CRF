@@ -58,19 +58,26 @@ def getTrieuChungBenh(ten_file_du_lieu):
     output = []
     temp = {'trieu_chung':'','thoi_gian':''}
     count = 0
+    count_TG = 0
     for a in du_lieu_input:
         row = a.split()
         rows = np.array(row)
         if (len(rows)==3):
-            if (rows[2] == "B-TC"):
+            if (rows[2] in ["B-TC","B-TCTL"]):
                 count +=1
+            if (rows[2] == "B-TG"):
+                count_TG +=1
             if (count <= 1):
-                if(rows[2] in ["B-TC","I-TC"]):
+                if(rows[2] in ["B-TC","I-TC","B-TCTL","I-TCTL"]):
                     temp["trieu_chung"] += rows[0].replace("_"," ") + " "
                 if(rows[2] in ["B-TG","I-TG"]):
-                    temp["thoi_gian"] += rows[0].replace("_"," ") + " "
+                    if( count_TG  >1 and rows[2] == "B-TG"):
+                        temp["thoi_gian"] += ", " + rows[0].replace("_"," ") + " "
+                    else:
+                        temp["thoi_gian"] +=rows[0].replace("_"," ") + " "
             else:
                 count = 1
+                count_TG = 0
                 output.append(temp)
                 temp = {'trieu_chung': rows[0].replace("_"," ") + " ",'thoi_gian':''}
     output.append(temp)     
@@ -92,7 +99,7 @@ async def root(item: Item):
     tao_file_du_lieu(data_out)
 
     os.chdir(dir)
-    os.system("crf_test -m model test.data > output.data")
+    os.system("crf_test -m model1 test.data > output.data")
 
     data_benh = getTrieuChungBenh(dir + ten_file_du_lieu1 )
     if(len(data_benh) == 0):

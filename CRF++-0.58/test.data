@@ -64,7 +64,6 @@ thường			R
 lâu			A
 lành			A
 
-
 trong			E
 quá_trình		N
 vận_động		V
@@ -142,7 +141,6 @@ thể_chất		N
 gặp			V
 khó_khăn		A
 
-
 dấu_hiệu		N
 triệu_chứng		N
 của			E
@@ -175,11 +173,57 @@ hoặc			Cc
 leo			V
 cầu_thang		N
 
+đau			N
+rút			V
+ở			E
+vùng			N
+hông			N
+,			CH
+đùi			N
+hoặc			Cc
+cơ_bắp			N
+chân			N
+sau			E
+khi			N
+hoạt_động		V
+,			CH
+ví_dụ			C
+như			C
+đi			V
+bộ			N
+hoặc			Cc
+leo			V
+cầu_thang		N
+
 chân			N
 bị			V
 tê			A
 hoặc			Cc
 yếu			A
+
+chân			N
+bị			V
+tê			A
+hoặc			Cc
+yếu			A
+
+lạnh			A
+ở			E
+những			L
+vùng			N
+thấp			A
+của			E
+chân			N
+hay			Cc
+bàn_chân		N
+,			CH
+đặc_biệt		A
+là			C
+khi			N
+so_sánh			V
+với			E
+chân			N
+khác			A
 
 lạnh			A
 ở			E
@@ -212,6 +256,34 @@ chân			N
 không			R
 lành			A
 
+cảm_thấy		V
+đau			V
+ở			E
+ngón			N
+chân			N
+,			CH
+bàn_chân		N
+hoặc			Cc
+vết_thương		N
+chân			N
+không			R
+lành			A
+
+có			V
+sự			N
+thay_đổi		V
+màu_sắc			N
+của			E
+chân			N
+:			CH
+da			N
+xanh			A
+nhợt_nhạt		A
+,			CH
+lạnh			A
+da			N
+,			CH
+...			CH
 có			V
 sự			N
 thay_đổi		V
@@ -240,6 +312,24 @@ trên			N
 đôi			M
 chân			N
 
+rụng			V
+lông			N
+hoặc			Cc
+lông			N
+trưởng_thành		V
+phát_triển		V
+chậm			A
+hơn			A
+ở			E
+trên			N
+đôi			M
+chân			N
+
+móng			N
+chân			N
+chậm			A
+phát_triển		V
+
 móng			N
 chân			N
 chậm			A
@@ -256,6 +346,24 @@ yếu			A
 chân			N
 hay			Cc
 bàn_chân		N
+
+không			R
+sờ			V
+thấy			V
+mạch			N
+hoặc			Cc
+mạch			N
+yếu			A
+ở			E
+chân			N
+hay			Cc
+bàn_chân		N
+
+rối_loạn		V
+cương			N
+dương			N
+ở			E
+nam_giới		N
 
 rối_loạn		V
 cương			N
@@ -322,7 +430,6 @@ giảm			V
 cơn			Nc
 đau			V
 
-
 ngoài_ra		C
 người_bệnh		N
 có_thể			R
@@ -384,7 +491,6 @@ và			Cc
 điều_trị		V
 kịp_thời		A
 
-
 các			L
 biến_chứng		N
 của			E
@@ -411,6 +517,26 @@ nguy_cơ			N
 phát_triển		V
 thành			V
 :			CH
+
+thiếu			V
+máu			N
+cục_bộ			A
+chi			P
+,			CH
+bắt_đầu			V
+từ			E
+dấu_hiệu		N
+như			C
+lở_loét			V
+không			R
+lành			A
+-			CH
+chấn_thương		V
+hoặc			Cc
+nhiễm_trùng		V
+tay			N
+hay			C
+chân			N
 
 thiếu			V
 máu			N
@@ -465,6 +591,82 @@ cụt			A
 chi			P
 bị			V
 ảnh_hưởng		V
+
+thiếu			V
+máu			N
+cục_bộ			A
+chi			P
+quan_trọng		A
+(			CH
+cli			Ny
+)			CH
+xảy			V
+ra			V
+khi			N
+bị_thương		V
+hoặc			Cc
+bị			V
+nhiễm_trùng		N
+tiến_triển		V
+và			Cc
+có_thể			R
+gây			V
+ra			V
+chết			V
+tế_bào			N
+dẫn			V
+tới			E
+hoại_tử			N
+,			CH
+thậm_chí		R
+phải			V
+cắt			V
+cụt			A
+chi			P
+bị			V
+ảnh_hưởng		V
+
+đau			V
+tim			N
+và			Cc
+đột_quỵ			N
+
+xơ_vữa			N
+động_mạch		N
+là			V
+nguyên_nhân		N
+chính			A
+gây			V
+ra			V
+các			L
+dấu_hiệu		N
+và			Cc
+triệu_chứng		N
+của			E
+bệnh			N
+động_mạch		N
+ngoại			A
+biên			N
+không			R
+giới_hạn		V
+đến			E
+chân			N
+
+do_đó			C
+mảng			N
+chất_béo		N
+cũng			R
+bám			V
+tụ			V
+trong			E
+động_mạch		N
+cung_cấp		V
+cho			E
+tim			N
+và			Cc
+não			N
+
+ 			CH
 
 đau			V
 tim			N

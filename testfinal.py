@@ -21,10 +21,16 @@ def themdauchamcau(ten_file):
         int_ = len(a)
         b = ""
         if (int_ >2):
-            if (a[int_-2] not in [".",";","!","?"]):
-                b = a[:(int_ -1)] + "."
+            if (a[int_-1] != "\n"):
+                if (a[int_-1] not in [".",";","!","?"]):
+                    b = a + ".\n" 
+                else:
+                    b = a
             else:
-                b = a
+                if (a[int_-2] not in [".",";","!","?"]):
+                    b = a[:(int_ -1)] + ".\n" 
+                else:
+                    b = a
         data.append(b)
     f.close
     with open(ten_file, mode='w', encoding="utf-8" ) as file:
@@ -54,34 +60,42 @@ def getTrieuChungBenh1(ten_file_du_lieu):
     output = []
     temp = {'trieu_chung':'','thoi_gian':''}
     count = 0
+    count_TG = 0
     for a in du_lieu_input:
         row = a.split()
         rows = np.array(row)
         if (len(rows)==3):
-            if (rows[2] == "B-TC"):
+            if (rows[2] in ["B-TC","B-TCTL"]):
                 count +=1
+            if (rows[2] == "B-TG"):
+                count_TG +=1
             if (count <= 1):
-                if(rows[2] in ["B-TC","I-TC"]):
+                if(rows[2] in ["B-TC","I-TC","B-TCTL","I-TCTL"]):
                     temp["trieu_chung"] += rows[0].replace("_"," ") + " "
                 if(rows[2] in ["B-TG","I-TG"]):
-                    temp["thoi_gian"] += rows[0].replace("_"," ") + " "
+                    if( count_TG  >1 and rows[2] == "B-TG"):
+                        temp["thoi_gian"] += ", " + rows[0].replace("_"," ") + " "
+                    else:
+                        temp["thoi_gian"] +=rows[0].replace("_"," ") + " "
             else:
                 count = 1
+                count_TG = 0
                 output.append(temp)
-                # print(temp["trieu_chung"])
                 temp = {'trieu_chung': rows[0].replace("_"," ") + " ",'thoi_gian':''}
+    output.append(temp)     
     return output            
+
+
 
 themdauchamcau(file_data_raw)
 
 tao_file_dư_lieu3(file_data_raw, file_out_khong_tag1)
 
 # os.system('cmd /k "cd C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58 && crf_test -m model test.data > output.data && cd C:\\Users\\WIN10\\Desktop\\crf && python c:/Users/WIN10/Desktop/crf/gettrieuchung.py"')
-os.system("cd C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58 && crf_test -m model test.data > output.data && cd C:\\Users\\WIN10\\Desktop\\crf ")
+os.system("cd C:\\Users\\WIN10\\Desktop\\crf\\CRF++-0.58 && crf_learn.exe template train_1.data model1 && crf_test -m model1 test.data > output.data && cd C:\\Users\\WIN10\\Desktop\\crf ")
 
 data1 = getTrieuChungBenh1(ten_file_du_lieu1)
 print("tách từng từ: "+ str(len(data1)) + "\n")
 for a in data1:
     print(a)
 
-    

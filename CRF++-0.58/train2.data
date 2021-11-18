@@ -1,4 +1,3 @@
-
 sốt			N	B-TC
 trên			E	I-TC
 38			M	I-TC
@@ -223,19 +222,6 @@ và			Cc	OTH
 mờ			A	B-TC
 mắt			N	I-TC
 
-nếu			C	OTH
-không			R	OTH
-được			V	OTH
-điều_trị		V	OTH
-,			CH	OTH
-sẹo			N	OTH
-có_thể			R	OTH
-hình_thành		V	OTH
-bên			N	OTH
-trong			N	OTH
-mí			N	OTH
-mắt			N	OTH
-
 điều			N	OTH
 này			P	OTH
 dẫn			V	OTH
@@ -262,13 +248,6 @@ mắt			N	I-TC
 giảm			V	B-TC
 thị_lực			N	I-TC
 
-nhạy_cảm		V	B-TC
-với			E	I-TC
-ánh_sáng		N	I-TC
-như			C	OTH
-sợ			V	B-TC
-ánh_sáng		N	I-TC
-
 mắt			N	B-TC
 đỏ			A	I-TC
 
@@ -283,14 +262,6 @@ theo			V	OTH
 và			Cc	OTH
 chảy			V	B-TC
 nước_mắt		N	I-TC
-
-rất			R	B-TC
-nhạy_cảm		A	I-TC
-với			E	I-TC
-ánh_sáng		N	OTH
-như			C	OTH
-sợ			V	B-TC
-ánh_sáng		N	I-TC
 
 nhìn			V	B-TC
 mờ			A	I-TC
@@ -538,14 +509,69 @@ họng			N	B-TC
 sưng			A	I-TC
 đỏ			A	I-TC
 
+cảm_thấy	V	OTH
+đau	V	OTH
+ở	E	OTH
+ngón	N	OTH
+chân	N	OTH
+,	CH	OTH
+bàn_chân	N	OTH
+hoặc	Cc	OTH
+vết_thương	N	OTH
+chân	N	OTH
+không	R	OTH
+lành	A	OTH
 
+có	V	OTH
+sự	N	OTH
+thay_đổi	V	OTH
+màu_sắc	N	OTH
+của	E	OTH
+chân	N	OTH
+:	CH	OTH
+da	N	B-TC
+xanh	A	I-TC
+nhợt_nhạt	A	I-TC
+,	CH	OTH
+lạnh	A	B-TC
+da	N	I-TC
+,	CH	OTH
+...	CH	OTH
+rụng	V	OTH
+lông	N	OTH
+hoặc	Cc	OTH
+lông	N	OTH
+trưởng_thành	V	OTH
+phát_triển	V	OTH
+chậm	A	OTH
+hơn	A	OTH
+ở	E	OTH
+trên	N	OTH
+đôi	M	OTH
+chân	N	OTH
 
-ho			Np	B-TC
-,			CH	OTH
-có_thể			R	OTH
-ho_khan			V	B-TC
-hay_ho			V	B-TC
-đàm			N	OTH
+móng	N	B-TC
+chân	N	I-TC
+chậm	A	I-TC
+phát_triển	V	I-TC
+
+không	R	OTH
+sờ	V	OTH
+thấy	V	OTH
+mạch	N	OTH
+hoặc	Cc	OTH
+mạch	N	OTH
+yếu	A	OTH
+ở	E	OTH
+chân	N	OTH
+hay	Cc	OTH
+bàn_chân	N	OTH
+
+rối_loạn	V	B-TC
+cương	N	I-TC
+dương	N	I-TC
+ở	E	OTH
+nam_giới	N	OTH
 
 khàn			A	B-TC
 tiếng			N	I-TC
@@ -669,13 +695,13 @@ mũi			N	I-TC
 thường			R	OTH
 nặng			A	OTH
 hơn			R	OTH
-khi			N	OTH
-bạn			N	OTH
-cúi			V	OTH
-người			N	OTH
-về			E	OTH
-phía			N	OTH
-trước			A	OTH
+khi			N	B-TG
+bạn			N	I-TG
+cúi			V	I-TG
+người			N	I-TG
+về			E	I-TG
+phía			N	I-TG
+trước			A	I-TG
 
 khứu_giác		N	OTH
 thường			R	OTH
@@ -689,32 +715,6 @@ không			R	B-TC
 ngửi			V	I-TC
 được			R	I-TC
 mùi			N	I-TC
-
-#			M	OTH
-#			CH	OTH
-9			M	OTH
-
-biểu_hiện		V	OTH
-bệnh			N	OTH
-lang_ben		N	OTH
-bao_gồm			V	OTH
-:			CH	OTH
-
-ban_đầu			N	OTH
-xuất_hiện		V	B-TC
-chấm			N	I-TC
-nhỏ			A	I-TC
-có			V	I-TC
-màu			N	I-TC
-đỏ			A	I-TC
-,			CH	OTH
-màu			N	OTH
-hồng			N	OTH
-nâu			A	OTH
-hoặc			Cc	OTH
-màu			N	OTH
-trắng			A	OTH
-
 
 da			Np	OTH
 bị			V	OTH
@@ -777,7 +777,6 @@ nhiều			A	OTH
 một_cách		N	OTH
 bất_thường		A	OTH
 
-
 loét			V	B-TC
 miệng			N	I-TC
 :			CH	OTH
@@ -833,7 +832,6 @@ gối			N	OTH
 ,			CH	OTH
 mông			N	OTH
 
-
 vàng			Np	B-TC
 da			N	I-TC
 ,			CH	OTH
@@ -851,9 +849,6 @@ buồn_nôn		Np	B-TC
 
 sụt			Np	B-TC
 cân			V	I-TC
-
-#			N	OTH
-12			M	OTH
 
 ho			Np	B-TC
 kéo_dài			V	OTH
@@ -972,9 +967,9 @@ nhẹ			A	I-TC
 về			E	B-TG
 chiều			N	I-TG
 :			CH	OTH
-sốt			V	OTH
-không			R	OTH
-đều			A	OTH
+sốt			V	B-TC
+không			R	I-TC
+đều			A	I-TC
 ,			CH	OTH
 thường			R	OTH
 tăng			V	OTH
@@ -1098,11 +1093,11 @@ triệu_chứng		N	OTH
 mãn_tính		N	OTH
 khác			A	OTH
 
-hay			C	B-TC
-quên			V	I-TC
+hay			C	B-TCTL
+quên			V	I-TCTL
 ,			CH	OTH
-dễ			A	B-TC
-nhầm_lẫn		V	I-TC
+dễ			A	B-TCTL
+nhầm_lẫn		V	I-TCTL
 
 chóng_mặt		V	B-TC
 
@@ -1115,10 +1110,10 @@ ruột			N	OTH
 tê_liệt			V	B-TC
 xảy			V	OTH
 ra			R	OTH
-sau			E	OTH
-một			M	OTH
-chấn_thương		N	OTH
-đầu			N	OTH
+sau			E	B-TG
+một			M	I-TG
+chấn_thương		N	I-TG
+đầu			N	I-TG
 
 đau_đầu			V	B-TC
 dữ_dội			A	I-TC
@@ -1146,7 +1141,7 @@ huyết			N	OTH
 người_bệnh		N	OTH
 thường			R	OTH
 thấy			V	OTH
-khó_chịu		A	OTH
+khó_chịu		A	B-TC
 ,			CH	OTH
 bị			V	OTH
 làm_phiền		V	OTH
@@ -1189,8 +1184,6 @@ rách			A	OTH
 sung_huyết		A	B-TC
 ở			E	I-TC
 vết_thương		N	I-TC
-vào			R	OTH
-
 
 buồn_nôn		N	B-TC
 và			Cc	OTH
@@ -1212,35 +1205,6 @@ và			Cc	OTH
 làm_việc		V	OTH
 như			C	OTH
 bình_thường		A	OTH
-
-cơ_thể			N	OTH
-họ			P	OTH
-tự			P	OTH
-chống			V	OTH
-lại			R	OTH
-bệnh			N	OTH
-
-theo			V	OTH
-thời_gian		N	OTH
-,			CH	OTH
-bệnh			N	OTH
-addison			Np	OTH
-hay			Cc	OTH
-còn			R	OTH
-được			V	OTH
-gọi			V	OTH
-là			C	OTH
-suy			V	OTH
-thượng_thận		N	OTH
-nguyên_phát		A	OTH
-,			CH	OTH
-sẽ			R	OTH
-dẫn			V	OTH
-đến			E	OTH
-các			L	OTH
-triệu_chứng			N	OTH
-sau			N	OTH
-:			CH	OTH
 
 mệt_mỏi			A	B-TC
 mãn_tính		N	I-TC
@@ -1351,17 +1315,6 @@ không	R	OTH
 giải_thích	V	OTH
 được	R	OTH
 
-khi	N	OTH
-thăm_khám	V	OTH
-,	CH	OTH
-có_thể	R	OTH
-thấy	V	OTH
-gan	N	OTH
-to	A	OTH
-và	Cc	OTH
-ấn	V	OTH
-đau	V	OTH
-
 một_triệu	Np	OTH
 chứng	V	OTH
 khá	R	OTH
@@ -1434,11 +1387,11 @@ chai	N	I-TC
 cứng	N	B-TC
 khớp	V	I-TC
 và	Cc	OTH
-hạn_chế	V	B-TC
-cử_động	N	I-TC
-ngón	N	I-TC
-chân	N	I-TC
-cái	N	I-TC
+hạn_chế	V	OTH
+cử_động	N	OTH
+ngón	N	OTH
+chân	N	OTH
+cái	N	OTH
 
 són	N	B-TC
 tiểu	V	I-TC
@@ -1483,12 +1436,6 @@ nhịn	V	OTH
 khó	A	OTH
 kiểm_soát	V	OTH
 
-tử_vong	N	OTH
-do	E	OTH
-xuất_huyết	V	OTH
-nội	N	OTH
-nghiêm_trọng	A	OTH
-
 triệu_chứng	N	OTH
 tim_mạch	N	OTH
 :	CH	OTH
@@ -1502,12 +1449,6 @@ nhanh	A	I-TC
 ,	CH	OTH
 …	CH	OTH
 
-triệu_chứng	N   OTH	
-chủ_yếu	A	OTH
-là	V	OTH
-to	A	B-TC
-tuyến_giáp	N	I-TC
-
 cảm_giác	N	B-TC
 đau	V	I-TC
 cổ_họng	N	I-TC
@@ -1518,13 +1459,12 @@ cổ_họng	N	I-TC
 bị	V	I-TC
 vướng	V	I-TC
 
-
 mệt	A	B-TC
 hoặc	Cc	OTH
 căng_thẳng	A	B-TC
 ,	CH	OTH
-trí_nhớ	N	B-TC
-giảm_sút	V	I-TC
+trí_nhớ	N	B-TCTL
+giảm_sút	V	I-TCTL
 ,	CH	OTH
 bị	V	B-TC
 táo_bón	N	I-TC
