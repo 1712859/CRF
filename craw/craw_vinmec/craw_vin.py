@@ -4,16 +4,16 @@ import json
 import pymongo
 import lib
 
-# myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
-myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+# myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 mydb = myclient["db_benh"]
 mycol = mydb["benhs"]
 
 # tạo webcraw vào DB
 web = mydb["webs"]
-web_vinmec = {"name":"Vinmec.com", "link_web_craw":"https://www.vinmec.com/vi/benh/", "uu_tien": 2,"day_create": lib.getdate(), "day_update":lib.getdate(), "status": 1}
+web_vinmec = {"name":"Vinmec.com", "link_web_craw":"https://www.vinmec.com/vi/benh/", "uu_tien": 2,"create_date": lib.getdate(), "update_date":lib.getdate(), "status": 1}
 webcraw = web.find_one({"name": "Vinmec.com"})
 if (webcraw == None):
     resporn_web = web.insert_one(web_vinmec)
@@ -33,15 +33,13 @@ def craw(url):
     for item in list_benh:
         linkcraw = link_craw.find_one({"link": item})
         if (linkcraw == None):
-            Benh = ""
-            benh = {}
+            benh = lib.createbenh()
             response = requests.get(item)
             soup = BeautifulSoup(response.content, "html.parser")
-            Benh = lib.XacDinhBenh(soup)
-            print(item)
-            print(Benh)
             NoidungBenh = lib.XacDinhNoiDung(soup)
-            benh["ten_benh"] = Benh
+            benh["ten_benh"] = lib.XacDinhBenh(soup)
+            print(item)
+            print(benh["ten_benh"])
             noi_dung_khac = []
             for i in NoidungBenh:
                 # Triệu chứng
@@ -96,25 +94,32 @@ def craw(url):
                     noidung = lib.create_thongtin(i, id_web, item)
                     benh["bien_phap_chuan_doan"].append(noidung)
                 
-                # # Đường lây truyền
-                # elif(i["key"] == "Đường lây truyền"):
-                #     benh["duong_lay_truyen"] = []
-                #     noidung = lib.create_thongtin(i, id_web, item)
-                #     benh["duong_lay_truyen"].append(noidung)
+                # Đường lây truyền
+                elif(i["key"] == "Đường lây truyền"):
+                    benh["duong_lay_truyen"] = []
+                    noidung = lib.create_thongtin(i, id_web, item)
+                    benh["duong_lay_truyen"].append(noidung)
+
+                # biến chứng
+                elif(i["key"] == "Biến chứng của bệnh"):
+                    benh["bien_chung"] = []
+                    noidung = lib.create_thongtin(i, id_web, item)
+                    benh["bien_chung"].append(noidung)
                 
                 # nội dung khác
                 else: 
                     noidung = lib.create_thongtin(i, id_web, item)
                     noi_dung_khac.append(noidung)
             
-            if(Benh != None):
+            if(benh["ten_benh"] != None):
                 # loại bở khoảng trống thừa
-                Benh=" ".join(str(Benh).split())
+                benh["ten_benh"]=" ".join(str(benh["ten_benh"]).split())
                 # kiểm tra trùng tên bệnh
-                data_check = mycol.find_one({"ten_benh": Benh})
-                benh["day_create"] = lib.getdate()
-                benh["day_update"] = lib.getdate()
-                benh["status"] = 1
+                data_check = mycol.find_one({"ten_benh": benh["ten_benh"]})
+                
+                benh["create_date"] = lib.getdate()
+                benh["update_date"] = lib.getdate()
+
                 if(data_check == None):
                     resporn_benh = mycol.insert_one(benh)
                     noi_dung_khacs = mydb["noi_dung_khacs"]
@@ -123,7 +128,22 @@ def craw(url):
                         i["id_benh"] = id_benh
                         noi_dung_khacs.insert_one(i)
                 else:
-                    continue  
-            link_craw.insert_one({"link":item,"day_create": lib.getdate()})  
+                    update_data = data_check
+                    update_data = lib.update_benh(update_data,benh)
+                    myquery = {"ten_benh": benh["ten_benh"]}
+                    newvalues = { "$set": { 
+                        "trieu_chung": update_data["trieu_chung"], 
+                        "nguyen_nhan": update_data["nguyen_nhan"],
+                        "tong_quan": update_data["tong_quan"],
+                        "cach_dieu_tri": update_data["cach_dieu_tri"],
+                        "cach_phong_ngua": update_data["cach_phong_ngua"],
+                        "doi_tuong_mac_benh": update_data["doi_tuong_mac_benh"],
+                        "bien_phap_chuan_doan": update_data["bien_phap_chuan_doan"],
+                        "duong_lay_truyen": update_data["duong_lay_truyen"],
+                        "tbien_chung": update_data["bien_chung"],
+                        "update_date": lib.getdate() } }
+                    mycol.update_one(myquery, newvalues)
+            
+            link_craw.insert_one({"link":item,"day_create": lib.getdate(),"id_web":id_web})  
                         
 craw(link_web_craw)
