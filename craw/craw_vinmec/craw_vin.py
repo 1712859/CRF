@@ -24,8 +24,7 @@ else:
 
 link_web_craw = web_vinmec["link_web_craw"]
 
-# defining the api-endpoint 
-API_ENDPOINT = "http://127.0.0.1:8000/crf_get_trieu_chung"
+
 
 def craw(url):
     list_benh = lib.get_link_benh(url)
@@ -48,16 +47,6 @@ def craw(url):
                     noidung = lib.create_thongtin(i, id_web, item)
                     benh["trieu_chung"].append(noidung)
                     
-                    # input = { "noi_dung" : i["noidung"] }
-                    # data = json.dumps(input)
-                    # r = requests.post(url=API_ENDPOINT, data = data, headers={"Content-Type" : "application/json"})
-                    # output = r.json()
-                    # if(len(output["data"]) > 0):
-                    #     benh["danh_sach_trieu_chung"] = []
-                    #     for i in output["data"]:
-                    #         data_TC = {"trieu_chung": " ".join(str(i["trieu_chung"]).split()), "thoi_gian":i["thoi_gian"]}
-                    #         benh["danh_sach_trieu_chung"].append(data_TC )
-                
                 # Tổng quan bệnh
                 elif(i["key"] == "Tổng quan bệnh"):
                     benh["tong_quan"] = []

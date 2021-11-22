@@ -201,4 +201,31 @@ def update_benh(update_data,benh):
 
     return  update_data
     
-    
+def sosanh(a,b):
+    if(a["trieu_chung"] == b["trieu_chung"]):
+        if(a["thoi_gian"] == b["thoi_gian"]):
+            return 1
+        else:
+            return 2
+    return 3
+
+def loai_lap(data):
+    data_final = []
+    for item in data:
+        if(len(data_final) == 0):
+            data_final.append(item)
+        else:
+            check = True
+            for a in data_final: 
+                out = sosanh(a,item)
+                if(out == 3):
+                    check = False
+                elif(out == 2):
+                    item["thoi_gian"] = item["thoi_gian"] + " , " + a["thoi_gian"]
+                    check = False
+                else:
+                    check = True
+                    break
+            if(check == False):
+                data_final.append(item)
+    return data_final

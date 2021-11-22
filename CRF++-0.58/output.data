@@ -62,9 +62,7 @@ vết	N	OTH
 loét	V	OTH
 thường	R	OTH
 lâu	A	OTH
-lành	A	OTH
-
-trong	E	OTH
+lành.trong	Np	OTH
 quá_trình	N	OTH
 vận_động	V	OTH
 ,	CH	OTH
@@ -139,10 +137,10 @@ loại	N	OTH
 hoạt_động	N	OTH
 thể_chất	N	OTH
 gặp	V	OTH
-khó_khăn	A	OTH
-
-dấu_hiệu	N	OTH
-triệu_chứng	N	OTH
+khó	A	OTH
+khăn.dấu	V	OTH
+hiệu_triệu	N	OTH
+chứng	N	OTH
 của	E	OTH
 bệnh	N	OTH
 động_mạch	N	OTH
@@ -173,57 +171,11 @@ hoặc	Cc	OTH
 leo	V	OTH
 cầu_thang	N	OTH
 
-đau	N	B-TC
-rút	V	I-TC
-ở	E	I-TC
-vùng	N	I-TC
-hông	N	I-TC
-,	CH	OTH
-đùi	N	OTH
-hoặc	Cc	OTH
-cơ_bắp	N	OTH
-chân	N	OTH
-sau	E	OTH
-khi	N	OTH
-hoạt_động	V	OTH
-,	CH	OTH
-ví_dụ	C	OTH
-như	C	OTH
-đi	V	OTH
-bộ	N	OTH
-hoặc	Cc	OTH
-leo	V	OTH
-cầu_thang	N	OTH
-
 chân	N	B-TC
 bị	V	I-TC
 tê	A	I-TC
 hoặc	Cc	OTH
 yếu	A	B-TC
-
-chân	N	B-TC
-bị	V	I-TC
-tê	A	I-TC
-hoặc	Cc	OTH
-yếu	A	B-TC
-
-lạnh	A	OTH
-ở	E	OTH
-những	L	OTH
-vùng	N	OTH
-thấp	A	OTH
-của	E	OTH
-chân	N	OTH
-hay	Cc	OTH
-bàn_chân	N	OTH
-,	CH	OTH
-đặc_biệt	A	OTH
-là	C	OTH
-khi	N	B-TG
-so_sánh	V	I-TG
-với	E	I-TG
-chân	N	I-TG
-khác	A	I-TG
 
 lạnh	A	OTH
 ở	E	OTH
@@ -256,34 +208,6 @@ chân	N	OTH
 không	R	OTH
 lành	A	OTH
 
-cảm_thấy	V	OTH
-đau	V	OTH
-ở	E	OTH
-ngón	N	OTH
-chân	N	OTH
-,	CH	OTH
-bàn_chân	N	OTH
-hoặc	Cc	OTH
-vết_thương	N	OTH
-chân	N	OTH
-không	R	OTH
-lành	A	OTH
-
-có	V	OTH
-sự	N	OTH
-thay_đổi	V	OTH
-màu_sắc	N	OTH
-của	E	OTH
-chân	N	OTH
-:	CH	OTH
-da	N	B-TC
-xanh	A	I-TC
-nhợt_nhạt	A	I-TC
-,	CH	OTH
-lạnh	A	B-TC
-da	N	I-TC
-,	CH	OTH
-...	CH	OTH
 có	V	OTH
 sự	N	OTH
 thay_đổi	V	OTH
@@ -312,24 +236,6 @@ trên	N	OTH
 đôi	M	OTH
 chân	N	OTH
 
-rụng	V	OTH
-lông	N	OTH
-hoặc	Cc	OTH
-lông	N	OTH
-trưởng_thành	V	OTH
-phát_triển	V	OTH
-chậm	A	OTH
-hơn	A	OTH
-ở	E	OTH
-trên	N	OTH
-đôi	M	OTH
-chân	N	OTH
-
-móng	N	B-TC
-chân	N	I-TC
-chậm	A	I-TC
-phát_triển	V	I-TC
-
 móng	N	B-TC
 chân	N	I-TC
 chậm	A	I-TC
@@ -346,24 +252,6 @@ yếu	A	OTH
 chân	N	OTH
 hay	Cc	OTH
 bàn_chân	N	OTH
-
-không	R	OTH
-sờ	V	OTH
-thấy	V	OTH
-mạch	N	OTH
-hoặc	Cc	OTH
-mạch	N	OTH
-yếu	A	OTH
-ở	E	OTH
-chân	N	OTH
-hay	Cc	OTH
-bàn_chân	N	OTH
-
-rối_loạn	V	B-TC
-cương	N	I-TC
-dương	N	I-TC
-ở	E	OTH
-nam_giới	N	OTH
 
 rối_loạn	V	B-TC
 cương	N	I-TC
@@ -426,11 +314,10 @@ có_thể	R	OTH
 tạm_thời	A	OTH
 làm	V	OTH
 giảm	V	OTH
-đi	R	OTH
+đi	T	OTH
 cơn	Nc	OTH
-đau	V	OTH
-
-ngoài_ra	C	OTH
+đau.ngoài	Np	OTH
+ra	V	OTH
 người_bệnh	N	OTH
 có_thể	R	OTH
 gặp	V	OTH
@@ -489,16 +376,14 @@ chẩn_đoán	V	OTH
 đúng	A	OTH
 và	Cc	OTH
 điều_trị	V	OTH
-kịp_thời	A	OTH
-
-các	L	OTH
+kịp	A	OTH
+thời.các	N	OTH
 biến_chứng	N	OTH
 của	E	OTH
 bệnh	N	OTH
 động_mạch	N	OTH
 ngoại_vi	N	OTH
 :	CH	OTH
-
 xơ_vữa	N	OTH
 động_mạch	N	OTH
 là	V	OTH
@@ -540,26 +425,6 @@ chân	N	I-TC
 
 thiếu	V	B-TC
 máu	N	I-TC
-cục_bộ	A	I-TC
-chi	P	I-TC
-,	CH	OTH
-bắt_đầu	V	OTH
-từ	E	OTH
-dấu_hiệu	N	OTH
-như	C	OTH
-lở_loét	V	OTH
-không	R	OTH
-lành	A	OTH
--	CH	OTH
-chấn_thương	V	OTH
-hoặc	Cc	OTH
-nhiễm_trùng	V	B-TC
-tay	N	I-TC
-hay	C	I-TC
-chân	N	I-TC
-
-thiếu	V	B-TC
-máu	N	I-TC
 cục_bộ	A	OTH
 chi	P	OTH
 quan_trọng	A	OTH
@@ -591,82 +456,6 @@ cụt	A	OTH
 chi	P	OTH
 bị	V	OTH
 ảnh_hưởng	V	OTH
-
-thiếu	V	B-TC
-máu	N	I-TC
-cục_bộ	A	OTH
-chi	P	OTH
-quan_trọng	A	OTH
-(	CH	OTH
-cli	Ny	OTH
-)	CH	OTH
-xảy	V	OTH
-ra	V	OTH
-khi	N	B-TG
-bị_thương	V	I-TG
-hoặc	Cc	OTH
-bị	V	OTH
-nhiễm_trùng	N	OTH
-tiến_triển	V	OTH
-và	Cc	OTH
-có_thể	R	OTH
-gây	V	OTH
-ra	V	OTH
-chết	V	OTH
-tế_bào	N	OTH
-dẫn	V	OTH
-tới	E	OTH
-hoại_tử	N	OTH
-,	CH	OTH
-thậm_chí	R	OTH
-phải	V	OTH
-cắt	V	OTH
-cụt	A	OTH
-chi	P	OTH
-bị	V	OTH
-ảnh_hưởng	V	OTH
-
-đau	V	B-TC
-tim	N	I-TC
-và	Cc	OTH
-đột_quỵ	N	OTH
-
-xơ_vữa	N	OTH
-động_mạch	N	OTH
-là	V	OTH
-nguyên_nhân	N	OTH
-chính	A	OTH
-gây	V	OTH
-ra	V	OTH
-các	L	OTH
-dấu_hiệu	N	OTH
-và	Cc	OTH
-triệu_chứng	N	OTH
-của	E	OTH
-bệnh	N	OTH
-động_mạch	N	OTH
-ngoại	A	OTH
-biên	N	OTH
-không	R	OTH
-giới_hạn	V	OTH
-đến	E	OTH
-chân	N	OTH
-
-do_đó	C	OTH
-mảng	N	OTH
-chất_béo	N	OTH
-cũng	R	OTH
-bám	V	OTH
-tụ	V	OTH
-trong	E	OTH
-động_mạch	N	OTH
-cung_cấp	V	OTH
-cho	E	OTH
-tim	N	OTH
-và	Cc	OTH
-não	N	OTH
-
- 	CH	OTH
 
 đau	V	B-TC
 tim	N	I-TC
