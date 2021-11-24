@@ -7,9 +7,9 @@ import lib
 # defining the api-endpoint 
 API_ENDPOINT = "http://127.0.0.1:8000/crf_get_trieu_chung"
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+# myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
-# myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 mydb = myclient["db_benh"]
 mycol = mydb["benhs"]
@@ -22,11 +22,11 @@ for itemp in datas:
     raw = []
     max = 0
     for item in itemp["trieu_chung"]:
-        if (max < item["do_uu_tien"]):
-            max = item["do_uu_tien"]
-            raw = item["noi_dung"]
-    for item in raw:
-        trieu_chung = trieu_chung + item["content"]
+        # if (max < item["do_uu_tien"]):
+        #     max = item["do_uu_tien"]
+        #     raw = item["noi_dung"]
+        for items in item["noi_dung"]:
+            trieu_chung = trieu_chung + items["content"]
     if(trieu_chung != ""):
         input = { "noi_dung" : trieu_chung }
         data = json.dumps(input)
