@@ -817,9 +817,9 @@ tiết			N	I-TC
 nước_bọt		N	I-TC
 
 phát_ban		V	B-TC
-dạng			N	T-TC
-phỏng			C	T-TC
-nước			N	T-TC
+dạng			N	I-TC
+phỏng			C	I-TC
+nước			N	I-TC
 :			CH	OTH
 ở			E	OTH
 lòng			N	OTH
@@ -7028,3 +7028,1818 @@ chân	N	OTH
 và	Cc	OTH
 cơ	N	OTH
 mắt	N	OTH
+
+hạch	N	B-TC
+bạch_huyết	N	I-TC
+phì	N	I-TC
+đại	A	I-TC
+nhưng	C	OTH
+không	R	OTH
+đau	V	OTH
+
+mệt_mỏi	A	B-TC
+
+sốt	N	B-TC
+
+đau	V	B-TC
+bụng	N	I-TC
+ở	E	OTH
+phần	N	OTH
+trên	E	OTH
+bên	N	OTH
+trái	A	OTH
+,	CH	OTH
+có_thể	R	OTH
+do	E	OTH
+lách	V	B-TC
+sưng	V	I-TC
+to	A	I-TC
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+đêm	N	I-TC
+
+giảm	V	B-TC
+cân	N	I-TC
+
+đau	V	B-TC
+xương	N	I-TC
+
+dễ	N	B-TC
+chảy_máu	V	I-TC
+
+cảm_thấy	V	B-TCTL
+no	A	I-TCTL
+sau	E	OTH
+khi	N	B-TG
+ăn	V	I-TG
+một	M	I-TG
+lượng	N	I-TG
+nhỏ	A	I-TG
+thức_ăn	N	I-TG
+
+cảm_thấy	V	B-TCTL
+chán_nản	A	I-TCTL
+hoặc	Cc	OTH
+mệt_mỏi	A	B-TC
+
+sốt	N	B-TC
+
+giảm	V	B-TC
+cân	N	I-TC
+không	R	I-TC
+rõ	A	I-TC
+nguyên_nhân	N	I-TC
+
+ăn_không	N	B-TC
+ngon_miệng	A	I-TC
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+ban_đêm	N	I-TC
+khi	N	B-TG
+ngủ	V	I-TG
+
+
+hồng_cầu	N	OTH
+giảm	V	OTH
+gây	V	OTH
+thiếu	A	B-TC
+máu	N	I-TC
+
+điều	N	OTH
+này	P	OTH
+có_thể	R	OTH
+dẫn	V	OTH
+đến	E	OTH
+thường_xuyên	A	B-TC
+mệt_mỏi	A	I-TC
+và	Cc	OTH
+uể_oải	A	B-TC
+,	CH	OTH
+thậm_chí	R	B-TC
+chóng_mặt	V	I-TC
+,	CH	OTH
+khó	A	B-TC
+thở	V	I-TC
+
+vì_vậy	C	OTH
+,	CH	OTH
+khi	N	OTH
+bạch_cầu	N	OTH
+khoẻ_mạnh	V	OTH
+giảm	V	OTH
+,	CH	OTH
+bạn	N	OTH
+có_thể	R	OTH
+thường_xuyên	A	OTH
+sốt	V	B-TC
+,	CH	OTH
+nhiễm_trùng	V	OTH
+như	C	OTH
+viêm	N	B-TC
+phổi	N	I-TC
+…	CH	OTH
+
+bệnh_nhân	N	OTH
+có_thể	R	OTH
+chảy_máu	V	B-TC
+mũi	N	I-TC
+,	CH	OTH
+nướu	N	OTH
+răng	N	OTH
+,	CH	OTH
+xuất_huyết	V	B-TC
+dưới	E	I-TC
+da	N	I-TC
+,	CH	OTH
+hoặc	Cc	OTH
+thậm_chí	R	OTH
+xuất_huyết	V	B-TC
+tiêu_hoá	V	I-TC
+
+lách	N	B-TC
+to	A	I-TC
+xuất_hiện	V	OTH
+ở	E	OTH
+khoảng	N	OTH
+90%	M	OTH
+người	N	OTH
+mắc	V	OTH
+bệnh	N	OTH
+bạch	N	OTH
+cấu	V	OTH
+tế_bào	N	OTH
+lông	N	OTH
+
+lách	N	B-TC
+to	A	I-TC
+gây	V	OTH
+đau	V	B-TC
+bụng	N	I-TC
+trái	A	I-TC
+vị_trí	N	I-TC
+lách	V	I-TC
+,	CH	OTH
+cảm_giác	V	B-TC
+đầy	A	I-TC
+bụng	N	I-TC
+sớm	A	I-TC
+sau	E	B-TG
+bữa	N	I-TG
+ăn	V	I-TG
+
+ngoài_ra	X	OTH
+,	CH	OTH
+bệnh_nhân	N	OTH
+có_thể	R	OTH
+đau	V	B-TC
+bụng	N	I-TC
+bên	N	I-TC
+phải	A	I-TC
+,	CH	OTH
+vị_trí	N	OTH
+của	E	OTH
+gan	N	OTH
+
+ít	A	OTH
+gặp	V	OTH
+hơn	A	OTH
+,	CH	OTH
+các	L	OTH
+tế_bào	N	OTH
+lông	N	OTH
+có_thể	R	OTH
+xâm_lấn	V	OTH
+xương	N	OTH
+và	Cc	OTH
+gây	V	OTH
+huỷ	V	OTH
+xương	N	OTH
+gây	V	OTH
+đau	V	B-TC
+dữ_dội	A	I-TC
+
+các	L	OTH
+hạch	N	OTH
+bạch_huyết	N	OTH
+có_thể	R	OTH
+bị	V	OTH
+ảnh_hưởng	V	OTH
+và	Cc	OTH
+sưng	V	B-TC
+viêm	N	I-TC
+và	Cc	OTH
+gây	V	B-TC
+đau	V	I-TC
+
+người_bệnh	N	OTH
+cũng	R	OTH
+có_thể	R	OTH
+sụt	V	B-TC
+cân	N	I-TC
+không	R	OTH
+có	V	OTH
+lý_do	N	OTH
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+nhiều	A	I-TC
+,	CH	OTH
+thường	R	OTH
+vào	E	B-TG
+ban_đêm	N	I-TG
+
+có_thể	R	OTH
+có	V	OTH
+sự	N	OTH
+tham_gia	V	OTH
+vào	E	OTH
+não	N	OTH
+gây	V	OTH
+ra	V	OTH
+đau_đầu	A	B-TC
+hoặc	Cc	OTH
+bất_thường	A	OTH
+về	E	OTH
+chức_năng	N	OTH
+não	N	OTH
+dù	C	OTH
+hiếm	A	OTH
+gặp	V	OTH
+
+chảy_máu	V	B-TC
+nhiều	A	I-TC
+,	CH	OTH
+dễ	A	B-TC
+bầm	A	I-TC
+tím	A	I-TC
+trên	E	I-TC
+da	N	I-TC
+
+nhiễm_trùng	N	B-TC
+
+sốt	N	B-TC
+kéo_dài	V	I-TC
+
+ho	N	B-TC
+dai_dẳng	A	I-TC
+
+bệnh	N	OTH
+ảnh_hưởng	V	OTH
+lên	R	OTH
+niêm_mạc	N	OTH
+ở	E	OTH
+mũi	N	OTH
+và	Cc	OTH
+họng	N	OTH
+,	CH	OTH
+gây	V	OTH
+ra	V	OTH
+đau	V	B-TC
+họng	N	I-TC
+,	CH	OTH
+sốt	V	B-TC
+,	CH	OTH
+hạch	N	B-TC
+to	A	I-TC
+và	Cc	OTH
+kiệt_sức	A	B-TC
+
+dấu_hiệu	N	OTH
+đặc_trưng	A	OTH
+để	E	OTH
+nhận_biết	V	OTH
+bệnh	N	OTH
+là	V	OTH
+một	M	OTH
+mảng	Nc	B-TC
+dày	A	I-TC
+màu	N	I-TC
+trắng	A	I-TC
+xám	A	I-TC
+che_phủ	V	I-TC
+thành	V	I-TC
+sau	N	I-TC
+họng	N	I-TC
+
+thường	R	OTH
+đặc_trưng	A	OTH
+bởi	E	OTH
+làn	Nc	OTH
+da	N	B-TC
+trắng	A	I-TC
+,	CH	OTH
+tóc	N	B-TC
+có	V	I-TC
+màu	N	I-TC
+sáng	N	I-TC
+,	CH	OTH
+phát_sinh	V	OTH
+các	L	OTH
+vấn_đề	N	OTH
+về	E	OTH
+mắt	N	OTH
+,	CH	OTH
+cụ_thể	A	B-TC
+là	V	I-TC
+:	CH	OTH
+
+ngoài_ra	X	OTH
+,	CH	OTH
+trên	E	OTH
+da	N	OTH
+của	E	OTH
+người_bệnh	N	OTH
+bạch_tạng	N	OTH
+còn	R	OTH
+xuất_hiện	V	B-TC
+tàn_nhang	N	I-TC
+,	CH	OTH
+nối	V	OTH
+ruồi	N	OTH
+(	CH	OTH
+có	V	OTH
+hoặc	Cc	OTH
+không	R	OTH
+có	V	OTH
+sắc_tố	N	OTH
+–	CH	OTH
+nốt_ruồi	N	OTH
+mà	C	OTH
+không	R	OTH
+có	V	OTH
+sắc_tố	N	OTH
+thường	R	OTH
+màu	N	OTH
+hồng	N	OTH
+)	CH	OTH
+hoặc	Cc	OTH
+đốm	N	B-TC
+có	V	I-TC
+tàn_nhang	N	I-TC
+lớn	A	I-TC
+
+bệnh_nhân	N	OTH
+bị	V	OTH
+mắc	V	OTH
+phải	V	OTH
+bệnh	N	OTH
+bạch_tạng	N	OTH
+thường	R	OTH
+không	R	OTH
+có	V	OTH
+khả_năng	N	OTH
+bị	V	OTH
+sạm	A	B-TC
+da	N	I-TC
+
+lúc	N	OTH
+trẻ	A	OTH
+,	CH	OTH
+màu	N	OTH
+tóc	N	OTH
+của	E	OTH
+họ	P	OTH
+cũng	R	OTH
+có_thể	R	OTH
+là	V	OTH
+màu	N	OTH
+đen	A	OTH
+
+tầm	N	OTH
+nhìn	V	OTH
+:	CH	OTH
+các	L	OTH
+dấu_hiệu	N	OTH
+và	Cc	OTH
+triệu_chứng	N	OTH
+của	E	OTH
+bạch_tạng	N	OTH
+liên_quan	V	OTH
+đến	E	OTH
+chức_năng	N	OTH
+của	E	OTH
+mắt	N	OTH
+bao_gồm	V	OTH
+:	CH	OTH
+mắt	N	OTH
+cử_động	N	OTH
+qua_lại	V	OTH
+liên_hồi	A	OTH
+(	CH	OTH
+rung	V	OTH
+giật	V	OTH
+nhãn_cầu	N	OTH
+)	CH	OTH
+,	CH	OTH
+hai	M	OTH
+mắt	N	OTH
+không_thể	R	OTH
+nhìn	V	OTH
+cùng	A	OTH
+một	M	OTH
+hướng	N	OTH
+khác	A	OTH
+,	CH	OTH
+cận_thị	N	OTH
+hoặc	Cc	OTH
+viễn_thị	N	OTH
+,	CH	OTH
+nhạy_cảm	A	B-TCTL
+với	E	I-TCTL
+ánh_sáng	N	I-TCTL
+hoặc	Cc	OTH
+nhãn_cầu	N	OTH
+có	V	OTH
+độ	N	OTH
+cong	A	OTH
+bất_thường	A	OTH
+gây	V	OTH
+mờ	A	B-TC
+mắt	N	I-TC
+
+bạch_tạng	N	OTH
+mắt	N	OTH
+da	N	OTH
+(	CH	OTH
+oculocutaneous_albinism	Np	OTH
+–	CH	OTH
+oca	Ny	OTH
+)	CH	OTH
+
+bạch_tạng	N	OTH
+mắt	N	OTH
+da	N	OTH
+oca	Ny	OTH
+ảnh_hưởng	V	OTH
+đến	E	OTH
+da	N	OTH
+,	CH	OTH
+tóc	N	OTH
+và	Cc	OTH
+mắt	N	OTH
+
+những	L	OTH
+triệu_chứng	N	OTH
+hay	C	OTH
+gặp	V	OTH
+nhất_là	X	OTH
+đau	A	B-TC
+,	CH	OTH
+nhức	A	B-TC
+mỏi	A	I-TC
+,	CH	OTH
+chuột_rút	N	OTH
+và	Cc	OTH
+tê	P	B-TC
+vùng	N	I-TC
+bị	V	I-TC
+tổn_thương	V	I-TC
+
+tuy_nhiên	C	OTH
+người_bệnh	N	OTH
+có_thể	R	OTH
+gặp	V	OTH
+các	L	OTH
+biểu_hiện	N	OTH
+như	C	OTH
+cảm_thấy	V	B-TC
+khó_chịu	A	I-TC
+,	CH	OTH
+da	N	B-TC
+xanh	A	I-TC
+nhợt_nhạt	A	I-TC
+,	CH	OTH
+lạnh	A	B-TC
+da	N	I-TC
+,	CH	OTH
+không	R	OTH
+sờ	V	OTH
+thấy	V	OTH
+mạch	N	OTH
+đập	V	OTH
+ở	E	OTH
+dưới	E	OTH
+chân	N	OTH
+,	CH	OTH
+có	V	OTH
+cảm_giác	N	OTH
+đau	V	OTH
+và	Cc	OTH
+những	L	OTH
+vết	N	OTH
+loét	V	OTH
+thường	R	OTH
+lâu	A	OTH
+lành.trong	Np	OTH
+quá_trình	N	OTH
+vận_động	V	OTH
+,	CH	OTH
+tập_thể_dục	V	OTH
+thường	R	OTH
+xảy	V	OTH
+bị	V	OTH
+chuột_rút	N	OTH
+,	CH	OTH
+đau	V	B-TC
+chân	N	I-TC
+nhưng	C	OTH
+sau	E	OTH
+đó	P	OTH
+mất	V	OTH
+dần	R	OTH
+khi	N	B-TG
+nghỉ_ngơi	V	I-
+
+
+đau	N	B-TC
+rút	V	I-TC
+ở	E	I-TC
+vùng	N	I-TC
+hông	N	I-TC
+,	CH	OTH
+đùi	N	OTH
+hoặc	Cc	OTH
+cơ_bắp	N	OTH
+chân	N	OTH
+sau	E	OTH
+khi	N	OTH
+hoạt_động	V	OTH
+,	CH	OTH
+ví_dụ	C	OTH
+như	C	OTH
+đi	V	OTH
+bộ	N	OTH
+hoặc	Cc	OTH
+leo	V	OTH
+cầu_thang	N	OTH
+
+chân	N	B-TC
+bị	V	I-TC
+tê	A	I-TC
+hoặc	Cc	OTH
+yếu	A	B-TC
+
+lạnh	A	OTH
+ở	E	OTH
+những	L	OTH
+vùng	N	OTH
+thấp	A	OTH
+của	E	OTH
+chân	N	OTH
+hay	Cc	OTH
+bàn_chân	N	OTH
+,	CH	OTH
+đặc_biệt	A	OTH
+là	C	OTH
+khi	N	B-TG
+so_sánh	V	I-TG
+với	E	I-TG
+chân	N	I-TG
+khác	A	I-TG
+
+có	V	OTH
+sự	N	OTH
+thay_đổi	V	OTH
+màu_sắc	N	OTH
+của	E	OTH
+chân	N	OTH
+:	CH	OTH
+da	N	B-TC
+xanh	A	I-TC
+nhợt_nhạt	A	I-TC
+,	CH	OTH
+lạnh	A	B-TC
+da	N	I-TC
+,	CH	OTH
+...	CH	OTH
+rụng	V	OTH
+lông	N	OTH
+hoặc	Cc	OTH
+lông	N	OTH
+trưởng_thành	V	OTH
+phát_triển	V	OTH
+chậm	A	OTH
+hơn	A	OTH
+ở	E	OTH
+trên	N	OTH
+đôi	M	OTH
+chân	N	OTH
+
+móng	N	B-TC
+chân	N	I-TC
+chậm	A	I-TC
+phát_triển	V	I-
+
+rối_loạn	V	B-TC
+cương	N	I-TC
+dương	N	I-TC
+ở	E	OTH
+nam_giới	N	OTH
+
+ếu	C	OTH
+thấy	V	OTH
+bệnh	N	OTH
+động_mạch	N	OTH
+ngoại_vi	N	OTH
+tiến_triển	V	OTH
+,	CH	OTH
+tình_trạng	N	OTH
+đau_đớn	A	OTH
+thậm_chí	R	OTH
+có_thể	R	OTH
+xảy	V	OTH
+ra	R	OTH
+khi	N	B-TG
+đang	R	I-TG
+nghỉ	V	I-TG
+(	CH	OTH
+đau	V	B-TC
+do	E	OTH
+thiếu	A	OTH
+máu	N	OTH
+cục	N	OTH
+khi	N	OTH
+nghỉ	V	OTH
+)	CH	OTH
+hoặc	Cc	OTH
+đang	R	OTH
+nằm	V	OTH
+
+triệu_chứng	N	OTH
+chính	A	OTH
+của	E	OTH
+bẫy	N	OTH
+động_mạch	N	OTH
+khoeo	N	OTH
+là	V	OTH
+tình_trạng	N	OTH
+đau	V	B-TC
+hoặc	Cc	OTH
+chuột_rút	N	B-TC
+ở	E	OTH
+phía	N	OTH
+sau	A	OTH
+cẳng_chân	N	OTH
+(	CH	OTH
+bắp_chân	N	OTH
+)	CH	OTH
+
+chúng	P	OTH
+thường	R	OTH
+xảy	V	OTH
+ra	V	OTH
+trong	E	OTH
+khi	N	B-TG
+tập_luyện	V	I-TG
+thể_dục	N	I-TG
+và	Cc	OTH
+giảm	V	OTH
+khi	N	B-TG
+nghỉ_ngơi	V	I-TG
+
+chân	N	B-TC
+lạnh	A	I-TC
+sau	E	OTH
+khi	N	B-TG
+tập_thể_dục	V	I-TG
+
+đau_nhói	A	B-TC
+hoặc	Cc	OTH
+nóng	A	B-TC
+rát	A	I-TC
+ở	E	I-TC
+cẳng_chân	N	I-TC
+
+tê	N	B-TC
+ở	E	I-TC
+vùng	N	I-TC
+cẳng_chân	N	I-TC
+
+người	N	OTH
+mắc	V	OTH
+hội_chứng	N	OTH
+bẫy	N	OTH
+động_mạch	N	OTH
+khoeo	N	OTH
+thường	R	OTH
+có	V	OTH
+triệu_chứng	N	OTH
+tê	A	B-TC
+vùng	N	I-TC
+cẳng_chân	N	I-TC
+,	CH	OTH
+đôi_khi	R	OTH
+có	V	OTH
+triệu_chứng	N	OTH
+chuột_rút	N	B-TC
+…	CH	OTH
+
+cảm_giác	N	B-TC
+nặng_nề	A	I-TC
+ở	E	I-TC
+chân	N	I-TC
+
+chuột_rút	V	B-TC
+vào	E	I-TG
+ban_đêm	N	I-TG
+
+sưng	N	B-TC
+ở	E	I-TC
+vùng	N	I-TC
+cẳng_chân	N	I-TC
+
+thay_đổi	V	B-TC
+màu_da	N	I-TC
+xung_quanh	N	I-TC
+cơ	N	I-TC
+vùng	N	I-TC
+cẳng_chân	N	I-TC
+
+cục	N	B-TC
+máu	N	I-TC
+đông	A	I-TC
+ở	E	I-TC
+chân	N	I-TC
+dưới	N	I-TC
+(	CH	OTH
+huyết	N	OTH
+khối	N	OTH
+tĩnh_mạch	N	OTH
+sâu	A	OTH
+)	CH	OTH
+
+sốt	N	B-TC
+nhẹ	A	I-TC
+
+đau_đầu	V	B-TC
+
+ớn	N	B-TC
+lạnh	A	I-TC
+
+đau	V	B-TC
+cơ	N	I-TC
+
+buồn_nôn	N	B-TC
+
+nôn	N	B-TC
+
+tiêu_chảy	N	B-TC
+
+mệt_mỏi	A	B-TC
+
+ăn	V	B-TC
+không	R	I-TC
+ngon	A	I-TC
+
+đau	V	B-TC
+khớp	N	I-TC
+
+lú_lẫn	V	B-TC
+
+phát_ban	V	B-TC
+
+ho	Np	B-TC
+
+sốt	N	B-TC
+
+ớn	N	B-TC
+lạnh	A	I-TC
+
+ăn	V	B-TC
+không	R	I-TC
+ngon	A	I-TC
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+
+yếu	N	B-TC
+cơ	N	I-TC
+
+mệt_mỏi	A	B-TC
+
+đau	V	B-TC
+khớp	N	I-TC
+,	CH	OTH
+cơ	N	OTH
+và	Cc	OTH
+lưng	N	OTH
+
+đau_đầu	V	B-TC
+
+các	L	OTH
+dấu_hiệu	N	OTH
+và	Cc	OTH
+triệu_chứng	N	OTH
+lâu_dài	A	OTH
+bao_gồm	V	OTH
+mệt_mỏi	A	B-TC
+,	CH	OTH
+sốt	V	B-TC
+tái_phát	V	I-TC
+,	CH	OTH
+viêm	V	B-TC
+khớp	N	I-TC
+,	CH	OTH
+viêm	V	B-TC
+nội_tâm	N	I-TC
+mạc	N	OTH
+và	Cc	OTH
+viêm	N	B-TC
+cột_sống	N	I-TC
+
+kiểm_tra	V	OTH
+một	M	OTH
+mẫu	N	OTH
+nhỏ	A	OTH
+dịch	V	OTH
+não	N	OTH
+tuỷ	N	OTH
+để	E	OTH
+xác_định	V	OTH
+xem	V	OTH
+có	V	OTH
+bị	V	OTH
+viêm	N	OTH
+màng	V	OTH
+não	N	OTH
+hay	C	OTH
+viêm	V	OTH
+não	N	OTH
+không	R	OTH
+
+nếu	C	OTH
+bạn	N	OTH
+có	V	OTH
+các	L	OTH
+triệu_chứng	N	OTH
+sốt	V	B-TC
+cao	A	I-TC
+đột_ngột	A	I-TC
+,	CH	OTH
+đau	V	B-TC
+cơ	N	I-TC
+,	CH	OTH
+yếu	A	B-TC
+cơ	T	I-TC
+bất_thường	A	I-TC
+,	CH	OTH
+mệt_mỏi	A	B-TC
+và	Cc	OTH
+có	V	OTH
+bất_kỳ	A	OTH
+yếu_tố	N	OTH
+nguy_cơ	N	OTH
+nào	P	OTH
+của	E	OTH
+bệnh	N	OTH
+hoặc	Cc	OTH
+sốt	V	B-TC
+kéo_dài	V	I-TC
+,	CH	OTH
+hãy	R	OTH
+đến	V	OTH
+gặp	V	OTH
+bác_sĩ	N	OTH
+để	E	OTH
+được	V	OTH
+khám	V	OTH
+và	Cc	OTH
+điều_trị	V	OTH
+kịp_thời	A	OTH
+nhằm	V	OTH
+ngăn_ngừa	V	OTH
+các	L	OTH
+biến_chứng	N	OTH
+nguy_hiểm	A	OTH
+về	E	OTH
+sau	N	OTH
+
+ban_đầu	N	OTH
+biểu_hiện	V	OTH
+mệt_mỏi	A	B-TC
+,	CH	OTH
+rối_loạn	V	B-TC
+giấc_ngủ	N	I-TC
+hay	C	OTH
+chán	V	B-TC
+ăn	V	I-TC
+
+sau	E	OTH
+đó	N	OTH
+,	CH	OTH
+có	V	OTH
+những	L	OTH
+triệu_chứng	N	OTH
+thần_kinh	N	OTH
+bao_gồm	V	OTH
+mất	V	B-TCTL
+trí_nhớ	N	I-TCTL
+,	CH	OTH
+lú_lẫn	A	B-TCTL
+,	CH	OTH
+hành_vi	N	B-TCTL
+bất	V	I-TCTL
+thường	N	I-TCTL
+
+cuối	N	OTH
+cùng	N	OTH
+biểu	V	OTH
+hiện	N	OTH
+yếu	V	OTH
+liệt	A	B-TC
+nửa	N	I-TC
+người	N	I-TC
+,	CH	OTH
+nói	V	B-TC
+khó	N	I-TC
+,	CH	OTH
+mù	N	B-TC
+,	CH	OTH
+đi	V	B-TC
+đứng	V	I-TC
+loạng	N	I-TC
+choạng	A	I-TC
+
+sự	N	B-TC
+sưng	V	I-TC
+to	A	I-TC
+ở	E	I-TC
+vùng	N	I-TC
+cổ	N	I-TC
+
+cảm_giác	N	B-TCTL
+nghẹn	V	I-TCTL
+hay	C	OTH
+vướng	V	OTH
+khi	N	B-TG
+nuốt	V	I-TG
+
+khi	N	OTH
+nuốt	V	OTH
+thức_ăn	N	OTH
+,	CH	OTH
+người_bệnh	N	OTH
+sẽ	R	OTH
+cảm_giác	V	B-TCTL
+“	N	I-TCTL
+nặng	A	I-TCTL
+”	CH	I-TCTL
+vùng	N	I-TCTL
+cổ	N	I-TCTL
+
+bạn	N	OTH
+nên	C	OTH
+đi	V	OTH
+khám	V	OTH
+ngay	R	OTH
+
+khi	N	OTH
+ho	V	OTH
+,	CH	OTH
+bạn	N	OTH
+cần	V	OTH
+chú_ý	V	OTH
+cảm_nhận	V	OTH
+vị_trí	N	OTH
+cổ_họng	N	OTH
+
+nếu	C	OTH
+cảm_giác	N	B-TCTL
+có	V	I-TCTL
+khối	N	I-TCTL
+hay	C	OTH
+thắt	V	B-TC
+nghẹn	V	I-TC
+,	CH	OTH
+rất	R	OTH
+có_thể	R	OTH
+là	V	OTH
+bướu_cổ	N	OTH
+
+tuyến_giáp	N	OTH
+khi	N	OTH
+phát_triển	V	OTH
+sẽ	R	OTH
+chèn_ép	V	OTH
+vào	E	OTH
+khí_quản	N	OTH
+làm	V	OTH
+cho	E	OTH
+người_bệnh	N	OTH
+khó	A	B-TC
+thở	V	I-TC
+và	Cc	OTH
+khàn	V	B-TC
+tiếng	N	I-TC
+
+
+sụt	V	B-TC
+cân	N	I-TC
+dù	C	OTH
+không	R	OTH
+kiêng	V	OTH
+ăn	V	OTH
+
+nhịp	V	B-TC
+tim	N	I-TC
+nhanh	A	I-TC
+
+hay	C	B-TCTL
+nổi_giận	V	I-TCTL
+,	CH	OTH
+lo_lắng	V	B-TCTL
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+nhiều	A	I-TC
+,	CH	OTH
+thường	R	OTH
+cảm_thấy	V	B-TC
+nóng	A	I-TC
+
+tóc	N	B-TC
+mỏng	A	I-TC
+,	CH	OTH
+dễ	A	I-TC
+gãy	V	I-TC
+
+tiêu_chảy	N	B-TC
+
+yếu	N	B-TC
+cơ	N	I-TC
+
+khi	N	OTH
+nuốt	V	OTH
+thức_ăn	N	OTH
+,	CH	OTH
+người_bệnh	N	OTH
+sẽ	R	OTH
+cảm_giác	V	B-TCTL
+“	N	I-TCTL
+nặng	A	I-TCTL
+”	CH	I-TCTL
+vùng	N	I-TCTL
+cổ	N	I-TCTL
+
+da	N	B-TC
+nhợt_nhạt	A	I-TC
+
+cảm_thấy	V	B-TC
+mệt_mỏi	A	I-TC
+và	Cc	OTH
+khó	A	B-TC
+thở	V	I-TC
+
+sốt	N	B-TC
+
+chảy_máu	V	B-TC
+bất_thường	A	I-TC
+và	Cc	OTH
+thường_xuyên	A	OTH
+
+chẳng_hạn	X	OTH
+như	C	OTH
+chảy_máu	V	B-TC
+nướu	N	I-TC
+răng	P	I-TC
+hoặc	Cc	OTH
+chảy_máu	V	B-TC
+cam	N	I-TC
+nhiệt_độ	N	I-TC
+cao	A	I-TC
+
+đổ	V	B-TC
+mồ_hôi	N	I-TC
+đêm	N	I-TC
+
+đau	V	B-TC
+xương	N	I-TC
+khớp	N	I-TC
+
+da	N	B-TC
+dễ	A	I-TC
+bầm	A	I-TC
+tím	A	I-TC
+
+sưng	N	B-TC
+hạch	V	I-TC
+bạch_huyết	N	I-TC
+
+đau	V	B-TC
+bụng	N	I-TC
+do	E	OTH
+gan	N	OTH
+hoặc	Cc	OTH
+lá_lách	N	B-TC
+sưng	V	I-TC
+to	A	I-TC
+
+chán	V	B-TC
+ăn	V	I-TC
+hoặc	Cc	OTH
+giảm	V	B-TC
+cân	N	I-TC
+không	R	I-TC
+rõ	A	I-TC
+nguyên	A	I-TC
+nhan	A	I-TC
+
+phát_ban	V	B-TC
+da_màu	N	I-TC
+tím	A	I-TC
+,	CH	OTH
+các	L	OTH
+đốm	N	OTH
+đỏ	A	OTH
+li_ti	A	OTH
+ngay	R	OTH
+dưới	E	OTH
+da	N	OTH
+(	CH	OTH
+ban	N	B-TC
+xuất_huyết	V	I-TC
+)	CH	OTH
+
+đau_đầu	V	B-TC
+
+mệt_mỏi	A	B-TC
+hoặc	Cc	OTH
+suy_nhược	A	B-TC
+
+co_giật	V	B-TC
+hoặc	Cc	OTH
+bị	V	OTH
+ốm	V	OTH
+
+mờ	A	B-TC
+mắt	N	I-TC
+
+chóng_mặt	V	B-TC
+hoặc	Cc	OTH
+choáng_váng	A	B-TC
+
+cảm_thấy	V	B-TC
+lạnh	A	I-TC
+
+khó	A	B-TC
+thở	V	I-TC
+
+sốt	N	B-TC
+
+đau	V	B-TC
+xương	N	I-TC
+
+mệt_mỏi	A	B-TC
+
+khó	A	B-TC
+thở	V	I-TC
+
+da	N	B-TC
+nhợt_nhạt	A	I-TC
+
+nhiễm_trùng	N	B-TC
+thường_xuyên	A	I-TC
+
+dễ	N	B-TC
+bầm	A	I-TC
+tím	A	I-TC
+
+chảy_máu	V	B-TC
+bất_thường	A	I-TC
+
+ví_dụ	C	OTH
+như	C	OTH
+chảy_máu	V	B-TC
+cam	N	I-TC
+và	Cc	OTH
+chảy_máu	V	B-TC
+nướu	N	I-TC
+răng	N	I-TC
+thường_xuyên	A	I-TC
+
+các	L	OTH
+triệu_chứng	N	OTH
+thiếu	A	B-TC
+máu	N	I-TC
+như	C	OTH
+xanh_xao	A	B-TC
+,	CH	OTH
+chóng_mặt	A	B-TC
+,	CH	OTH
+mệt_mỏi	A	B-TC
+..	CH	OTH
+đây	P	OTH
+là	V	OTH
+loại	Nc	OTH
+triệu_chứng	N	OTH
+thường	R	OTH
+gặp	V	OTH
+ở	E	OTH
+bệnh_nhân	N	OTH
+mắc	V	OTH
+bệnh	N	OTH
+
+sốt	A	B-TC
+,	CH	OTH
+khó_chịu	A	B-TCTL
+
+bệnh_nhân	N	OTH
+có_thể	R	OTH
+cảm_thấy	V	OTH
+sốt	V	B-TC
+về	E	B-TG
+chịu	V	I-TG
+,	CH	OTH
+người	N	B-TC
+mệt_mỏi	A	I-TC
+và	Cc	OTH
+khó_chịu	A	B-TC
+
+sụt	V	B-TC
+cân	N	I-TC
+,	CH	OTH
+chán	V	B-TC
+ăn	V	I-TC
+
+đau_nhức	V	B-TC
+xương	N	I-TC
+khớp	N	I-TC
+,	CH	OTH
+tê	A	B-TC
+yếu	A	I-TC
+chân_tay	N	I-TC
+
+yếu	N	B-TC
+ở	E	I-TC
+chân	N	I-TC
+,	CH	OTH
+mắt_cá	N	OTH
+chân	N	OTH
+và	Cc	OTH
+bàn_chân	N	OTH
+
+giảm	V	B-TC
+lượng	N	I-TC
+cơ	N	I-TC
+ở	E	I-TC
+chân	N	I-TC
+và	Cc	OTH
+lòng	N	OTH
+bàn_chân	N	OTH
+
+vòm	N	B-TC
+bàn_chân	N	I-TC
+cao	A	I-TC
+
+ngón	V	B-TC
+chân	N	I-TC
+hình	N	I-TC
+búa	N	I-TC
+
+giảm	V	B-TC
+khả_năng	N	I-TC
+chạy	V	I-TC
+
+khó	A	B-TC
+nhấc	V	I-TC
+bàn_chân	N	I-TC
+lên	V	I-TC
+(	CH	OTH
+bàn_chân	N	B-TC
+rũ	V	I-TC
+)	CH	OTH
+
+bước_đi	N	B-TC
+trở_nên	V	I-TC
+lúng_túng	A	I-TC
+hoặc	Cc	OTH
+cao	A	OTH
+hơn	A	OTH
+bình_thường	A	OTH
+(	CH	OTH
+dáng	N	OTH
+đi	V	OTH
+)	CH	OTH
+
+thường_xuyên	A	B-TC
+vấp_ngã	V	I-TC
+
+giảm	V	B-TC
+cảm_giác	N	I-TC
+hoặc	Cc	OTH
+mất	V	B-TC
+cảm_giác	N	I-TC
+ở	E	I-TC
+chân	N	I-TC
+và	Cc	OTH
+lòng	N	OTH
+bàn_chân	N	OTH
+
+triệu_chứng	N	OTH
+thường	R	OTH
+xuất_hiện	V	OTH
+một	M	OTH
+thời_gian	N	OTH
+rồi	C	OTH
+biến	V	OTH
+mất	V	OTH
+
+tổn_thương	N	B-TC
+da	N	I-TC
+
+hầu_hết	L	OTH
+bệnh_nhân	N	OTH
+xuất_hiện	V	OTH
+những	L	OTH
+ban	N	OTH
+xuất_huyết	V	B-TC
+trên	E	I-TC
+chân	N	I-TC
+
+một	M	OTH
+số_ít	N	OTH
+có_thể	R	OTH
+bị	V	OTH
+những	L	OTH
+vết	N	OTH
+loét	V	B-TC
+trên	E	I-TC
+chân	N	I-TC
+
+đau	V	B-TC
+khớp	N	I-TC
+
+cryoglobulin	N	OTH
+huyết	N	OTH
+có_thể	R	OTH
+làm	V	OTH
+tổn_thương	V	OTH
+các	L	OTH
+dây_thần_kinh	N	OTH
+ngoại	A	OTH
+biên	N	OTH
+ở	E	OTH
+đầu	N	OTH
+ngón	N	OTH
+tay	N	OTH
+hay	C	OTH
+ngón	N	OTH
+chân	N	OTH
+
+tình_trạng	N	OTH
+này	P	OTH
+gây	V	OTH
+ra	V	OTH
+cảm_giác	N	B-TC
+tê	A	I-TC
+và	Cc	OTH
+những	L	OTH
+bất_thường	A	OTH
+khác	A	OTH
+ở	E	OTH
+đầu	N	OTH
+chi	P	OTH
+
+khó	A	B-TC
+thở	V	I-TC
+khi	N	B-TG
+gắng_sức	V	I-TG
+hoặc	Cc	OTH
+khi	N	B-TG
+nghỉ_ngơi	V	I-TG
+
+ngất_xỉu	V	B-TC
+hoặc	Cc	OTH
+choáng_váng	A	B-TC
+
+đánh_trống_ngực	V	B-TC
+(	CH	OTH
+cảm_nhận	V	OTH
+rõ	A	OTH
+nhịp	N	OTH
+đập	V	OTH
+của	E	OTH
+tim	N	OTH
+hoặc	Cc	OTH
+cảm_thấy	V	OTH
+tim	N	OTH
+đập	V	OTH
+“	N	OTH
+mạnh	A	OTH
+”	CH	OTH
+)	CH	OTH
+
+chóng_mặt	V	B-TC
+khi	N	B-TG
+ngồi	V	I-TG
+hoặc	Cc	OTH
+đứng	V	B-TG
+lên	R	I-TG
+
+mệt_mỏi	A	B-TC
+do	E	OTH
+gắng_sức	V	B-TG
+hoặc	Cc	OTH
+cảm_thấy	V	OTH
+kiệt_sức	A	B-TC
+khi	N	B-TG
+vận_động	V	I-TG
+
+phù	N	B-TC
+chân	N	I-TC
+
+biểu_hiện	V	OTH
+đầu_tiên	A	OTH
+nghi_ngờ	V	OTH
+mắc	V	OTH
+cường	V	OTH
+aldosterone	N	OTH
+nguyên_phát	A	OTH
+thường	R	OTH
+là	C	OTH
+huyết_áp_cao	N	B-TC
+
+đặc_biệt	A	OTH
+khó	A	B-TC
+kiểm_soát	V	I-TC
+huyết_áp	N	I-TC
+
+sốt	N	B-TC
+
+trẻ	N	OTH
+không	R	B-TC
+chịu	V	-TC
+bú	V	O-TC
+,	CH	OTH
+khó_khăn	A	B-TC
+khi	N	I-TC
+cho	V	I-TC
+bú	V	I-TC
+
+đờ_đẫn	A	B-TC
+,	CH	OTH
+lừ_đừ	A	B-TC
+
+khó	A	B-TC
+thở	V	I-TC
+
+trẻ	N	B-TC
+bứt_rứt	V	I-TC
+,	CH	OTH
+khó_chịu	A	B-TCTL
+
+vàng	Np	B-TC
+da	N	I-TC
+
+vàng	Np	B-TC
+da	N	I-TC
+sơ_sinh	A	I-TC
+có_thể	R	OTH
+là	V	OTH
+một	M	OTH
+biểu_hiện	N	OTH
+của	E	OTH
+nhiễm	V	OTH
+liên	Z	OTH
+cầu	N	OTH
+nhóm	N	OTH
+b.	Ny	OTH
+ở	E	OTH
+người_lớn	N	OTH
+
+chỉ	R	OTH
+một_số	L	OTH
+trường_hợp	N	OTH
+có	V	OTH
+ghi_nhận	V	OTH
+các	L	OTH
+triệu_chứng	N	OTH
+mơ_hồ	A	OTH
+như	C	OTH
+mệt_mỏi	A	B-TC
+,	CH	OTH
+đau	V	B-TC
+tức	E	I-TC
+vùng	N	I-TC
+gan	N	I-TC
+
+báng	V	B-TC
+bụng	N	I-TC
+(	CH	OTH
+có	V	OTH
+dịch	N	OTH
+tích_tụ	V	OTH
+trong	E	OTH
+bụng	N	OTH
+)	CH	OTH
+
+các	L	B-TC
+tĩnh_mạch	N	I-TC
+nổi	V	I-TC
+lên	R	I-TC
+dưới	E	I-TC
+da	N	I-TC
+(	CH	OTH
+tuần_hoàn	V	B-TC
+bàng_hệ	N	I-TC
+)	CH	OTH
+
+lách	N	B-TC
+to	A	I-TC
+
+lòng	N	B-TC
+bàn_tay_son	N	I-TC
+
+vàng	Np	B-TC
+da	N	I-TC
+,	CH	OTH
+vàng	N	B-TC
+mắt	N	I-TC
+
+lòng	N	B-TC
+bàn_tay_son	N	I-TC
+
+cái_ghẻ	N	OTH
+sẽ	R	OTH
+xâm_nhập	V	OTH
+vào	E	OTH
+da	N	OTH
+và	Cc	OTH
+gây	V	OTH
+bệnh	N	OTH
+
+trong	E	OTH
+đó	P	OTH
+triệu_chứng	N	OTH
+đặc_trưng	A	OTH
+nhất	A	OTH
+là	V	OTH
+bệnh_nhân	N	OTH
+cực_kỳ	R	B-TC
+ngứa	V	I-TC
+,	CH	OTH
+đặc_biệt	A	OTH
+là	T	OTH
+về	E	B-TG
+đêm	N	B-TG
+(	CH	OTH
+vì	E	OTH
+cái_ghẻ	N	OTH
+đào	V	OTH
+hang	N	OTH
+và	Cc	OTH
+đẻ	V	OTH
+trứng	N	OTH
+vào	E	OTH
+ban_đêm	N	OTH
+)	CH	OTH
+
+mụn	N	B-TC
+nước	N	I-TC
+rải_rác	A	I-TC
+,	CH	OTH
+riêng_rẽ	A	OTH
+ở	E	OTH
+vùng	N	OTH
+da	N	OTH
+mỏng	A	OTH
+(	CH	OTH
+như	C	OTH
+ở	E	OTH
+kẽ	N	OTH
+ngón	N	OTH
+tay	N	OTH
+,	CH	OTH
+mặt	N	OTH
+trước	E	OTH
+cổ_tay	N	OTH
+,	CH	OTH
+nếp	N	OTH
+dưới	E	OTH
+vú	N	OTH
+,	CH	OTH
+quanh	N	OTH
+thắt_lưng	N	OTH
+,	CH	OTH
+rốn	N	OTH
+,	CH	OTH
+kẽ	N	OTH
+mông	N	OTH
+,	CH	OTH
+mặt	N	OTH
+trong	E	OTH
+đùi	N	OTH
+và	Cc	OTH
+bộ_phận	N	OTH
+sinh_dục	N	OTH
+,	CH	OTH
+…	CH	OTH
+..	CH	OTH
+)	CH	OTH
+
+
+đường_hầm	N	OTH
+thường	R	OTH
+tìm	V	OTH
+thấy	V	OTH
+ở	E	OTH
+kẽ	N	OTH
+ngón	N	OTH
+tay	N	OTH
+,	CH	OTH
+đường	N	OTH
+chỉ	V	OTH
+lòng	N	OTH
+bàn_tay	N	OTH
+,	CH	OTH
+nếp	N	OTH
+gấp	V	OTH
+cổ_tay	N	OTH
+)	CH	OTH
+
+rên	E	OTH
+da	N	OTH
+có_thể	R	OTH
+có	V	OTH
+các	L	OTH
+vết	N	OTH
+xước	V	OTH
+,	CH	OTH
+vảy	V	B-TC
+da	N	I-TC
+,	CH	OTH
+đỏ	A	B-TC
+da	N	I-TC
+,	CH	OTH
+dát	V	B-TC
+thâm	A	I-TC
+
+có_thể	R	OTH
+có	V	B-TC
+mụn	N	I-TC
+mủ	N	I-TC
+,	CH	OTH
+chàm	V	B-TC
+hoá	N	I-TC
+
+thường_xuyên	A	B-TC
+đau_đầu	A	I-TC
+dữ_dội	A	I-TC
+,	CH	OTH
+đau	V	B-TC
+sau	E	I-TC
+mắt	N	I-TC
+
+thường_xuyên	A	B-TC
+đau_đầu	A	I-TC
+dữ_dội	A	I-TC
+,	CH	OTH
+đau	V	B-TC
+sau	E	I-TC
+mắt	N	I-TC
+
+nghe	V	B-TC
+thấy	V	I-TC
+tiếng	N	I-TC
+vù_vù	A	I-TC
+trong	E	I-TC
+đầu	N	I-TC
+,	CH	OTH
+đập	V	OTH
+theo	V	OTH
+mạch	N	OTH
+
+buồn_nôn	N	B-TC
+,	CH	OTH
+nôn	V	B-TC
+hoặc	Cc	OTH
+chóng_mặt	V	B-TC
+
+mất	V	B-TC
+thị_lực	N	I-TC
+
+có	V	OTH
+các	L	OTH
+giai_đoạn	N	OTH
+mù	A	B-TC
+trong	E	I-TC
+vài	L	I-TC
+giây	N	I-TC
+ở	E	OTH
+một	M	OTH
+hoặc	Cc	OTH
+hai	M	OTH
+mắt	N	OTH
+
+khó	A	B-TC
+nhìn	V	I-TC
+sang	E	OTH
+một	M	OTH
+bên	N	OTH
+
+nhìn	V	B-TC
+đôi	M	I-TC
+
+thấy	V	B-TC
+các	L	I-TC
+chớp	N	I-TC
+sáng	N	I-TC
+
+đau	N	B-TC
+cổ	A	I-TC
+,	CH	OTH
+vai	N	OTH
+và	Cc	OTH
+lưng	N	OTH
+
+bệnh	N	OTH
+huntington	Np	OTH
+thường	R	OTH
+gây	V	OTH
+ra	V	OTH
+các	L	OTH
+rối_loạn	V	B-TC
+vận_động	V	I-TC
+,	CH	OTH
+nhận_thức	V	OTH
+và	Cc	OTH
+tâm_thần	N	OTH
+với	E	OTH
+một	M	OTH
+loạt	N	OTH
+các	L	OTH
+dấu_hiệu	N	OTH
+và	Cc	OTH
+triệu_chứng	N	OTH
+
+một_số	L	OTH
+triệu_chứng	N	OTH
+xuất_hiện	V	OTH
+nhiều	A	OTH
+hơn	A	OTH
+hoặc	Cc	OTH
+có	V	OTH
+ảnh_hưởng	N	OTH
+lớn	A	OTH
+hơn	A	OTH
+đến	E	OTH
+khả_năng	N	OTH
+hoạt_động	V	OTH
+,	CH	OTH
+sinh_hoạt	V	OTH
+hàng	N	OTH
+ngày	N	OTH
+
+rối_loạn	N	B-TC
+chuyển_động	V	I-TC
+
+các	L	OTH
+vấn_đề	N	OTH
+về	E	OTH
+cơ	N	OTH
+,	CH	OTH
+chẳng_hạn	X	OTH
+như	C	OTH
+cứng	A	OTH
+hoặc	Cc	OTH
+co	V	B-TC
+rút	V	I-TC
+cơ	N	I-TC
+(	CH	OTH
+loạn	N	B-TC
+trương_lực	N	I-TC
+cơ	N	I-TC
+)	CH	OTH
+
+chuyển_động	V	B-TC
+mắt	N	I-TC
+chậm	A	I-TC
+hoặc	Cc	OTH
+bất_thường	A	OTH
+
+khiếm_khuyết	N	B-TC
+dáng	N	I-TC
+đi	V	I-TC
+,	CH	OTH
+tư_thế	N	OTH
+và	Cc	OTH
+thăng_bằng	N	OTH
+
+gặp	V	OTH
+khó_khăn	A	B-TC
+trong	E	I-TC
+vấn_đề	N	I-TC
+nói	V	OTH
+hoặc	Cc	OTH
+nuốt	V	OTH
+
+loạn	N	B-TC
+trương_lực	N	I-TC
+cơ	N	I-TC
+và	Cc	OTH
+những	L	OTH
+điều	N	OTH
+cần	V	OTH
+biết	V	OTH
