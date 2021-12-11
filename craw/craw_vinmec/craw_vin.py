@@ -103,6 +103,7 @@ def craw(url):
             if(benh["ten_benh"] != None):
                 # loại bở khoảng trống thừa
                 benh["ten_benh"]=" ".join(str(benh["ten_benh"]).split())
+                benh["ten_benh"] = benh["ten_benh"].lower()
                 # kiểm tra trùng tên bệnh
                 data_check = mycol.find_one({"ten_benh": benh["ten_benh"]})
                 
@@ -119,6 +120,7 @@ def craw(url):
                 else:
                     update_data = data_check
                     update_data = lib.update_benh(update_data,benh)
+                    
                     myquery = {"ten_benh": benh["ten_benh"]}
                     newvalues = { "$set": { 
                         "trieu_chung": update_data["trieu_chung"], 

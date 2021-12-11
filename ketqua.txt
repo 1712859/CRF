@@ -1,19 +1,22 @@
-###Rối loạn tiền đình
-chấn thương
+###rối loạn tiền đình
 chóng mặt -
 quay cuồng -
 choáng váng -
+không thể bước đi -
 dễ ngã -
+mất định hướng không gian -
 rối loạn thị giác -
+nhìn mờ -
+hoa mắt -
 nhạy cảm với ánh sáng -
 rối loạn thính giác -
 ù tai -
 nhận thức
 lo lắng quá mức -
 khó tập trung -
-giảm khả năng chú ý
+giảm khả năng chú ý -
 giảm chú ý -
-###Bệnh lao phổi
+###bệnh lao phổi
 ho -
 ho khan -
 ho có đờm -
@@ -23,18 +26,20 @@ khó thở -
 cảm lúc
 đổ mồ hôi trộm -
 sốt nhẹ -
-ớn lạnh về chiều
+ớn lạnh -
 chán ăn -
 gầy sút -
-###Tê bì tay chân
+###tê bì tay chân
 đau mỏi cổ vai gáy -
 tê kiểu châm chích -
 tay chân mất cảm giác -
 chân bị mất cảm giác -
 tê buốt lan dọc cánh tay -
+tê yếu kiểu
 chuột rút ở tay chân -
-âm ỉ bắp tay
+bị tê chân kéo dài -
 tê chân -
+bị tê chân kèm thay đổi về màu sắc
 hay quên -
 dễ nhầm lẫn -
 chóng mặt -
@@ -43,26 +48,37 @@ tê liệt -
 đau đầu dữ dội -
 khó thở -
 co giật -
-###Viêm đại tràng
+###viêm đại tràng
+viêm đại tràng cấp
 viêm đại tràng cấp tính
 đau bụng quặn từng cơn -
 sốt -
 đau bụng -
-phân có màu như máu cá -
+mất nước
+đau bụng là chủ yếu
 đau thắt bụng dưới -
 đau từng đoạn -
+đau dọc theo khung đại tràng -
 đau -
+co thắt đại tràng -
 cứng bụng -
 tiêu chảy xảy ra đột ngột
-người mệt mỏi
+phân toàn nước -
+có máu
+mệt mỏi -
 gầy sút nhanh -
+thể tiêu lỏng
+đau bụng từng lúc -
 buồn đại tiện
+ít đi vào buổi chiều
 yên ổn
 đau dọc khung đại tràng
+thể táo bón
+táo bón -
 phân khô -
 cứng
-###Cường lách
-cảm giác no sớm -
+###cường lách
+cảm giác no sớm mặc dù ăn rất ít
 cảm thấy đầy hơi -
 đau vùng hạ sườn trái -
 sốt cao -
@@ -73,34 +89,53 @@ hồi hộp -
 đánh trống ngực -
 lách to -
 dễ bị bầm tím -
+chảy máu -
 thiếu máu -
-###Chấn thương lách
+###chấn thương lách
 đau -
 đau tự nhiên
+bệnh nhân hoa mắt
 lẫn lộn -
-###Cận thị
-cận thị cao
-###Căng cơ quá mức
+###cận thị
+cận thị nặng là gì
+cận thị nhẹ gọi
+đục thuỷ tinh thể so với người bị cận thị thấp
+trung bình
+mờ
+đọc sách báo
+xem ti vi ngồi gần
+mỏi mắt -
+thường xuyên chảy nước mắt -
+dụi mắt -
+###căng cơ quá mức
 đau cơ
+mệt mỏi
 căng cơ
 đau -
+giới hạn vận động ở nhóm cơ bị ảnh hưởng
 căng cơ mức độ nặng
+bị sưng tấy -
+bầm tím -
+đau khi
+gân cơ bị yếu -
+trường hợp căng cơ nhẹ
 thiếu linh hoạt
-đau đớn cùng cực
-###Crohn
+###crohn
 tiêu chảy -
 sốt -
 mệt mỏi -
 đau bụng -
 loét miệng -
+giảm thèm ăn -
 giảm cân -
 đau gần
 viêm da -
 viêm gan -
+viêm đường ống mật -
 trẻ chậm lớn -
 có máu trong phân -
 tiêu chảy liên tục -
-sốt không rõ
+sốt không rõ nguyên nhân kéo dài
 giảm cân không rõ nguyên nhân
 tắc ruột -
 loét -
@@ -112,61 +147,78 @@ kém ăn -
 ung thư ruột kết
 thiếu máu -
 rối loạn dưỡng da -
+viêm khớp
 gan
-###Cúm
+###cúm
 cảm lạnh thông thường với sổ mũi
 đau họng -
 sốt -
+đau cơ bắp -
 ớn lạnh -
 đau đầu -
 ho khan -
 mệt mỏi -
 nghẹt mũi -
 viêm họng -
-###Chốc mép
-đóng vảy màu vàng nâu
+###chốc mép
+mụn nước xuất hiện trên da -
+đau nhẹ -
 chứa nhiều dịch -
 đau -
-###Bệnh giãn tĩnh mạch chi dưới
+vết loét sâu -
+###bệnh giãn tĩnh mạch chi dưới
+cảm giác tức nặng hai chân -
 đau bắp chân -
-tĩnh mạch nổi rõ ngoằn ngoèo dưới da
+cảm giác tê rần ở hai chi dưới
+chuột rút -
+rõ ngoằn ngoèo dưới da
 tình trạng loét da chân
 viêm tĩnh mạch -
-tĩnh mạch chân
-###Viêm xoang
+thuyên giảm chậm
+khó lành
+###viêm xoang
+nghẹt mũi -
 chảy nước mũi -
-màu vàng xanh
 sốt -
 ho -
 nặng mặt -
 đau nhức đầu vùng trán -
-###Áp xe
+giảm khả năng cảm nhận mùi -
+###áp xe
+quan sát thấy một khối phồng
 sưng nề vùng da xung quanh -
 cảm giác nóng -
 đau -
+lùng nhùng
 sốt -
 mệt mỏi -
 sốt cao -
 rét run -
 ớn lạnh -
-môi khô -
 toàn thân mệt mỏi -
 suy kiệt -
 hốc hác -
 sốt cao rét run -
-###Uốn ván
+đau tức vùng hạ sườn phải -
+###uốn ván
+co thắt cơ hàm nhẹ -
 việc co cơ mạnh
+đột ngột
 đau cơ -
 sốt -
 nhức đầu -
 bồn chồn -
 khó chịu -
 bí tiểu -
+nóng rát khi đi tiểu -
 đại tiện mất kiểm soát -
+cơ mặt bị co lại nên mặt bị nhăn
+co giật cơ mạnh
 đau đớn khắp toàn thân -
 cứng hàm -
 khó nuốt -
-###Giời leo
+ngừng thở -
+###giời leo
 xuất hiện mụn nước cấp tính
 sốt nhẹ -
 giảm thính lực một bên tai -
@@ -176,20 +228,21 @@ hoa mắt -
 ù tai -
 chảy nước mũi -
 gây ra tình trạng khô mắt
-###Co thắt thực quản
+###co thắt thực quản
 khó nuốt -
+đau -
 buồn nôn -
 cảm giác buồn nôn -
+nôn
 ợ nóng -
 ho -
 thở khò khè -
 hôi miệng -
-gây sụt cân -
-đau -
-###Chóng mặt kịch phát lành tính
+sụt cân
+###chóng mặt kịch phát lành tính
 xoay đầu nhanh
-cúi người xuống
 lăn trên giường
+chóng mặt kịch phát lành tính
 tình trạng bệnh nhẹ
 chóng mặt -
 choáng -
@@ -200,21 +253,113 @@ mắt mờ kết hợp với cảm giác chóng mặt
 buồn nôn -
 ói mửa -
 chóng mặt khác trước
+đau nhức đầu dữ dội
 sốt 38 độ c -
+cảm giác nhìn đôi
+mất thị giác -
 nghe kém -
 nói chuyện khó khăn -
 yếu cánh tay -
 mất ý thức -
+té ngã -
 tê -
 ngứa -
 đau ngực -
 nhịp tim nhanh -
 chậm
-###Cường kinh
+###cường kinh
 máu ra nhiều -
+đông thành cục
 rong kinh -
-###Cơ tim phì đại
+cường kinh
+###cơ tim phì đại
 mệt mỏi -
-đầy tâm trương
 đau ngực -
+rối loạn nhịp nhĩ
 đột ngột máu ra đại tuần hoàn
+###cơ tim
+khó thở -
+ho -
+phù chi dưới -
+mệt mỏi -
+rối loạn nhịp tim -
+tim đập bất thường -
+đau tức ngực -
+đánh trống ngực -
+chóng mặt -
+ngất xỉu -
+đột tử -
+đột quỵ -
+gây rối loạn nhịp tim
+###chấn thương sụn chêm
+thi đấu
+đầu gối sưng dần lên -
+cảm giác mất linh hoạt gối -
+có tiếng
+đầu gối đau -
+sưng
+khớp gối bị kẹt -
+cảm giác có tiếng lục cục trong khớp -
+khó khăn trong đi lại
+vận động
+khó co duỗi khớp gối -
+đau nhẹ -
+sưng khớp gối -
+sưng xuất hiện muộn
+quá tải khớp gối
+đau -
+xuất hiện sưng
+cứng khớp -
+đau khớp gối -
+sưng nhẹ khớp gối -
+###down
+mắt xếch -
+mặt dẹt -
+trông khờ khạo -
+mũi nhỏ -
+tẹt
+hình dáng tai bất thường -
+đầu ngắn -
+gáy rộng -
+phẳng
+cổ ngắn -
+miệng trề ra -
+chân
+tay ngắn -
+to bè
+cơ quan sinh dục không phát triển -
+vô sinh
+cơ và dây chằng yếu
+thiểu năng trí tuệ -
+cảm lạnh
+###đái rắt
+số lần đi tiểu nhiều -
+sốt -
+đau lưng -
+đau bên hông -
+nôn mửa -
+ớn lạnh -
+tăng cảm giác thèm ăn -
+khát nước
+mệt mỏi -
+nước tiểu có máu -
+chảy ra từ dương vật
+cảm giác muốn đi tiểu
+có cảm giác đau khi đi tiểu
+đi tiểu ra máu
+nước tiểu màu hồng
+có cảm giác đau bụng dưới
+bàng quang căng tức
+đau vùng lưng hông
+thay đổi màu sắc
+###đổ mồ hôi trộm
+giường ngủ
+đổ mồ hôi trộm
+run -
+ớn lạnh -
+sốt -
+sụt cân
+khô âm đạo -
+nóng bừng ban ngày -
+tiêu chảy -
+đau khu trú -

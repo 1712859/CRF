@@ -51,34 +51,51 @@ def catNoiDungTag(soup):
     for i in contents:
         content = {"type":"", "content":""}
         if (i.name == "h2"):
-            if(i.text in list_tieude):
+            if((i.text).replace('\n', ' ').replace('\r', '') in list_tieude):
                 if(count != 0):
                     list_noidung.append(noiDungTag)
                     noiDungTag = {"tieu_de": "" , "key":"", "noidung":[]}
-                noiDungTag["tieu_de"] = i.text
+                noiDungTag["tieu_de"] = (i.text).replace('\n', ' ').replace('\r', '')
                 count += 1
         else:
             if(i.name == "li"):
                 content["type"] = "li"
-                if(len(i.find_all("p")) != 0):
-                    content["content"] = i.text
-                    noiDungTag["noidung"].append(content)
-            if(i.name == "p"):
-                content["type"] = "p"
-                if(len(i.find_parents("li")) != 0):
-                    continue
+                if(len(i.find_all("li")) != 0):
+                    if(len(i.find_all("p")) != 0):
+                        list_a = i.find_all("p")
+                        
+                        content["type"] = "li"
+                        content["content"] = list_a[0].text
+                        noiDungTag["noidung"].append(content)
+                    else:
+                        continue
                 else:
-                    content["content"] = i.text
-                    noiDungTag["noidung"].append(content)
+                    if(len(i.find_parents("li")) != 0):
+                        content["type"] = "li1"
+                        content["content"] = (i.text).replace('\n', ' ').replace('\r', '')
+                        noiDungTag["noidung"].append(content)
+                    else:
+                        content["content"] = (i.text).replace('\n', ' ').replace('\r', '')
+                        noiDungTag["noidung"].append(content)
+            if(i.name == "p"):
+                if((i.text).replace('\n', ' ').replace('\r', '') == "Xem thêm:"):
+                    break
+                else:
+                    content["type"] = "p"
+                    if(len(i.find_parents("li")) != 0):
+                        continue
+                    else:
+                        content["content"] = (i.text).replace('\n', ' ').replace('\r', '')
+                        noiDungTag["noidung"].append(content)
             else:
                   
                 if(i.name == "h3"):
                     content["type"] = "h3"
-                    content["content"] = i.text
+                    content["content"] = (i.text).replace('\n', ' ').replace('\r', '')
                     noiDungTag["noidung"].append(content)
                 elif(i.name == "h4"):
                     content["type"] = "h4"
-                    content["content"] = i.text
+                    content["content"] = (i.text).replace('\n', ' ').replace('\r', '')
                     noiDungTag["noidung"].append(content)
     list_noidung.append(noiDungTag)
     return list_noidung
@@ -228,4 +245,17 @@ def loai_lap(data):
                     break
             if(check == False):
                 data_final.append(item)
+
+    count = 0
+    for out in data_final:
+        for out1 in data_final:
+            if(out["trieu_chung"] == out1["trieu_chung"] and out["thoi_gian"] != out1["thoi_gian"]):
+                data_final.remove(out1)
+                if(out["thoi_gian"] == ""):
+                    data_final[count]["thoi_gian"] =  out1["thoi_gian"]
+                elif(out1["thoi_gian"] == ""):
+                    data_final[count]["thoi_gian"] = out["thoi_gian"]
+                else: 
+                    data_final[count]["thoi_gian"] = out["thoi_gian"] + " , " + out1["thoi_gian"]
+        count +=1
     return data_final
