@@ -6,6 +6,11 @@ data = f.readlines()
 raed = open("C:\\Users\\WIN10\\Desktop\\CRF\\craw\\craw_vinmec\\error.data", 'r', encoding='UTF-8')
 dataero = raed.readlines()
 dataero.sort()
+raedd = open("C:\\Users\\WIN10\\Desktop\\CRF\\craw\\craw_vinmec\\error.data", 'w', encoding='UTF-8')
+for a in dataero:
+    raedd.writelines(a)
+
+
 dataerror = []
 for item in dataero:
     if(len(item)>1):
@@ -32,7 +37,7 @@ check = []
 for item in all_data:
     for item1 in all_data:
         if (len(item) >1 and len(item1) >1):
-            if(item[0] not in check):
+            # if(item[0] not in check):
                 if(item[0] == item1[0] and item[1] == item1[1]and item[2] != item1[2] and item[2] == "B-TC" and item1[2] == "OTH" ):
                     haha = 1
                     for item2 in dataerror:

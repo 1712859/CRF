@@ -124,7 +124,7 @@ def create_thongtin(i, id_web, link_web):
     return  {
     "tieu_de":i["tieu_de"],
     "noi_dung":i["noidung"], 
-    "do_uu_tien": 1, 
+    "do_uu_tien": 2, 
     "link_web": link_web, 
     "id_web": id_web ,
     "create_date": getdate(), 

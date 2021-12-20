@@ -1,25 +1,194 @@
-tôi			P
-bị			V
-đau_đầu			V
-,			CH
-ra			V
-nhiều			A
-mồ_hôi			N
-,			CH
-tim			N
-đập			V
-nhanh			A
-,			CH
-bụng			N
-cồn_cào			A
-,			CH
-đứng			V
-ngồi			V
-không			R
-yên			A
-là			V
-dấu_hiệu		N
+vào			V
+giai_đoạn		N
+sớm			A
 của			E
 bệnh			N
-nào			P
+,			CH
+bệnh			N
+thoái_hoá		V
+tinh_bột		N
+có_thể			R
+không			R
+gây			V
+ra			V
+triệu_chứng		N
+
+khi			N
+bệnh			N
+trở_nên			V
+nặng			A
+hơn			R
+,			CH
+các			L
+triệu_chứng		N
+xuất_hiện		V
+tuỳ_thuộc		V
+vào			E
+các			L
+cơ_quan			N
+bị			V
+ảnh_hưởng		V
+
+tuỳ_thuộc		V
+vào			E
+cơ_quan			N
+bị			V
+ảnh_hưởng		V
+,			CH
+sẽ			R
+có			V
+những			L
+triệu_chứng		N
+khác			A
+nhau			N
+
+tim			N
+
+đường			N
+tiêu_hoá		V
+
+khó			A
+thở			V
+
+nhịp			V
+tim			N
+nhanh			A
+,			CH
+chậm			A
+không			R
+đều			A
+
+đau			V
+ngực			N
+
+huyết_áp_thấp		N
+,			CH
+điều			N
+này			P
+có_thể			R
+gây			V
+khiến			V
+bạn			N
+chóng_mặt		A
+
+nôn			N
+ói			V
+
+tiêu_chảy		N
+
+táo_bón			N
+
+mất			V
+cảm_giác		N
+ngon_miệng		A
+
+sụt			V
+cân			N
+
+cảm_giác		N
+đầy			A
+bụng			N
+ngay			T
+sau			E
+khi			N
+ăn			V
+
+gan			Np
+
+thận			N
+
+cảm_thấy		V
+đau			V
+và			Cc
+sưng			V
+ở			E
+phần			N
+trên			N
+của			E
+bụng			N
+(			CH
+từ			E
+rốn			N
+trở			V
+lên			V
+)			CH
+
+hai			M
+chân			N
+sẽ			R
+bị			V
+sưng			V
+phù			V
+do			E
+tích_tụ			V
+dịch			N
+hoặc			Cc
+nước_tiểu		N
+có			V
+nhiều			A
+bọt			N
+vì			E
+chứa			V
+nhiều			A
+protein			N
+trong			E
+đó			P
+
+ngoài_ra		X
+còn			R
+có			V
+những			L
+triệu_chứng		N
+tổng_quát		V
+có_thể			R
+xảy			V
+ra			R
+
+chẳng_hạn		X
+như			C
+ngất			V
+,			CH
+mệt_mỏi			A
+,			CH
+đau			V
+khớp			N
+,			CH
+sưng			V
+bầm			A
+quanh			N
+mắt			N
+,			CH
+lưỡi			N
+phì			N
+đại			A
+,			CH
+…			CH
+
+hình_ảnh		N
+vết			N
+bầm			A
+quanh			N
+mắt			N
+
+nếu			C
+bạn			N
+có			V
+những			L
+triệu_chứng		N
+trên			E
+nhiều			A
+hơn			A
+một			M
+hoặc			Cc
+hai			M
+ngày			N
+,			CH
+hãy			R
+đến			V
+gặp			V
+bác_sĩ			N
+để			E
+thăm_khám		V
+và			Cc
+điều_trị		V
 

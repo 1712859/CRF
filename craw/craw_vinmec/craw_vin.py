@@ -131,7 +131,7 @@ def craw(url):
                         "doi_tuong_mac_benh": update_data["doi_tuong_mac_benh"],
                         "bien_phap_chuan_doan": update_data["bien_phap_chuan_doan"],
                         "duong_lay_truyen": update_data["duong_lay_truyen"],
-                        "tbien_chung": update_data["bien_chung"],
+                        "bien_chung": update_data["bien_chung"],
                         "update_date": lib.getdate() } }
                     mycol.update_one(myquery, newvalues)
             
