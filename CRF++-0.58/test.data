@@ -1,194 +1,196 @@
-vào			V
-giai_đoạn		N
-sớm			A
-của			E
-bệnh			N
-,			CH
-bệnh			N
-thoái_hoá		V
-tinh_bột		N
+xơ_hoá			V
+hệ_thống		N
+nguồn_gốc		N
+thận			N
 có_thể			R
-không			R
-gây			V
-ra			V
-triệu_chứng		N
-
-khi			N
-bệnh			N
-trở_nên			V
-nặng			A
-hơn			R
-,			CH
-các			L
-triệu_chứng		N
 xuất_hiện		V
-tuỳ_thuộc		V
-vào			E
-các			L
-cơ_quan			N
-bị			V
-ảnh_hưởng		V
-
-tuỳ_thuộc		V
-vào			E
-cơ_quan			N
-bị			V
-ảnh_hưởng		V
-,			CH
-sẽ			R
-có			V
-những			L
-triệu_chứng		N
-khác			A
-nhau			N
-
-tim			N
-
-đường			N
-tiêu_hoá		V
-
-khó			A
-thở			V
-
-nhịp			V
-tim			N
-nhanh			A
-,			CH
-chậm			A
-không			R
-đều			A
-
-đau			V
-ngực			N
-
-huyết_áp_thấp		N
-,			CH
-điều			N
-này			P
-có_thể			R
-gây			V
-khiến			V
-bạn			N
-chóng_mặt		A
-
-nôn			N
-ói			V
-
-tiêu_chảy		N
-
-táo_bón			N
-
-mất			V
-cảm_giác		N
-ngon_miệng		A
-
-sụt			V
-cân			N
-
-cảm_giác		N
-đầy			A
-bụng			N
-ngay			T
+từ			E
+vài			L
+ngày			N
+đến			E
+vài			L
+tháng			N
 sau			E
 khi			N
-ăn			V
+tiếp_xúc		V
+với			E
+chất			N
+cản_quang		V
+có			V
+chứa			V
+gadolinium		N
 
-gan			Np
-
-thận			N
-
-cảm_thấy		V
-đau			V
+một_số			L
+dấu_hiệu		N
 và			Cc
-sưng			V
-ở			E
-phần			N
-trên			N
+triệu_chứng		N
 của			E
-bụng			N
+bệnh			N
+xơ_hoá			V
+hệ_thống		N
+thận			N
+có_thể			R
+bao_gồm			V
+:			CH
+
+da			N
+sưng			A
+và			Cc
+căng			A
+
+da			N
+dày			A
+lên			R
+và			Cc
+cứng			A
+lại			R
+,			CH
+thường			R
+ở			E
+cánh_tay		N
+và			Cc
+chân			N
+
+đôi_khi			R
+trên			E
+thân			N
+mình			P
+và			Cc
+hầu_như			R
+không			R
+bao_giờ			P
+ở			E
+mặt			N
+hoặc			Cc
+đầu			N
+
+da_sần			N
+sùi			A
+,			CH
+xuất_hiện		V
+màu			N
+vỏ			N
+cam			N
+và			Cc
+sạm			A
+đen			A
 (			CH
-từ			E
-rốn			N
-trở			V
-lên			V
+thừa			V
+sắc_tố			N
 )			CH
 
-hai			M
-chân			N
-sẽ			R
-bị			V
-sưng			V
-phù			V
-do			E
-tích_tụ			V
-dịch			N
+rát			V
+,			CH
+ngứa			V
 hoặc			Cc
-nước_tiểu		N
-có			V
-nhiều			A
-bọt			N
-vì			E
-chứa			V
-nhiều			A
-protein			N
-trong			E
-đó			P
-
-ngoài_ra		X
-còn			R
-có			V
-những			L
-triệu_chứng		N
-tổng_quát		V
-có_thể			R
-xảy			V
-ra			R
-
-chẳng_hạn		X
-như			C
-ngất			V
-,			CH
-mệt_mỏi			A
-,			CH
 đau			V
+dữ_dội			A
+ở			E
+các			L
+vùng			N
+da			N
+bị			V
+ảnh_hưởng		V
+
+da			N
+dày			A
+lên			R
+gây			V
+ức_chế			V
+vận_động		V
+,			CH
+dẫn			V
+đến			E
+mất			V
+tính			N
+linh_hoạt		A
+của			E
 khớp			N
-,			CH
-sưng			V
-bầm			A
-quanh			N
-mắt			N
-,			CH
-lưỡi			N
-phì			N
-đại			A
-,			CH
-…			CH
 
-hình_ảnh		N
-vết			N
-bầm			A
-quanh			N
-mắt			N
-
-nếu			C
-bạn			N
+hiếm			V
+khi			N
 có			V
-những			L
-triệu_chứng		N
-trên			E
-nhiều			A
-hơn			A
-một			M
+mụn			N
+nước			N
 hoặc			Cc
-hai			M
-ngày			N
+vết			N
+loét			V
+
+ở			E
+một_số			L
+người			N
 ,			CH
-hãy			R
-đến			V
-gặp			V
-bác_sĩ			N
-để			E
-thăm_khám		V
+các			L
+cơ			N
 và			Cc
-điều_trị		V
+các			L
+cơ_quan			N
+khác			A
+trong			E
+cơ_thể			N
+có_thể			R
+bị			V
+ảnh_hưởng		V
+,			CH
+gây			V
+ra			R
+:			CH
+
+yếu			N
+cơ			N
+
+giới_hạn		N
+cử_động			N
+khớp			N
+do			E
+căng			V
+cơ			N
+(			CH
+co			V
+cứng			A
+)			CH
+ở			E
+cánh_tay		N
+,			CH
+bàn_tay			N
+,			CH
+chân			N
+và			Cc
+bàn_chân		N
+
+đau			V
+xương			N
+
+giảm			V
+chức_năng		N
+cơ_quan			N
+nội_tạng		N
+
+bao_gồm			V
+tim			N
+,			CH
+phổi			N
+,			CH
+cơ_hoành		N
+,			CH
+đường			N
+tiêu_hoá		V
+,			CH
+gan			N
+
+xuất_hiện		V
+các			L
+mảng			N
+màu			N
+vàng			A
+trên			E
+bề_mặt			N
+tròng_trắng		A
+của			E
+mắt			N
+
+các			L
+cục			Nc
+máu			N
+đông			A
 

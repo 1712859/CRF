@@ -8,11 +8,11 @@ import lib
 
 myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
-mydb = myclient["db_benh"]
-mycol = mydb["benhs"]
+mydb = myclient["HealthyAssistant"]
+mycol = mydb["Benh"]
 
 # tạo webcraw vào DB
-web = mydb["webs"]
+web = mydb["Web"]
 web_vinmec = {"name":"Vinmec.com", "link_web_craw":"https://www.vinmec.com/vi/benh/", "uu_tien": 2,"create_date": lib.getdate(), "update_date":lib.getdate(), "status": 1}
 webcraw = web.find_one({"name": "Vinmec.com"})
 if (webcraw == None):
@@ -24,11 +24,9 @@ else:
 
 link_web_craw = web_vinmec["link_web_craw"]
 
-
-
 def craw(url):
     list_benh = lib.get_link_benh(url)
-    link_craw = mydb["link_craw"]
+    link_craw = mydb["Link_crawl"]
     for item in list_benh:
         linkcraw = link_craw.find_one({"link": item})
         if (linkcraw == None):
@@ -112,7 +110,7 @@ def craw(url):
 
                 if(data_check == None):
                     resporn_benh = mycol.insert_one(benh)
-                    noi_dung_khacs = mydb["noi_dung_khacs"]
+                    noi_dung_khacs = mydb["Thong_tin_y_te_khac"]
                     id_benh = resporn_benh.inserted_id
                     for i in noi_dung_khac:
                         i["id_benh"] = id_benh

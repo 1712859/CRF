@@ -11,8 +11,8 @@ API_ENDPOINT = "http://127.0.0.1:8000/crf_get_trieu_chung"
 
 myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
-mydb = myclient["db_benh"]
-mycol = mydb["benhs"]
+mydb = myclient["HealthyAssistant"]
+mycol = mydb["Benh"]
 datas = mycol.find()
 for itemp in datas:
     print(itemp["ten_benh"])

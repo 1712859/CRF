@@ -3,10 +3,10 @@ annotator = VnCoreNLP(address="http://127.0.0.1", port=9001)
 
 # đường đẫn đến file rawdata (dữ liệu chưa tách từ)
 # bắt buộc tạo file trước
-file_data_raw ="C:\\Users\\WIN10\\Desktop\\crf\\data\\4\\rawdata.txt"
+file_data_raw ="C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\data\\4\\rawdata.txt"
 
 # đường đã đến file trả kết quả (gẫn đến thư mục của thuận toán CRF++-0.58)
-file_out_khong_tag = "C:\\Users\\WIN10\\Desktop\\crf\\data\\4\\train1.data"
+file_out_khong_tag = "C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\data\\4\\train1.data"
 
 def themdauchamcau(ten_file):
     f = open(ten_file, 'r', encoding='UTF-8')

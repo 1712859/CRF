@@ -83,6 +83,12 @@ def getTrieuChungBenh(ten_file_du_lieu):
     output.append(temp)     
     return output            
 
+# @app.get("/run")
+# async def root():
+#     os.chdir(dir)
+#     os.system("wt new-tab \"cmd\" `; split-pane -p \"Windows PowerShell\" `; split-pane -H wsl.exe && cd ..\\vncorenlp && java -Xmx2g -jar VnCoreNLPServer.jar VnCoreNLP-1.1.jar -p 9001 -a \"wseg,pos,parse\" ")
+#     return {"message":"Thành công"}
+
 
 @app.post("/crf_get_trieu_chung/")
 async def root(item: Item):
@@ -106,8 +112,3 @@ async def root(item: Item):
         return {"message":"Không tìm thấy triệu chứng", "data": data_benh}
     return {"message":"Thành công", "data": data_benh}
 
-@app.get("/run")
-async def root():
-    os.chdir(dir)
-    os.system("cd ..\\vncorenlp && java -Xmx2g -jar VnCoreNLPServer.jar VnCoreNLP-1.1.jar -p 9001 -a \"wseg,pos,parse\" ")
-    return {"message":"Thành công"}

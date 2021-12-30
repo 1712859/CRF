@@ -1,9 +1,11 @@
 ###rối loạn tiền đình
+chấn thương
 chóng mặt -
 quay cuồng -
 choáng váng -
 không thể bước đi -
 dễ ngã -
+mất cân bằng
 mất định hướng không gian -
 rối loạn thị giác -
 nhìn mờ -
@@ -16,6 +18,22 @@ lo lắng quá mức -
 khó tập trung -
 giảm khả năng chú ý -
 giảm chú ý -
+https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2019/03/photo-1-1541061463355270639122-300x168.jpg
+khó giữ được thăng bằng
+buồn nôn
+nôn
+nhịp tim nhanh
+nhịp thở nhanh
+đánh trống ngực
+đau đầu
+tê
+mất cảm giác ở tay
+nhạy cảm
+dễ nổi cáu
+tự ti
+trầm cảm
+suy yếu
+mệt mỏi
 ###bệnh lao phổi
 ho -
 ho khan -
@@ -33,10 +51,12 @@ gầy sút -
 đau mỏi cổ vai gáy -
 tê kiểu châm chích -
 tay chân mất cảm giác -
+tê kéo dài
 chân bị mất cảm giác -
 tê buốt lan dọc cánh tay -
-tê yếu kiểu
+tê yếu kiểu trung ương kèm theo thay đổi cảm giác
 chuột rút ở tay chân -
+co thắt cơ đột ngột gây đau nhức âm ỉ bắp tay
 bị tê chân kéo dài -
 tê chân -
 bị tê chân kèm thay đổi về màu sắc
@@ -48,12 +68,51 @@ tê liệt -
 đau đầu dữ dội -
 khó thở -
 co giật -
+cảm giác tê rần ở các đầu chi
+dễ thấy nhất là ngón tay
+cảm giác châm chích
+giảm cảm giác nhận biết thông thường
+yếu cơ
+mất thăng bằng
+đau nhức cơ thể
+thay đổi màu sắc da vùng tê bì
+tím đỏ
+tri giác lẫn lộn
+mất đi sự minh mẫn bình thường
+có thật sự nguy hiểm
+lao động nhiều
+đau nhức tay chân
+viêm dây thần kinh
+nhiễm trùng
+nhiễm siêu vi
+sốt
+đau khớp
+chuyển hoá
+gout
+tê bì
+https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2020/03/te-bi-tay-chan3-300x240.jpg
+xơ vữa mạch máu
+hẹp động mạch
+dị dạng động mạch
+thiếu hụt vi chất
+https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2020/03/te-bi-tay-chan1-300x175.jpg
+đáng sợ
+thay đổi thời tiết
+căng thẳng
+lo âu
+cãi vã
+tư thế ngủ
+học tập
+mang quần áo
+dày dép quá chật
+xử lý kịp thời
 ###viêm đại tràng
-viêm đại tràng cấp
 viêm đại tràng cấp tính
 đau bụng quặn từng cơn -
+viêm đại tràng cấp
 sốt -
 đau bụng -
+phân có màu
 mất nước
 đau bụng là chủ yếu
 đau thắt bụng dưới -
@@ -64,19 +123,32 @@ co thắt đại tràng -
 cứng bụng -
 tiêu chảy xảy ra đột ngột
 phân toàn nước -
-có máu
+nhầy
 mệt mỏi -
 gầy sút nhanh -
 thể tiêu lỏng
 đau bụng từng lúc -
 buồn đại tiện
-ít đi vào buổi chiều
 yên ổn
 đau dọc khung đại tràng
 thể táo bón
 táo bón -
 phân khô -
 cứng
+tiêu chảy -
+tiêu chảy phân nhày máu
+đau vùng trực tràng
+đi cầu ra máu
+cảm giác muốn đi tiêu gấp
+cảm giác rất muốn đi tiêu
+sụt cân
+viêm loét trực tràng
+viêm trực tràng
+đau quặn bụng
+mót rặn
+viêm đại tràng
+đau quăn bụng trái
+tiêu chảy ồ ạt
 ###cường lách
 cảm giác no sớm mặc dù ăn rất ít
 cảm thấy đầy hơi -
@@ -94,7 +166,6 @@ thiếu máu -
 ###chấn thương lách
 đau -
 đau tự nhiên
-bệnh nhân hoa mắt
 lẫn lộn -
 ###cận thị
 cận thị nặng là gì
@@ -102,17 +173,22 @@ cận thị nhẹ gọi
 đục thuỷ tinh thể so với người bị cận thị thấp
 trung bình
 mờ
+nhoè
 đọc sách báo
 xem ti vi ngồi gần
-mỏi mắt -
 thường xuyên chảy nước mắt -
 dụi mắt -
+mỏi mắt -
+xem tivi
+nheo mắt
+tầm nhìn xa bị hạn chế
+khó nhìn các vật ở xa
+https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2021/05/tang-do-nhanh.jpg
 ###căng cơ quá mức
 đau cơ
 mệt mỏi
-căng cơ
 đau -
-giới hạn vận động ở nhóm cơ bị ảnh hưởng
+căng cơ
 căng cơ mức độ nặng
 bị sưng tấy -
 bầm tím -
@@ -120,11 +196,13 @@ bầm tím -
 gân cơ bị yếu -
 trường hợp căng cơ nhẹ
 thiếu linh hoạt
+đau đớn cùng cực
 ###crohn
 tiêu chảy -
 sốt -
 mệt mỏi -
 đau bụng -
+chuột rút -
 loét miệng -
 giảm thèm ăn -
 giảm cân -
@@ -133,7 +211,7 @@ viêm da -
 viêm gan -
 viêm đường ống mật -
 trẻ chậm lớn -
-có máu trong phân -
+máu trong phân
 tiêu chảy liên tục -
 sốt không rõ nguyên nhân kéo dài
 giảm cân không rõ nguyên nhân
@@ -148,11 +226,15 @@ ung thư ruột kết
 thiếu máu -
 rối loạn dưỡng da -
 viêm khớp
-gan
+thường xuyên tiêu chảy tái lại
+đau quặn bụng
+giảm ăn ngon
+sụt cân
+chậm tăng trưởng
 ###cúm
 cảm lạnh thông thường với sổ mũi
 đau họng -
-sốt -
+sốt trên 38 độ c
 đau cơ bắp -
 ớn lạnh -
 đau đầu -
@@ -162,28 +244,41 @@ nghẹt mũi -
 viêm họng -
 ###chốc mép
 mụn nước xuất hiện trên da -
+dễ vỡ
 đau nhẹ -
 chứa nhiều dịch -
 đau -
 vết loét sâu -
 ###bệnh giãn tĩnh mạch chi dưới
 cảm giác tức nặng hai chân -
+phù chân -
 đau bắp chân -
 cảm giác tê rần ở hai chi dưới
 chuột rút -
-rõ ngoằn ngoèo dưới da
+tĩnh mạch nổi rõ ngoằn ngoèo dưới da
 tình trạng loét da chân
 viêm tĩnh mạch -
 thuyên giảm chậm
 khó lành
+giãn tĩnh mạch chân
 ###viêm xoang
-nghẹt mũi -
 chảy nước mũi -
 sốt -
 ho -
 nặng mặt -
 đau nhức đầu vùng trán -
 giảm khả năng cảm nhận mùi -
+nghẹt mũi -
+đau đầu
+đau vùng mặt
+sưng nề vùng mặt
+viêm mũi xoang
+chảy nước mũi xanh
+nhiễm trùng
+đau ở trán
+đau răng
+cảm giác đau
+không ngửi được mùi
 ###áp xe
 quan sát thấy một khối phồng
 sưng nề vùng da xung quanh -
@@ -201,7 +296,6 @@ hốc hác -
 sốt cao rét run -
 đau tức vùng hạ sườn phải -
 ###uốn ván
-co thắt cơ hàm nhẹ -
 việc co cơ mạnh
 đột ngột
 đau cơ -
@@ -212,13 +306,25 @@ khó chịu -
 bí tiểu -
 nóng rát khi đi tiểu -
 đại tiện mất kiểm soát -
-cơ mặt bị co lại nên mặt bị nhăn
 co giật cơ mạnh
 đau đớn khắp toàn thân -
 cứng hàm -
 khó nuốt -
+co giật dữ dội
 ngừng thở -
+khó thở
+cảm thấy khó chịu
+đổ mồ hôi
+nóng
+nhịp tim nhanh hơn bình thường
+nhịp tim không đều
+đau đớn kinh khủng
+nắm chặt tay
+lưng cong
+chân duỗi ra
+cánh tay di chuyển qua lại
 ###giời leo
+đau rát
 xuất hiện mụn nước cấp tính
 sốt nhẹ -
 giảm thính lực một bên tai -
@@ -227,13 +333,13 @@ chóng mặt -
 hoa mắt -
 ù tai -
 chảy nước mũi -
-gây ra tình trạng khô mắt
+khô mắt -
 ###co thắt thực quản
 khó nuốt -
 đau -
 buồn nôn -
 cảm giác buồn nôn -
-nôn
+đẩy thức ăn ngược
 ợ nóng -
 ho -
 thở khò khè -
@@ -241,9 +347,11 @@ hôi miệng -
 sụt cân
 ###chóng mặt kịch phát lành tính
 xoay đầu nhanh
+cúi người xuống
 lăn trên giường
 chóng mặt kịch phát lành tính
 tình trạng bệnh nhẹ
+khó chịu
 chóng mặt -
 choáng -
 đứng không vững -
@@ -274,11 +382,10 @@ rong kinh -
 cường kinh
 ###cơ tim phì đại
 mệt mỏi -
+đầy tâm trương
 đau ngực -
-rối loạn nhịp nhĩ
 đột ngột máu ra đại tuần hoàn
 ###cơ tim
-khó thở -
 ho -
 phù chi dưới -
 mệt mỏi -
@@ -291,26 +398,39 @@ ngất xỉu -
 đột tử -
 đột quỵ -
 gây rối loạn nhịp tim
+khó nhận biết
+https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2020/05/benh-co-tim11.jpg
+rối loạn nhịp
+khó thở -
+giảm khả năng hoạt dòng thể lực
+phù
+phù tay chân
+đau thắt ngực
+hồi hộp
+cảm giác tim đập không đều
+tăng cân
+đột ngột ngất không rõ nguyên nhân
 ###chấn thương sụn chêm
 thi đấu
 đầu gối sưng dần lên -
+vận động khó khăn -
 cảm giác mất linh hoạt gối -
 có tiếng
 đầu gối đau -
 sưng
 khớp gối bị kẹt -
-cảm giác có tiếng lục cục trong khớp -
 khó khăn trong đi lại
 vận động
 khó co duỗi khớp gối -
-đau nhẹ -
+cảm giác đau nhẹ
 sưng khớp gối -
+trung tâm khớp gối
 sưng xuất hiện muộn
 quá tải khớp gối
-đau -
 xuất hiện sưng
 cứng khớp -
 đau khớp gối -
+đau -
 sưng nhẹ khớp gối -
 ###down
 mắt xếch -
@@ -323,13 +443,13 @@ hình dáng tai bất thường -
 gáy rộng -
 phẳng
 cổ ngắn -
+vai tròn -
 miệng trề ra -
+lưỡi dày thè ra ngoài -
 chân
 tay ngắn -
 to bè
-cơ quan sinh dục không phát triển -
 vô sinh
-cơ và dây chằng yếu
 thiểu năng trí tuệ -
 cảm lạnh
 ###đái rắt
@@ -345,13 +465,23 @@ mệt mỏi -
 nước tiểu có máu -
 chảy ra từ dương vật
 cảm giác muốn đi tiểu
-có cảm giác đau khi đi tiểu
+cảm giác đau khi đi tiểu
 đi tiểu ra máu
 nước tiểu màu hồng
-có cảm giác đau bụng dưới
-bàng quang căng tức
+cảm giác đau bụng dưới
 đau vùng lưng hông
 thay đổi màu sắc
+sút cân
+đi tiểu nhiều lần trong ngày
+đau
+khó chịu
+đục
+có màu bất thường
+mất dần khả năng kiểm soát bàng quang
+tiểu khó
+tăng cảm giác muốn đi tiểu
+cảm giác khát nước
+buồn nôn
 ###đổ mồ hôi trộm
 giường ngủ
 đổ mồ hôi trộm
@@ -361,5 +491,8 @@ sốt -
 sụt cân
 khô âm đạo -
 nóng bừng ban ngày -
+ho -
 tiêu chảy -
 đau khu trú -
+chăn giường
+sụt cân không rõ nguyên nhân
