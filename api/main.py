@@ -16,7 +16,7 @@ file_out_khong_tag = "test.data"
 # đường đẫn từ thư mục của thuật toán CRF++-0.58 lưu file output.data
 ten_file_du_lieu1 = "output.data"
 # thư mục chưa code thuật toán crf
-dir = "C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\CRF++-0.58\\"
+dir = "..\\CRF++-0.58\\"
 
 class Item(BaseModel):
     noi_dung: str
@@ -108,5 +108,4 @@ async def root(item: Item):
     if(len(data_benh) == 0):
         return {"message":"Không tìm thấy triệu chứng", "data": data_benh}
     return {"message":"Thành công", "data": data_benh}
-
 
