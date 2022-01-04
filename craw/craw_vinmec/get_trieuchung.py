@@ -4,15 +4,17 @@ import json
 import pymongo
 import lib
 
+
 # defining the api-endpoint 
 API_ENDPOINT = "http://127.0.0.1:8000/crf_get_trieu_chung"
 
 # myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
-myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/HealthAssistant?retryWrites=true&w=majority")
 
-mydb = myclient["HealthyAssistant"]
+mydb = myclient["HealthAssistant"]
 mycol = mydb["Benh"]
+trieuChung = mydb["TrieuChung"]
 datas = mycol.find()
 for itemp in datas:
     print(itemp["ten_benh"])
@@ -20,11 +22,11 @@ for itemp in datas:
     raw = []                      
     max = 0
     for item in itemp["trieu_chung"]:
-        # if (max < item["do_uu_tien"]):
-        #     max = item["do_uu_tien"]
-        #     raw = item["noi_dung"]
-        for items in item["noi_dung"]:
-            trieu_chung = trieu_chung + " \n " + items["content"]
+        if (max < item["do_uu_tien"]):
+            max = item["do_uu_tien"]
+            raw = item["noi_dung"]
+    for items in raw:
+        trieu_chung = trieu_chung + " \n " + items["content"]
     if(trieu_chung != ""):
         input = { "noi_dung" : trieu_chung }
         data = json.dumps(input)
@@ -40,6 +42,14 @@ for itemp in datas:
         myquery = {"ten_benh": itemp["ten_benh"]}
         newvalues = { "$set": { "danh_sach_trieu_chung" : output_final}}
         mycol.update_one(myquery, newvalues)
+
+        for a in output_final:
+            out = trieuChung.find_one({"trieu_chung": a["trieu_chung"]})
+            if( out == None):
+                tt = {"trieu_chung": a["trieu_chung"]}
+                put = trieuChung.insert_one(tt)
+
+
 
 
 

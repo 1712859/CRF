@@ -1,17 +1,24 @@
 from vncorenlp import VnCoreNLP
-annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
+# annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
+annotator =  VnCoreNLP("./vncorenlp/VnCoreNLP-1.1.jar", annotators="wseg,pos,ner,parse", max_heap_size='-Xmx2g') 
+
 import numpy as np
 import os
+# from python_vncorenlp import install, Pipeline
 
+# install('-Xmx2g')
+
+# pipeline = Pipeline()
+# pipeline.load_model()
 
 # đường đẫn đến file rawdata
-file_data_raw ="C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\rawdata.txt"
+file_data_raw ="c:\\Users\\rivoco\\Desktop\\CRF\\rawdata.txt"
 
 # đường đã đến file trả kết quả (gẫn đến thư mục của thuận toán CRF++-0.58)
-file_out_khong_tag1 = "C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\CRF++-0.58\\test.data"
+file_out_khong_tag1 = "c:\\Users\\rivoco\\Desktop\\CRF\\CRF++-0.58\\test.data"
 
 # đường đẫn từ thư mục của thuật toán CRF++-0.58 lưu file output.data
-ten_file_du_lieu1 = "C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\CRF++-0.58\\output.data"
+ten_file_du_lieu1 = "c:\\Users\\rivoco\\Desktop\\CRF\\CRF++-0.58\\output.data"
 
 def themdauchamcau(ten_file):
     f = open(ten_file, 'r', encoding='UTF-8')
@@ -91,8 +98,8 @@ themdauchamcau(file_data_raw)
 
 tao_file_dư_lieu3(file_data_raw, file_out_khong_tag1)
 
-# os.system('cmd /k "cd C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\CRF++-0.58 && crf_test -m model test.data > output.data && cd C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf && python c:/Users/WIN10/Desktop/crf/gettrieuchung.py"')
-os.system("cd C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\CRF++-0.58 && crf_learn.exe template train_1.data model1 && crf_test -m model1 test.data > output.data && cd C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf ")
+# os.system('cmd /k "cd c:\\Users\\rivoco\\Desktop\\CRF\\CRF++-0.58 && crf_test -m model test.data > output.data && cd c:\\Users\\rivoco\\Desktop\\CRF && python c:/Users/WIN10/Desktop/crf/gettrieuchung.py"')
+os.system("cd c:\\Users\\rivoco\\Desktop\\CRF\\CRF++-0.58 && crf_learn.exe template train_1.data model1 && crf_test -m model1 test.data > output.data && cd c:\\Users\\rivoco\\Desktop\\CRF ")
 
 data1 = getTrieuChungBenh1(ten_file_du_lieu1)
 print("tách từng từ: "+ str(len(data1)) + "\n")

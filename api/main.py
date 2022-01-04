@@ -3,7 +3,8 @@ from fastapi import FastAPI
 from fastapi import HTTPException
 from pydantic import BaseModel
 from vncorenlp import VnCoreNLP
-annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
+# annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
+annotator =  VnCoreNLP("../vncorenlp/VnCoreNLP-1.1.jar", annotators="wseg,pos,ner,parse", max_heap_size='-Xmx2g') 
 import os
 import numpy as np
 app = FastAPI()
@@ -13,7 +14,7 @@ file_out_khong_tag = "test.data"
 # đường đẫn từ thư mục của thuật toán CRF++-0.58 lưu file output.data
 ten_file_du_lieu1 = "output.data"
 # thư mục chưa code thuật toán crf
-dir = "C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\crf\\CRF++-0.58\\"
+dir = "..\\CRF++-0.58\\"
 
 class Item(BaseModel):
     noi_dung: str
@@ -106,8 +107,3 @@ async def root(item: Item):
         return {"message":"Không tìm thấy triệu chứng", "data": data_benh}
     return {"message":"Thành công", "data": data_benh}
 
-@app.get("/run")
-async def root():
-    os.chdir(dir)
-    os.system("cd ..\\vncorenlp && java -Xmx2g -jar VnCoreNLPServer.jar VnCoreNLP-1.1.jar -p 9001 -a \"wseg,pos,parse\" ")
-    return {"message":"Thành công"}
