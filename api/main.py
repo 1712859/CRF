@@ -3,10 +3,13 @@ from fastapi import FastAPI
 from fastapi import HTTPException
 from pydantic import BaseModel
 from vncorenlp import VnCoreNLP
+
 annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
 import os
 import numpy as np
 app = FastAPI()
+
+
 
 # đường đã đến file trả kết quả (gẫn đến thư mục của thuận toán CRF++-0.58)
 file_out_khong_tag = "test.data"
@@ -106,8 +109,4 @@ async def root(item: Item):
         return {"message":"Không tìm thấy triệu chứng", "data": data_benh}
     return {"message":"Thành công", "data": data_benh}
 
-@app.get("/run")
-async def root():
-    os.chdir(dir)
-    os.system("cd ..\\vncorenlp && java -Xmx2g -jar VnCoreNLPServer.jar VnCoreNLP-1.1.jar -p 9001 -a \"wseg,pos,parse\" ")
-    return {"message":"Thành công"}
+
