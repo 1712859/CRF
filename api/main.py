@@ -3,23 +3,82 @@ from fastapi import FastAPI
 from fastapi import HTTPException
 from pydantic import BaseModel
 from vncorenlp import VnCoreNLP
+import numpy as np
+import pandas as pd
+from sklearn.neighbors import KNeighborsClassifier
+from typing import Optional
 
+import spacy
+nlp = spacy.load('vi_core_news_lg')
+
+import nltk, string
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+nltk.download('punkt') # if necessary...
+
+import time
 annotator = VnCoreNLP(address="http://127.0.0.1", port=9001) 
 import os
 import numpy as np
 app = FastAPI()
 
-
-
 # đường đã đến file trả kết quả (gẫn đến thư mục của thuận toán CRF++-0.58)
-file_out_khong_tag = "test.data"
+file_out_khong_tag = "test1.data"
 # đường đẫn từ thư mục của thuật toán CRF++-0.58 lưu file output.data
-ten_file_du_lieu1 = "output.data"
+ten_file_du_lieu1 = "output1.data"
 # thư mục chưa code thuật toán crf
 dir = "..\\CRF++-0.58\\"
 
 class Item(BaseModel):
     noi_dung: str
+
+
+# KNN
+df = pd.read_csv('./data.csv')
+X_train = df.drop(columns='Labels')
+X_train = X_train.drop(X_train.columns[np.isnan(X_train).any()], axis=1)
+y_train = df.Labels
+b = []
+a = X_train.values
+for a in X_train.values:
+    b.append(a.astype("int")) 
+
+
+neigh = KNeighborsClassifier(n_neighbors=10, metric='manhattan')
+neigh.fit(X_train, y_train)
+# KNN
+
+# so sanh
+stemmer = nltk.stem.porter.PorterStemmer()
+remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+
+def stem_tokens(tokens):
+    return [stemmer.stem(item) for item in tokens]
+
+'''remove punctuation, lowercase, stem'''
+def normalize(text):
+    return stem_tokens(nltk.word_tokenize(text.lower().translate(remove_punctuation_map)))
+
+vectorizer = TfidfVectorizer(tokenizer=normalize)
+ 
+def cosine_sim(text1, text2):
+    tfidf = vectorizer.fit_transform([text1, text2])
+    return ((tfidf * tfidf.T).A)[0,1]
+
+def bo_stopword(a):
+    temp =  nlp(a)
+    out = ""
+    count = 1
+    for i in temp:
+        if (i.is_stop == False):
+            if(count == 1):
+                out += i.text
+            else:
+                out += " " + (i.text).replace("_", " ")
+            count += 1
+    return out
+# so sanh
+
 
 def themdauchamcau(list_):
         data = ""
@@ -86,10 +145,9 @@ def getTrieuChungBenh(ten_file_du_lieu):
     output.append(temp)     
     return output            
 
-
 @app.post("/crf_get_trieu_chung/")
 async def root(item: Item):
-
+    time.sleep(1)
     du_lieu_input = item.noi_dung
     if (du_lieu_input == ""):
         
@@ -102,10 +160,48 @@ async def root(item: Item):
     tao_file_du_lieu(data_out)
 
     os.chdir(dir)
-    os.system("crf_test -m model1 test.data > output.data")
+    os.system("crf_test -m model1 test1.data > output1.data")
 
     data_benh = getTrieuChungBenh(dir + ten_file_du_lieu1 )
+
     if(len(data_benh) == 0):
         return {"message":"Không tìm thấy triệu chứng", "data": data_benh}
     return {"message":"Thành công", "data": data_benh}
 
+@app.post("/knn_get_ill/")
+async def root(item: Item):
+    du_lieu_input = []
+    du_lieu_input = item.noi_dung
+    
+    row = du_lieu_input.split(", ")
+    for i in row:
+        if(i == ""):
+            row .remove(i)
+    X_input = np.array([1 if col in row else 0 for col in X_train.columns.to_list()]).reshape(1, -1)
+    pred = []
+    pred.append(y_train[neigh.kneighbors(X_input, return_distance=False)[0]])
+    output = []
+    for key, value in pred[0].items():
+        output.append(value)
+
+    return {"message":"Thành công", "data": output, "data1": row  }
+
+@app.get("/sosanh/")
+async def root(noidung1: Optional[str] = None, noidung2: Optional[str] = None):
+    noidung1 = bo_stopword(noidung1.lower())
+    data = noidung2.split(" , ")
+    max = 0
+    out = ""
+    for i in data:
+        if(len(i) > 1):
+            a = cosine_sim(noidung1,bo_stopword(i.lower()))
+            if(max < a):
+                max = a
+                out = i
+    return {"phan_tram" : round(max, 3), "content": out }
+
+@app.get("/stopword/")
+async def root(content: Optional[str] = None):
+    print(content)
+    noidung1 = bo_stopword(content.lower())
+    return {"content": noidung1  }

@@ -25,6 +25,6 @@ for a in datas:
     temp = {'value': '', 'synonyms': []}
 
 
-file = open("c:\\Users\\rivoco\\Desktop\\CRF\\craw\\trieu_chung.json", mode='w', encoding="utf-8" )
+file = open(".\\craw\\trieu_chung.json", mode='w', encoding="utf-8" )
 
 file.writelines(str(data))

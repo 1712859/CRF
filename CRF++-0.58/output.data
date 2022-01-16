@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 tôi	P	OTH
 bị	V	OTH
 đau_đầu	A	B-TC
@@ -12,50 +11,6 @@ sổ_mũi	N	OTH
 ,	CH	OTH
 hay	C	B-TC
 quên	V	I-TC
-=======
-xơ_hoá	V	OTH
-hệ_thống	N	OTH
-nguồn_gốc	N	OTH
-thận	N	OTH
-có_thể	R	OTH
-xuất_hiện	V	OTH
-từ	E	OTH
-vài	L	OTH
-ngày	N	OTH
-đến	E	OTH
-vài	L	OTH
-tháng	N	OTH
-sau	E	OTH
-khi	N	OTH
-tiếp_xúc	V	OTH
-với	E	OTH
-chất	N	OTH
-cản_quang	V	OTH
-có	V	OTH
-chứa	V	OTH
-gadolinium	N	OTH
-
-một_số	L	OTH
-dấu_hiệu	N	OTH
-và	Cc	OTH
-triệu_chứng	N	OTH
-của	E	OTH
-bệnh	N	OTH
-xơ_hoá	V	OTH
-hệ_thống	N	OTH
-thận	N	OTH
-có_thể	R	OTH
-bao_gồm	V	OTH
-:	CH	OTH
-
-đau_đầu	V	B-TC
-
-đau	V	B-TC
-vai	N	I-TC
-
-đau	V	B-TC
-bụng	N	I-TC
 ,	CH	OTH
-sốt	V	B-TC
->>>>>>> 4a533bfd4d77d6537d6315dbc003d8400e7bff80
+mua	V	B-TC
 

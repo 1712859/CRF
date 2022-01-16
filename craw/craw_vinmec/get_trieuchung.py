@@ -16,18 +16,17 @@ mydb = myclient["HealthAssistant"]
 mycol = mydb["Benh"]
 trieuChung = mydb["TrieuChung"]
 datas = mycol.find()
+intt = 0
 for itemp in datas:
-    print(itemp["ten_benh"])
+    print(itemp["ten_benh"] + " "+ str(intt) )
+    intt += 1
     trieu_chung = ""
     raw = []                      
     max = 0
     for item in itemp["trieu_chung"]:
-        if (max < item["do_uu_tien"]):
-            max = item["do_uu_tien"]
-            raw = item["noi_dung"]
-    for items in raw:
-        trieu_chung = trieu_chung + " \n " + items["content"]
-    if(trieu_chung != ""):
+        for items in item["noi_dung"]:
+            trieu_chung = trieu_chung + " \n " + items["content"]
+    if(trieu_chung != "" and len(trieu_chung) >20):
         input = { "noi_dung" : trieu_chung }
         data = json.dumps(input)
         r = requests.post(url=API_ENDPOINT, data = data, headers={"Content-Type" : "application/json"})
