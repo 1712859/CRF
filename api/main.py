@@ -72,7 +72,7 @@ def bo_stopword(a):
     for i in temp:
         if (i.is_stop == False):
             if(count == 1):
-                out += i.text
+                out += i.text.replace("_", " ")
             else:
                 out += " " + (i.text).replace("_", " ")
             count += 1
