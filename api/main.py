@@ -44,7 +44,7 @@ for a in X_train.values:
     b.append(a.astype("int")) 
 
 
-neigh = KNeighborsClassifier(n_neighbors=10, metric='manhattan')
+neigh = KNeighborsClassifier(n_neighbors=5, metric='manhattan')
 neigh.fit(X_train, y_train)
 # KNN
 
