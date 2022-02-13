@@ -1,12 +1,15 @@
 
+from asyncio.windows_events import NULL
 from fastapi import FastAPI
 from fastapi import HTTPException
 from pydantic import BaseModel
+
 from vncorenlp import VnCoreNLP
 import numpy as np
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from typing import Optional
+import pymongo
 
 import spacy
 nlp = spacy.load('vi_core_news_lg')
@@ -34,7 +37,7 @@ class Item(BaseModel):
 
 
 # KNN
-df = pd.read_csv('./data.csv')
+df = pd.read_csv('./data1.csv')
 X_train = df.drop(columns='Labels')
 X_train = X_train.drop(X_train.columns[np.isnan(X_train).any()], axis=1)
 y_train = df.Labels
@@ -145,9 +148,65 @@ def getTrieuChungBenh(ten_file_du_lieu):
     output.append(temp)     
     return output            
 
+@app.post("/chan_doan/")
+async def root(item: Item):
+    du_lieu_input = item.noi_dung
+    if (du_lieu_input == ""):
+        
+        raise HTTPException(status_code=400, detail="Dữ liệu truyền lên rỗng")
+    
+    
+
+    du_lieu_input = du_lieu_input.split("\n")
+
+    data_out = themdauchamcau(du_lieu_input)
+
+    # tạo file dữ liệu test.data
+    tao_file_du_lieu(data_out)
+
+    os.chdir(dir)
+    os.system("crf_test -m model1 test1.data > output1.data")
+
+    data_benh = getTrieuChungBenh(dir + ten_file_du_lieu1 )
+
+    if(len(data_benh) == 0):
+        return {"message":"Không tìm thấy triệu chứng", "data": [] }
+    else:
+        row = []
+        for a in data_benh:
+            row.append((a["trieu_chung"]).strip())
+        for i in row:
+            if(i == ""):
+                row .remove(i)
+        X_input = np.array([1 if col in row else 0 for col in X_train.columns.to_list()]).reshape(1, -1)
+        pred = []
+        pred.append(y_train[neigh.kneighbors(X_input, return_distance=False)[0]])
+        output = []
+        for key in pred[0].items():
+            print(key)
+
+        for key, value in pred[0].items():
+            output.append(value)
+
+        myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/HealthAssistant?retryWrites=true&w=majority")
+        mydb = myclient["HealthAssistant"]
+
+        mycol = mydb["CRF_input"]
+
+        CRF_input = {
+            "noi_dung": item.noi_dung,
+            "ket qua": output,
+            "trieu_chung": row,
+            "status": 1
+        }
+        resporn_benh = mycol.insert_one(CRF_input)
+
+        return {"message":"Thành công", "data": output  }
+    
+
+
 @app.post("/crf_get_trieu_chung/")
 async def root(item: Item):
-    time.sleep(1)
     du_lieu_input = item.noi_dung
     if (du_lieu_input == ""):
         
@@ -165,7 +224,7 @@ async def root(item: Item):
     data_benh = getTrieuChungBenh(dir + ten_file_du_lieu1 )
 
     if(len(data_benh) == 0):
-        return {"message":"Không tìm thấy triệu chứng", "data": data_benh}
+        return {"message":"Không tìm thấy triệu chứng"}
     return {"message":"Thành công", "data": data_benh}
 
 @app.post("/knn_get_ill/")
@@ -173,6 +232,7 @@ async def root(item: Item):
     du_lieu_input = []
     du_lieu_input = item.noi_dung
     
+    print(item.noi_dung)
     row = du_lieu_input.split(", ")
     for i in row:
         if(i == ""):
@@ -181,10 +241,13 @@ async def root(item: Item):
     pred = []
     pred.append(y_train[neigh.kneighbors(X_input, return_distance=False)[0]])
     output = []
+    for key in pred[0].items():
+        print(key)
+
     for key, value in pred[0].items():
         output.append(value)
 
-    return {"message":"Thành công", "data": output, "data1": row  }
+    return {"message":"Thành công", "data": output  }
 
 @app.get("/sosanh/")
 async def root(noidung1: Optional[str] = None, noidung2: Optional[str] = None):

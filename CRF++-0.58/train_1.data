@@ -15111,3 +15111,244 @@ nếu	C	OTH
 có	V	OTH
 tổn_thương	N	OTH
 thần_kinh	N	OTH
+
+chấn_thương	V	B-TC
+,	CH	OTH
+choáng_váng	A	B-TC
+,	CH	OTH
+chóng_mặt	A	B-TC
+,	CH	OTH
+dễ	A	B-TC
+ngã	V	I-TC
+,	CH	OTH
+mắc_cười	V	OTH
+
+đau_đầu	V	B-TC
+,	CH	OTH
+nhức	V	B-TC
+đầu	N	I-TC
+vào	E	B-TG
+ban_đêm	N	I-TG
+,	CH	OTH
+mất_ngủ	V	B-TC
+,	CH	OTH
+mệt_mỏi	A	B-TC
+,	CH	OTH
+chán_nản	A	B-TC
+,	CH	OTH
+hay_ho	A	B-TC
+
+ko	Np	OTH
+biết	V	OTH
+
+thoạt_đầu	N	OTH
+ho_khan	A	I-TC
+
+lỗ	N	OTH
+dò	V	OTH
+vùng	N	OTH
+tầng	N	OTH
+sinh	V	OTH
+môn	N	OTH
+
+trở_nên	V	OTH
+ghồ	V	OTH
+ghề	N	OTH
+
+rộng	A	OTH
+hết	V	OTH
+vùng	N	OTH
+giác_mạc	N	OTH
+
+nhiều	A	OTH
+dầu_mỡ	N	OTH
+
+cộm	N	OTH
+
+cương	N	OTH
+tụ	V	OTH
+
+khám	V	OTH
+thấy	V	OTH
+toàn	R	B-TC
+nhãn_cầu	N	I-TC
+có	V	I-TC
+màu	N	I-TC
+trắng	A	I-TC
+đục	A	I-TC
+
+nhầy	V	OTH
+máu	N	OTH
+bám	V	OTH
+xung_quanh	N	OTH
+
+gan	N	OTH
+có_thể	R	OTH
+to	A	OTH
+
+quan_hệ	N	OTH
+tình_dục	N	OTH
+
+dịch	N	B-TC
+xanh	A	I-TC
+lá	N	I-TC
+tiết	V	I-TC
+ra	R	I-TC
+ở	E	I-TC
+dương_vật	N	I-TC
+
+loạn	N	OTH
+dưỡng	V	OTH
+mỡ	N	OTH
+toàn_thân	N	OTH
+
+tình_trạng	N	OTH
+tiêu	V	OTH
+mỡ	N	OTH
+dưới	E	OTH
+da	N	OTH
+
+có	V	OTH
+chu_kỳ	N	I-TC
+kinh_nguyệt	N	I-TC
+không	R	I-TC
+đều	A	I-TC
+
+thể_hiện	V	OTH
+nhiễm_độc	N	OTH
+lao	V	OTH
+
+ngủ	V	B-TC
+kém	A	I-TC
+
+hình_thành	V	OTH
+túi	N	OTH
+mủ	N	OTH
+lạnh	A	OTH
+
+sưng	V	OTH
+nền	N	OTH
+xơ	N	OTH
+dính	V	OTH
+quánh	A	OTH
+
+hạch	V	B-TC
+khu_vực	N	OTH
+sưng	V	I-TC
+to	A	I-TC
+
+hạch	N	B-TC
+sưng	A	I-TC
+to	A	I-TC
+
+tăng	V	OTH
+nhanh	A	OTH
+
+mất	V	OTH
+chất	N	OTH
+vôi	N	OTH
+nặng_nề	A	OTH
+dễ	A	OTH
+nhầm	V	OTH
+với	E	OTH
+tiêu	N	OTH
+xương	N	OTH
+
+đi  V   OTH
+
+để	V	OTH
+lại	R	OTH
+hình_ảnh	N	OTH
+dính	V	OTH
+khớp	N	OTH
+
+đau	V	B-TC
+chướng	A	I-TC
+bụng	N	I-TC
+
+hẹp	A	OTH
+
+xuất_hiện	V	OTH
+trướng	A	B-TC
+bụng	N	I-TC
+
+biểu_hiện	V	OTH
+lâm_sàng	A	OTH
+dễ	A	OTH
+nhầm_lẫn	V	OTH
+
+yếu	A	B-TC
+cơ	N	I-TC
+cấp	N	OTH
+
+kéo_dài	V	OTH
+
+chất	N	OTH
+ức_chế	V	OTH
+
+làm_khó	V	OTH
+chịu	V	B-TC
+
+đặc_trưng	A	OTH
+
+vong	N	OTH
+hành	V	OTH
+
+khả_năng	N	OTH
+sáng_tạo	V	OTH
+
+đi	V	OTH
+giày	N	OTH
+
+không	R	OTH
+phân_biệt	V	OTH
+
+cảm_giác	N	B-TC
+nặng	A	I-TC
+mắt	N	I-TC
+
+ánh_sáng	N	OTH
+mặt_trời	N	OTH
+mạnh	A	OTH
+
+chứa	V	OTH
+đầy	A	OTH
+chất_lỏng	N	OTH
+
+giải_phóng	V	OTH
+chất_lỏng	N	OTH
+
+
+thương_tổn	N	OTH
+xuất_hiện	V	OTH
+trên	N	OTH
+
+bùng_phát	V	OTH
+trở_lại	V	OTH
+
+uể_oải	A	B-TC
+trong	E	OTH
+ngày	N	OTH
+
+trẻ	N	OTH
+sợ	V	B-TC
+ánh_sáng	N	I-TC
+
+cảm_giác	N	OTH
+giống	N	OTH
+
+xuất_hiện	V	OTH
+các	L	OTH
+đốm	N	B-TC
+đồi_mồi	N	I-TC
+ở	E	I-TC
+da	N	I-TC
+
+bị	V	OTH
+trễ	V	OTH
+
+vết	N	B-TC
+loét	V	I-TC
+chân	N	I-TC
+khó	A	OTH
+lành	A	OTH
