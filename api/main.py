@@ -3,11 +3,17 @@ from asyncio.windows_events import NULL
 from fastapi import FastAPI
 from fastapi import HTTPException
 from pydantic import BaseModel
-
 from vncorenlp import VnCoreNLP
+
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.compose import ColumnTransformer, make_column_transformer
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import NearestNeighbors
+
 from typing import Optional
 import pymongo
 
@@ -37,18 +43,21 @@ class Item(BaseModel):
 
 
 # KNN
-df = pd.read_csv('./data1.csv')
-X_train = df.drop(columns='Labels')
-X_train = X_train.drop(X_train.columns[np.isnan(X_train).any()], axis=1)
-y_train = df.Labels
-b = []
-a = X_train.values
-for a in X_train.values:
-    b.append(a.astype("int")) 
+df = pd.read_csv('./data.csv')
 
+neigh = NearestNeighbors(n_neighbors=5)
+def input_symtoms(X_df,symtoms):
+    df= X_df.copy()
+    columns = list(df.columns)
+    binary_list = []
+    for symtom in columns:
+        if symtom in symtoms:
+            binary_list.append(1)
+        else:
+            binary_list.append(0)
+    input_df = pd.DataFrame(data = [binary_list],columns = columns)
+    return input_df
 
-neigh = KNeighborsClassifier(n_neighbors=5, metric='manhattan')
-neigh.fit(X_train, y_train)
 # KNN
 
 # so sanh
@@ -172,35 +181,38 @@ async def root(item: Item):
     if(len(data_benh) == 0):
         return {"message":"Không tìm thấy triệu chứng", "data": [] }
     else:
-        row = []
+        data_row = []
         for a in data_benh:
-            row.append((a["trieu_chung"]).strip())
-        for i in row:
+            data_row.append((a["trieu_chung"]).strip())
+        for i in data_row:
             if(i == ""):
-                row .remove(i)
-        X_input = np.array([1 if col in row else 0 for col in X_train.columns.to_list()]).reshape(1, -1)
-        pred = []
-        pred.append(y_train[neigh.kneighbors(X_input, return_distance=False)[0]])
+                data_row.remove(i)
+        
+        # -----------------------------------------
+        
+        file = df
+        input_out = file.filter(items=data_row)
+        print(input_out)
+        
+        file.dropna(axis = 1, inplace = True)
+        y = file['Labels']
+
+        neigh.fit(input_out)
+        symtoms = input_symtoms(input_out,data_row)
+        three_k_neighbor = neigh.kneighbors(symtoms) # example for input a sample with symtoms
         output = []
-        for key in pred[0].items():
-            print(key)
-
-        for key, value in pred[0].items():
-            output.append(value)
-
+        for i in y.loc[three_k_neighbor[1].squeeze()].values:
+            output.append(i)
         myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongodb.net/HealthAssistant?retryWrites=true&w=majority")
         mydb = myclient["HealthAssistant"]
-
-        mycol = mydb["CRF_input"]
-
+        mycol = mydb["CRF_KNN_Out"]
         CRF_input = {
             "noi_dung": item.noi_dung,
             "ket qua": output,
-            "trieu_chung": row,
+            "trieu_chung": data_row,
             "status": 1
         }
         resporn_benh = mycol.insert_one(CRF_input)
-
         return {"message":"Thành công", "data": output  }
     
 
@@ -229,25 +241,31 @@ async def root(item: Item):
 
 @app.post("/knn_get_ill/")
 async def root(item: Item):
+    
+    
+    #
     du_lieu_input = []
     du_lieu_input = item.noi_dung
     
     print(item.noi_dung)
     row = du_lieu_input.split(", ")
-    for i in row:
-        if(i == ""):
-            row .remove(i)
-    X_input = np.array([1 if col in row else 0 for col in X_train.columns.to_list()]).reshape(1, -1)
-    pred = []
-    pred.append(y_train[neigh.kneighbors(X_input, return_distance=False)[0]])
+    
+    file = df
+
+    file.dropna(axis = 1, inplace = True)
+    X_df = file.drop(labels = 'Labels',axis = 1)
+    y = file['Labels']
+
+    neigh.fit(X_df)
+    symtoms = input_symtoms(X_df,row)
+    three_k_neighbor = neigh.kneighbors(symtoms) # example for input a sample with symtoms
+
+    print(y.loc[three_k_neighbor[1].squeeze()].values)
     output = []
-    for key in pred[0].items():
-        print(key)
+    for i in y.loc[three_k_neighbor[1].squeeze()].values:
+        output.append(i)
 
-    for key, value in pred[0].items():
-        output.append(value)
-
-    return {"message":"Thành công", "data": output  }
+    return {"message":"Thành công", "data": output   }
 
 @app.get("/sosanh/")
 async def root(noidung1: Optional[str] = None, noidung2: Optional[str] = None):

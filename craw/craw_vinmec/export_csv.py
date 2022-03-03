@@ -33,13 +33,13 @@ for a in data1:
             check = 0
             for da in danh_sach:
                 if(ba == da["trieu_chung"]):
-                    line += "," + str(da["point"] + 9)
+                    line += "," + str(da["point"] )
                     check = 0
                     break
                 else:
                     check = 1
             if(check == 1):
-                line += ",1"
+                line += ",0"
         
         lines.append(line + "\n")
 

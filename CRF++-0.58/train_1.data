@@ -15352,3 +15352,72 @@ loét	V	I-TC
 chân	N	I-TC
 khó	A	OTH
 lành	A	OTH
+
+đái_tháo_đường	N	OTH
+(	CH	OTH
+biến_chứng	N	OTH
+bàn_chân	N	OTH
+đái_tháo_đường	N	OTH
+)	CH	OTH
+
+lupus	V	OTH
+ban	N	OTH
+đỏ	A	OTH
+(	CH	OTH
+bệnh	N	OTH
+lupus	V	OTH
+ban	N	OTH
+đỏ	A	OTH
+biến_chứng	N	OTH
+thận	N	OTH
+)	CH	OTH
+
+bệnh	N	OTH
+chưa	R	OTH
+xác_định	V	OTH
+(	CH	OTH
+dương_vật	N	OTH
+bị	V	OTH
+lột	V	OTH
+da	N	OTH
+là	V	OTH
+dấu_hiệu	N	OTH
+của	E	OTH
+bệnh	N	OTH
+gì	P	OTH
+
+)	CH	OTH
+
+https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2019/10/benh-uon-van1.jpg.	CH	OTH
+
+nhận_thức	V	OTH
+
+ho	N	B-TC
+sốt	V	B-TC
+sổ_mũi	N	B-TC
+đau_đầu	A	B-TC
+nhức	V	B-TC
+đầu	N	I-TC
+cảm	V	B-TC
+
+choáng_váng	A	B-TC
+ho	N	B-TC
+sốt	V	B-TC
+sổ_mũi	N	B-TC
+đau_đầu	A	B-TC
+nhức	V	B-TC
+đầu	N	I-TC
+cảm	V	B-TC
+
+dấu_hiệu	N	OTH
+và	Cc	OTH
+triệu_chứng	N	OTH
+rõ_ràng	A	OTH
+của	E	OTH
+mất	V	OTH
+khứu_giác	N	OTH
+là	C	OTH
+không	R	B-TC
+ngửi	V	I-TC
+thấy	V	I-TC
+mùi	N	I-TC

@@ -92,7 +92,7 @@ themdauchamcau(file_data_raw)
 tao_file_dư_lieu3(file_data_raw, file_out_khong_tag1)
 
 # os.system('cmd /k "cd c:\\Users\\rivoco\\Desktop\\CRF\\CRF++-0.58 && crf_test -m model test.data > output.data && cd c:\\Users\\rivoco\\Desktop\\CRF && python c:/Users/WIN10/Desktop/crf/gettrieuchung.py"')
-os.system("cd .\\CRF++-0.58 && crf_learn.exe template train_1.data model1 && crf_test -m model1 test.data > output.data ")
+os.system("cd .\\CRF++-0.58 && crf_learn.exe template train_1.data model1 && crf_test -m model1 test.data > output.data && crf_test -v2 -m model1 test2.data")
 
 data1 = getTrieuChungBenh1(ten_file_du_lieu1)
 print("tách từng từ: "+ str(len(data1)) + "\n")
