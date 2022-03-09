@@ -72,6 +72,8 @@ chân	N	OTH	7587
 chân	N	OTH	7608
 chân	N	OTH	8258
 chân	N	OTH	8358
+chảy	V	OTH	13650
+chảy_máu	V	OTH	13623
 chậm	A	OTH	10016
 chậm	A	OTH	10017
 chậm	A	OTH	3320
@@ -260,6 +262,7 @@ cường_giáp	N	OTH	4049
 cường_giáp	N	OTH	4094
 cường_giáp	N	OTH	4467
 cường_giáp	N	OTH	4885
+cảm_giác	N	OTH	15337
 cảm_thấy	V	OTH	10210
 cảm_thấy	V	OTH	1178
 cảm_thấy	V	OTH	1455
@@ -444,6 +447,7 @@ hạch	N	OTH	5645
 hạch	N	OTH	7204
 họng	N	OTH	5728
 họng	N	OTH	7275
+khó	A	OTH	15353
 khó	A	OTH	3937
 khó	A	OTH	6379
 khó	A	OTH	8865
@@ -642,6 +646,8 @@ người	N	OTH	9175
 người	N	OTH	9176
 ngồi	V	OTH	2939
 ngồi	V	OTH	5932
+ngứa	V	OTH	14873
+nhiễm_trùng	V	OTH	11665
 nhìn	V	OTH	1836
 nhìn	V	OTH	2017
 nhìn	V	OTH	2901
@@ -841,6 +847,7 @@ tim	N	OTH	6117
 tim	N	OTH	6151
 tim	N	OTH	6374
 tim	N	OTH	8393
+tiêu	V	OTH	15206
 to	A	OTH	3861
 to	A	OTH	4013
 to	A	OTH	4070
@@ -1021,6 +1028,7 @@ yếu	A	OTH	544
 đầu	N	OTH	9620
 đầu	N	OTH	9850
 đầu	N	OTH	9851
+đầy	A	OTH	15315
 đỏ	A	OTH	1113
 đỏ	A	OTH	3175
 đỏ	A	OTH	5174

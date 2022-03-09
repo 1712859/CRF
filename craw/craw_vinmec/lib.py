@@ -10,14 +10,14 @@ def getdate():
     return current_time
 
 thanhPhanBaiViet = {
-    "Tổng quan bệnh": [ "Tổng quan"],
+    "Tổng quan bệnh": [ "tổng quan"],
     "Triệu chứng, biểu hiện bệnh": ["triệu chứng"],
     "Nguyên nhân gây bệnh": ["nguyên nhân"],
     "Cách điều trị bệnh": ["điều trị"],
     "Cách phòng ngừa bệnh": ["phòng ngừa",],
     "Đối tượng mắc bệnh": ["đối tượng"],
     "Các biện pháp chẩn đoán": ["chẩn đoán"],
-    "Đường lây truyền": ["Đường lây truyền"],
+    "Đường lây truyền": ["dường lây truyền"],
     "Biến chứng của bệnh": ["biến chứng"]    
 }
 

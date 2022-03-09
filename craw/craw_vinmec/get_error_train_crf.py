@@ -1,3 +1,4 @@
+from sqlite3 import adapters
 from numpy.core.fromnumeric import around
 
 
@@ -6,10 +7,10 @@ data = f.readlines()
 raed = open(".\\craw\\craw_vinmec\\error.data", 'r', encoding='UTF-8')
 dataero = raed.readlines()
 dataero.sort()
-raedd = open(".\\error.data", 'w', encoding='UTF-8')
-for a in dataero:
-    raedd.writelines(a)
-
+# sap xep lai file error
+a = open(".\\craw\\craw_vinmec\\error.data", 'w', encoding='UTF-8')
+for i in dataero:
+    a.writelines(i)
 
 dataerror = []
 for item in dataero:
@@ -22,10 +23,10 @@ list = []
 for item in data:
         temp = item.split()
         all_data .append(temp)
-write = open(".\\CRF++-0.58\\check.data", 'w', encoding='UTF-8')
+write = open(".\\craw\\craw_vinmec\\check.data", 'w', encoding='UTF-8')
 count = 1
 count2 = 1
-check = []
+check = []  
 for item in all_data:
     for item1 in all_data:
         if (len(item) >1 and len(item1) >1):
@@ -38,12 +39,12 @@ for item in all_data:
                             break
                     if(haha == 1):
                         check.append(item[0])
-                        print(str(count)+ " - "+ item[2] + " - " +item[0]+ " = " +item1[0] + "\t"+ item1[2] + "\t" +item1[1] + "\t" +item1[0] + "\t" +str(count2))
+                        print(str(count)+ " - "+ item[2] + " - " +item[0]+ " = " +item1[0] + "\t"+ item1[2]  + "\t" +str(count2))
                         write.writelines(str(count)+ " - "+ item[2] + " - " +item[0]+ " = " + item1[0] + "\t" +item1[1] + "\t" +item1[2] + "\t" +str(count2) + "\n")
         count2 += 1
     count += 1
     count2 = 1
 
-write1 = open("C:\\Users\\ADMIN\\OneDrive - VNU-HCMUS\\Desktop\\CRF\\CRF++-0.58\\checkB-TC.data", 'w', encoding='UTF-8')
+write1 = open(".\\craw\\craw_vinmec\\checkB-TC.data", 'w', encoding='UTF-8')
 for a in check:
     write1.writelines(a + "\n")

@@ -8,7 +8,7 @@ myclient = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster.vfpxs.mongo
 
 ten_file_du_lieu = ".\\api\\data1.csv"
 
-mydb = myclient["HealthAssistant"]
+mydb = myclient["HealthAssistant"] 
 benh = mydb["Benh"]
 trieu_chung = mydb["TrieuChung"]
 data1 = benh.find()
